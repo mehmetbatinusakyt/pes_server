@@ -160,3 +160,7 @@ graph TD
 - Monitor logs in the `logs/` directory for troubleshooting
 - Regularly back up configuration files
 - Use the admin panel for server management and monitoring
+
+## Change History
+
+For detailed information about project changes and updates, see [CHANGELOG.md](CHANGELOG.md)
