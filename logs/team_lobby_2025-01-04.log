@@ -1,0 +1,253 @@
+2025-01-04 00:04:11,615 - Using proactor: IocpProactor
+2025-01-04 00:04:12,469 - MDNS service registered: _pes2021._pes-teamplay._tcp.local.
+2025-01-04 00:04:12,478 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5739
+2025-01-04 00:04:12,478 - [33mPress CTRL+C to quit[0m
+2025-01-04 00:04:23,260 - Using proactor: IocpProactor
+2025-01-04 00:04:24,082 - MDNS service registered: _pes2021._pes-teamplay._tcp.local.
+2025-01-04 00:04:24,095 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5739
+2025-01-04 00:04:24,103 - [33mPress CTRL+C to quit[0m
+2025-01-04 00:04:36,861 - New connection from ('127.0.0.1', 56521)
+2025-01-04 00:04:38,310 - New connection from ('127.0.0.1', 56525)
+2025-01-04 00:04:38,482 - New connection from ('127.0.0.1', 56529)
+2025-01-04 00:04:46,136 - New connection from ('127.0.0.1', 56559)
+2025-01-04 00:04:46,407 - New connection from ('127.0.0.1', 56560)
+2025-01-04 00:05:12,784 - New connection from ('127.0.0.1', 56576)
+2025-01-04 00:05:39,047 - New connection from ('127.0.0.1', 56596)
+2025-01-04 00:08:10,444 - Using proactor: IocpProactor
+2025-01-04 00:08:11,273 - MDNS service registered: _pes2021._pes-teamplay._tcp.local.
+2025-01-04 00:08:11,284 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5739
+2025-01-04 00:08:11,285 - [33mPress CTRL+C to quit[0m
+2025-01-04 00:08:15,829 - Using proactor: IocpProactor
+2025-01-04 00:08:16,660 - MDNS service registered: _pes2021._pes-teamplay._tcp.local.
+2025-01-04 00:08:16,670 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5739
+2025-01-04 00:08:16,670 - [33mPress CTRL+C to quit[0m
+2025-01-04 00:08:21,685 - New connection from ('127.0.0.1', 56794)
+2025-01-04 00:08:21,930 - New connection from ('127.0.0.1', 56795)
+2025-01-04 00:08:33,567 - New connection from ('127.0.0.1', 56807)
+2025-01-04 00:10:23,630 - New connection from ('127.0.0.1', 56936)
+2025-01-04 00:10:28,126 - New connection from ('127.0.0.1', 56959)
+2025-01-04 00:10:28,367 - New connection from ('127.0.0.1', 56973)
+2025-01-04 00:10:33,763 - New connection from ('127.0.0.1', 56975)
+2025-01-04 00:14:45,085 - Using proactor: IocpProactor
+2025-01-04 00:14:45,902 - MDNS service registered: _pes2021._pes-teamplay._tcp.local.
+2025-01-04 00:14:45,904 - Failed to load SSL certificates: name 'NETWORK_CONFIG' is not defined
+2025-01-04 00:14:45,911 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5739
+2025-01-04 00:14:45,911 - [33mPress CTRL+C to quit[0m
+2025-01-04 00:19:08,721 - Using proactor: IocpProactor
+2025-01-04 00:19:24,748 - Using proactor: IocpProactor
+2025-01-04 00:19:25,567 - MDNS service registered: _pes2021._pes-teamplay._tcp.local.
+2025-01-04 00:19:25,569 - Failed to load SSL certificates: name 'NETWORK_CONFIG' is not defined
+2025-01-04 00:19:25,576 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5739
+2025-01-04 00:19:25,576 - [33mPress CTRL+C to quit[0m
+2025-01-04 00:19:25,753 - New connection from ('127.0.0.1', 57720)
+2025-01-04 00:19:25,754 - Socket error: [WinError 10038] An operation was attempted on something that is not a socket
+2025-01-04 00:19:25,754 - Server error: [WinError 10038] An operation was attempted on something that is not a socket
+2025-01-04 00:19:25,762 - Server socket closed
+2025-01-04 00:19:25,763 - Matches saved successfully
+2025-01-04 00:19:26,044 - Matches loaded successfully
+2025-01-04 00:19:26,046 - Using proactor: IocpProactor
+2025-01-04 00:19:26,051 - Using proactor: IocpProactor
+2025-01-04 00:19:26,073 - MDNS registration failed: 
+2025-01-04 00:19:45,907 - Matches saved successfully
+2025-01-04 00:19:49,354 - Using proactor: IocpProactor
+2025-01-04 00:19:50,183 - MDNS service registered: _pes2021._pes-teamplay._tcp.local.
+2025-01-04 00:19:50,186 - Failed to load SSL certificates: name 'NETWORK_CONFIG' is not defined
+2025-01-04 00:19:50,192 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5739
+2025-01-04 00:19:50,192 - [33mPress CTRL+C to quit[0m
+2025-01-04 00:19:50,358 - New connection from ('127.0.0.1', 57760)
+2025-01-04 00:19:50,358 - Socket error: [WinError 10038] An operation was attempted on something that is not a socket
+2025-01-04 00:19:50,359 - Server error: [WinError 10038] An operation was attempted on something that is not a socket
+2025-01-04 00:19:50,359 - Server socket closed
+2025-01-04 00:19:50,360 - Matches saved successfully
+2025-01-04 00:19:50,626 - Matches loaded successfully
+2025-01-04 00:19:50,629 - Using proactor: IocpProactor
+2025-01-04 00:19:50,633 - Using proactor: IocpProactor
+2025-01-04 00:19:50,643 - MDNS registration failed: 
+2025-01-04 00:19:51,641 - New connection from ('127.0.0.1', 57766)
+2025-01-04 00:19:51,641 - Player test_player removed from position CF1
+2025-01-04 00:19:51,643 - Matches loaded successfully
+2025-01-04 00:19:51,645 - Using proactor: IocpProactor
+2025-01-04 00:19:51,651 - Using proactor: IocpProactor
+2025-01-04 00:19:52,480 - MDNS service registered: _pes2021._pes-teamplay._tcp.local.
+2025-01-04 00:19:52,482 - Failed to load SSL certificates: name 'NETWORK_CONFIG' is not defined
+2025-01-04 00:19:52,486 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5739
+2025-01-04 00:19:52,486 - [33mPress CTRL+C to quit[0m
+2025-01-04 00:19:52,653 - Socket error: [WinError 10038] An operation was attempted on something that is not a socket
+2025-01-04 00:19:52,653 - Server error: [WinError 10038] An operation was attempted on something that is not a socket
+2025-01-04 00:19:52,653 - Server socket closed
+2025-01-04 00:19:52,654 - Matches saved successfully
+2025-01-04 00:24:45,908 - Matches saved successfully
+2025-01-04 00:26:05,052 - New connection from ('127.0.0.1', 58041)
+2025-01-04 00:26:05,300 - New connection from ('127.0.0.1', 58042)
+2025-01-04 00:28:49,899 - New connection from ('127.0.0.1', 58209)
+2025-01-04 00:28:50,161 - New connection from ('127.0.0.1', 58210)
+2025-01-04 00:28:52,349 - New connection from ('127.0.0.1', 58217)
+2025-01-04 00:29:45,909 - Matches saved successfully
+2025-01-04 00:54:40,594 - Using proactor: IocpProactor
+2025-01-04 00:54:41,433 - Matches saved successfully
+2025-01-04 00:54:41,433 - Server shutdown
+2025-01-04 00:57:13,267 - Using proactor: IocpProactor
+2025-01-04 00:57:14,102 - MDNS service registered: _pes2021._pes-teamplay._tcp.local.
+2025-01-04 00:57:14,104 - Failed to load SSL certificates: name 'NETWORK_CONFIG' is not defined
+2025-01-04 00:57:14,111 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5752
+2025-01-04 00:57:14,111 - [33mPress CTRL+C to quit[0m
+2025-01-04 01:00:10,290 - Using proactor: IocpProactor
+2025-01-04 01:00:11,121 - MDNS service registered: _pes2021._pes-teamplay._tcp.local.
+2025-01-04 01:00:11,123 - Failed to load SSL certificates: name 'NETWORK_CONFIG' is not defined
+2025-01-04 01:00:11,130 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5739
+2025-01-04 01:00:11,130 - [33mPress CTRL+C to quit[0m
+2025-01-04 01:00:32,801 - New connection from ('127.0.0.1', 59077)
+2025-01-04 01:00:32,802 - HTTP request from ('127.0.0.1', 59077): GET / HTTP/1.1
+2025-01-04 01:01:32,389 - Using proactor: IocpProactor
+2025-01-04 01:01:33,221 - MDNS service registered: _pes2021._pes-teamplay._tcp.local.
+2025-01-04 01:01:33,223 - Failed to load SSL certificates: name 'NETWORK_CONFIG' is not defined
+2025-01-04 01:01:33,229 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5739
+2025-01-04 01:01:33,230 - [33mPress CTRL+C to quit[0m
+2025-01-04 01:02:14,108 - Matches saved successfully
+2025-01-04 01:03:02,835 - Using proactor: IocpProactor
+2025-01-04 01:03:03,671 - MDNS service registered: _pes2021._pes-teamplay._tcp.local.
+2025-01-04 01:03:03,673 - Failed to load SSL certificates: name 'NETWORK_CONFIG' is not defined
+2025-01-04 01:03:03,680 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5739
+2025-01-04 01:03:03,680 - [33mPress CTRL+C to quit[0m
+2025-01-04 01:03:33,819 - Server socket closed
+2025-01-04 01:03:33,819 - Matches saved successfully
+2025-01-04 01:03:33,820 - Server shutdown
+2025-01-04 01:04:26,065 - Using proactor: IocpProactor
+2025-01-04 01:04:26,897 - MDNS service registered: _pes2021._pes-teamplay._tcp.local.
+2025-01-04 01:04:26,900 - Failed to load SSL certificates: name 'NETWORK_CONFIG' is not defined
+2025-01-04 01:04:26,906 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5739
+2025-01-04 01:04:26,906 - [33mPress CTRL+C to quit[0m
+2025-01-04 01:04:46,935 - New connection from ('127.0.0.1', 59181)
+2025-01-04 01:04:46,935 - HTTP request from ('127.0.0.1', 59181): GET / HTTP/1.1
+2025-01-04 01:05:48,591 - New connection from ('127.0.0.1', 59222)
+2025-01-04 01:05:48,591 - HTTP request from ('127.0.0.1', 59222): GET / HTTP/1.1
+2025-01-04 01:07:08,365 - Using proactor: IocpProactor
+2025-01-04 01:07:09,188 - MDNS service registered: _pes2021._pes-teamplay._tcp.local.
+2025-01-04 01:07:09,191 - Failed to load SSL certificates: name 'NETWORK_CONFIG' is not defined
+2025-01-04 01:07:09,199 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:50002
+2025-01-04 01:07:09,199 - [33mPress CTRL+C to quit[0m
+2025-01-04 01:08:24,671 - New connection from ('127.0.0.1', 59265)
+2025-01-04 01:08:24,671 - HTTP request from ('127.0.0.1', 59265): GET / HTTP/1.1
+2025-01-04 01:09:26,903 - Matches saved successfully
+2025-01-04 01:11:51,119 - New connection from ('127.0.0.1', 59311)
+2025-01-04 01:11:51,120 - HTTP request from ('127.0.0.1', 59311): GET / HTTP/1.1
+2025-01-04 01:11:57,149 - New connection from ('127.0.0.1', 59314)
+2025-01-04 01:11:57,149 - HTTP request from ('127.0.0.1', 59314): GET / HTTP/1.1
+2025-01-04 01:12:09,195 - Matches saved successfully
+2025-01-04 01:12:38,216 - New connection from ('127.0.0.1', 59324)
+2025-01-04 01:12:38,217 - HTTP request from ('127.0.0.1', 59324): GET / HTTP/1.1
+2025-01-04 01:14:26,904 - Matches saved successfully
+2025-01-04 01:15:47,224 - Using proactor: IocpProactor
+2025-01-04 01:15:48,048 - MDNS service registered: _pes2021._pes-teamplay._tcp.local.
+2025-01-04 01:15:48,050 - Failed to load SSL certificates: name 'NETWORK_CONFIG' is not defined
+2025-01-04 01:15:48,057 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:50002
+2025-01-04 01:15:48,057 - [33mPress CTRL+C to quit[0m
+2025-01-04 01:16:32,582 - New connection from ('127.0.0.1', 59423)
+2025-01-04 01:16:32,582 - HTTP request from ('127.0.0.1', 59423): GET /api/status HTTP/1.1
+2025-01-04 01:17:09,197 - Matches saved successfully
+2025-01-04 01:19:26,905 - Matches saved successfully
+2025-01-04 01:19:29,584 - New connection from ('127.0.0.1', 59456)
+2025-01-04 01:19:29,585 - HTTP request from ('127.0.0.1', 59456): GET /api/status HTTP/1.1
+2025-01-04 01:19:30,826 - New connection from ('127.0.0.1', 59457)
+2025-01-04 01:19:30,827 - HTTP request from ('127.0.0.1', 59457): GET /favicon.ico HTTP/1.1
+2025-01-04 01:19:30,834 - New connection from ('127.0.0.1', 59458)
+2025-01-04 01:19:30,835 - HTTP request from ('127.0.0.1', 59458): GET /api/status HTTP/1.1
+2025-01-04 01:19:32,064 - New connection from ('127.0.0.1', 59461)
+2025-01-04 01:19:32,064 - HTTP request from ('127.0.0.1', 59461): GET /favicon.ico HTTP/1.1
+2025-01-04 01:19:39,107 - New connection from ('127.0.0.1', 59469)
+2025-01-04 01:19:39,107 - HTTP request from ('127.0.0.1', 59469): GET /api/status HTTP/1.1
+2025-01-04 01:20:48,053 - Matches saved successfully
+2025-01-04 01:22:09,198 - Matches saved successfully
+2025-01-04 01:24:26,907 - Matches saved successfully
+2025-01-04 01:25:32,480 - Using proactor: IocpProactor
+2025-01-04 01:25:33,308 - MDNS service registered: _pes2021._pes-teamplay._tcp.local.
+2025-01-04 01:25:33,310 - Failed to load SSL certificates: name 'NETWORK_CONFIG' is not defined
+2025-01-04 01:25:33,317 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:50002
+2025-01-04 01:25:33,317 - [33mPress CTRL+C to quit[0m
+2025-01-04 01:25:48,054 - Matches saved successfully
+2025-01-04 01:27:09,199 - Matches saved successfully
+2025-01-04 01:29:19,255 - Using proactor: IocpProactor
+2025-01-04 01:29:20,082 - MDNS service registered: _pes2021._pes-teamplay._tcp.local.
+2025-01-04 01:29:20,084 - Failed to load SSL certificates: name 'NETWORK_CONFIG' is not defined
+2025-01-04 01:29:20,092 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5739
+2025-01-04 01:29:20,092 - [33mPress CTRL+C to quit[0m
+2025-01-04 01:29:26,909 - Matches saved successfully
+2025-01-04 01:30:33,314 - Matches saved successfully
+2025-01-04 01:30:48,055 - Matches saved successfully
+2025-01-04 01:31:13,382 - New connection from ('127.0.0.1', 59771)
+2025-01-04 01:31:13,383 - HTTP request from ('127.0.0.1', 59771): GET / HTTP/1.1
+2025-01-04 01:31:23,130 - New connection from ('127.0.0.1', 59776)
+2025-01-04 01:31:23,130 - HTTP request from ('127.0.0.1', 59776): GET /api/status HTTP/1.1
+2025-01-04 01:31:23,918 - New connection from ('127.0.0.1', 59778)
+2025-01-04 01:31:23,919 - HTTP request from ('127.0.0.1', 59778): GET /api/status HTTP/1.1
+2025-01-04 01:31:25,213 - New connection from ('127.0.0.1', 59779)
+2025-01-04 01:31:25,213 - HTTP request from ('127.0.0.1', 59779): GET /favicon.ico HTTP/1.1
+2025-01-04 01:31:28,282 - New connection from ('127.0.0.1', 59780)
+2025-01-04 01:31:28,282 - HTTP request from ('127.0.0.1', 59780): GET / HTTP/1.1
+2025-01-04 01:31:49,324 - Using proactor: IocpProactor
+2025-01-04 01:31:50,159 - MDNS service registered: _pes2021._pes-teamplay._tcp.local.
+2025-01-04 01:31:50,161 - SSL enabled using cert: certs/server.crt, key: certs/server.key
+2025-01-04 01:31:50,170 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5739
+2025-01-04 01:31:50,170 - [33mPress CTRL+C to quit[0m
+2025-01-04 01:32:09,199 - Matches saved successfully
+2025-01-04 01:34:20,088 - Matches saved successfully
+2025-01-04 01:34:26,911 - Matches saved successfully
+2025-01-04 01:35:23,679 - Using proactor: IocpProactor
+2025-01-04 01:35:24,506 - MDNS service registered: _pes2021._pes-teamplay._tcp.local.
+2025-01-04 01:35:24,509 - SSL enabled using cert: certs/server.crt, key: certs/server.key
+2025-01-04 01:35:24,519 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5739
+2025-01-04 01:35:24,519 - [33mPress CTRL+C to quit[0m
+2025-01-04 01:35:33,315 - Matches saved successfully
+2025-01-04 01:35:48,056 - Matches saved successfully
+2025-01-04 01:36:00,867 - New connection from ('127.0.0.1', 59978)
+2025-01-04 01:36:00,867 - HTTP request from ('127.0.0.1', 59978): GET / HTTP/1.1
+2025-01-04 01:36:03,179 - New connection from ('127.0.0.1', 59979)
+2025-01-04 01:36:03,179 - HTTP request from ('127.0.0.1', 59979): GET /api/status HTTP/1.1
+2025-01-04 01:36:50,165 - Matches saved successfully
+2025-01-04 01:37:09,201 - Matches saved successfully
+2025-01-04 01:37:09,383 - New connection from ('127.0.0.1', 59999)
+2025-01-04 01:37:09,383 - HTTP request from ('127.0.0.1', 59999): GET /api/status HTTP/1.1
+2025-01-04 01:37:10,618 - New connection from ('127.0.0.1', 60000)
+2025-01-04 01:37:10,618 - HTTP request from ('127.0.0.1', 60000): GET /favicon.ico HTTP/1.1
+2025-01-04 01:37:20,378 - New connection from ('127.0.0.1', 60001)
+2025-01-04 01:37:20,379 - HTTP request from ('127.0.0.1', 60001): GET / HTTP/1.1
+2025-01-04 01:38:24,355 - New connection from ('127.0.0.1', 60049)
+2025-01-04 01:38:24,356 - HTTP request from ('127.0.0.1', 60049): GET / HTTP/1.1
+2025-01-04 01:39:20,089 - Matches saved successfully
+2025-01-04 01:39:26,912 - Matches saved successfully
+2025-01-04 01:39:42,733 - New connection from ('127.0.0.1', 60058)
+2025-01-04 01:39:42,734 - HTTP request from ('127.0.0.1', 60058): GET / HTTP/1.1
+2025-01-04 01:40:24,514 - Matches saved successfully
+2025-01-04 01:40:33,317 - Matches saved successfully
+2025-01-04 01:40:46,387 - New connection from ('127.0.0.1', 60099)
+2025-01-04 01:40:46,387 - HTTP request from ('127.0.0.1', 60099): GET / HTTP/1.1
+2025-01-04 01:40:48,058 - Matches saved successfully
+2025-01-04 01:40:48,235 - New connection from ('127.0.0.1', 60101)
+2025-01-04 01:40:48,235 - HTTP request from ('127.0.0.1', 60101): GET /api/status HTTP/1.1
+2025-01-04 01:41:50,166 - Matches saved successfully
+2025-01-04 01:42:09,201 - Matches saved successfully
+2025-01-04 01:42:33,437 - New connection from ('127.0.0.1', 60167)
+2025-01-04 01:42:33,437 - HTTP request from ('127.0.0.1', 60167): GET / HTTP/1.1
+2025-01-04 01:42:35,331 - New connection from ('127.0.0.1', 60169)
+2025-01-04 01:42:35,332 - HTTP request from ('127.0.0.1', 60169): GET / HTTP/1.1
+2025-01-04 01:42:47,798 - New connection from ('127.0.0.1', 60203)
+2025-01-04 01:42:47,798 - HTTP request from ('127.0.0.1', 60203): GET / HTTP/1.1

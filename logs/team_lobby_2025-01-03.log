@@ -1,0 +1,430 @@
+2025-01-03 02:36:49,156 - Using proactor: IocpProactor
+2025-01-03 02:36:49,992 - MDNS service registered: _pes2021._pes-teamplay._tcp.local.
+2025-01-03 02:36:49,998 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:50124
+ * Running on http://192.168.0.34:50124
+2025-01-03 02:36:49,998 - [33mPress CTRL+C to quit[0m
+2025-01-03 02:37:20,199 - 127.0.0.1 - - [03/Jan/2025 02:37:20] "GET /api/status HTTP/1.1" 200 -
+2025-01-03 02:40:03,748 - 127.0.0.1 - - [03/Jan/2025 02:40:03] "[32mGET /api/admin/status HTTP/1.1[0m" 308 -
+2025-01-03 02:40:03,985 - Unexpected error in _get_admin_status: 'NoneType' object has no attribute 'is_connected'
+2025-01-03 02:40:03,986 - 127.0.0.1 - - [03/Jan/2025 02:40:03] "[35m[1mGET /api/admin/status/ HTTP/1.1[0m" 500 -
+2025-01-03 02:40:07,410 - 127.0.0.1 - - [03/Jan/2025 02:40:07] "[32mGET /api/admin/status HTTP/1.1[0m" 308 -
+2025-01-03 02:40:07,736 - Unexpected error in _get_admin_status: 'NoneType' object has no attribute 'is_connected'
+2025-01-03 02:40:07,737 - 127.0.0.1 - - [03/Jan/2025 02:40:07] "[35m[1mGET /api/admin/status/ HTTP/1.1[0m" 500 -
+2025-01-03 02:40:08,706 - 127.0.0.1 - - [03/Jan/2025 02:40:08] "[32mGET /api/admin/status HTTP/1.1[0m" 308 -
+2025-01-03 02:40:09,034 - Unexpected error in _get_admin_status: 'NoneType' object has no attribute 'is_connected'
+2025-01-03 02:40:09,034 - 127.0.0.1 - - [03/Jan/2025 02:40:09] "[35m[1mGET /api/admin/status/ HTTP/1.1[0m" 500 -
+2025-01-03 02:41:41,880 - Unexpected error in _get_admin_status: 'NoneType' object has no attribute 'is_connected'
+2025-01-03 02:41:41,880 - 127.0.0.1 - - [03/Jan/2025 02:41:41] "[35m[1mGET /api/admin/status/ HTTP/1.1[0m" 500 -
+2025-01-03 02:41:49,996 - Matches saved successfully
+2025-01-03 02:42:14,507 - 127.0.0.1 - - [03/Jan/2025 02:42:14] "[33mGET /api/'. HTTP/1.1[0m" 404 -
+2025-01-03 02:42:21,491 - 127.0.0.1 - - [03/Jan/2025 02:42:21] "[33mGET /api/ HTTP/1.1[0m" 404 -
+2025-01-03 20:37:03,683 - Using proactor: IocpProactor
+2025-01-03 20:37:04,507 - MDNS service registered: _pes2021._pes-teamplay._tcp.local.
+2025-01-03 20:37:04,513 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:50124
+ * Running on http://192.168.0.34:50124
+2025-01-03 20:37:04,513 - [33mPress CTRL+C to quit[0m
+2025-01-03 20:42:04,511 - Matches saved successfully
+2025-01-03 20:47:04,512 - Matches saved successfully
+2025-01-03 20:50:33,281 - Using proactor: IocpProactor
+2025-01-03 20:50:34,116 - MDNS service registered: _pes2021._pes-teamplay._tcp.local.
+2025-01-03 20:50:34,124 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:50124
+ * Running on http://192.168.0.34:50124
+2025-01-03 20:50:34,124 - [33mPress CTRL+C to quit[0m
+2025-01-03 20:52:04,513 - Matches saved successfully
+2025-01-03 20:55:00,014 - Using proactor: IocpProactor
+2025-01-03 20:55:00,849 - MDNS service registered: _pes2021._pes-teamplay._tcp.local.
+2025-01-03 20:55:00,858 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:50124
+ * Running on http://192.168.0.34:50124
+2025-01-03 20:55:00,858 - [33mPress CTRL+C to quit[0m
+2025-01-03 20:55:34,121 - Matches saved successfully
+2025-01-03 20:57:03,102 - Using proactor: IocpProactor
+2025-01-03 20:57:03,931 - MDNS service registered: _pes2021._pes-teamplay._tcp.local.
+2025-01-03 20:57:03,939 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:50124
+ * Running on http://192.168.0.34:50124
+2025-01-03 20:57:03,939 - [33mPress CTRL+C to quit[0m
+2025-01-03 20:57:04,515 - Matches saved successfully
+2025-01-03 21:00:00,856 - Matches saved successfully
+2025-01-03 21:00:34,122 - Matches saved successfully
+2025-01-03 21:02:03,936 - Matches saved successfully
+2025-01-03 21:02:04,516 - Matches saved successfully
+2025-01-03 21:04:10,282 - Using proactor: IocpProactor
+2025-01-03 21:04:11,105 - MDNS service registered: _pes2021._pes-teamplay._tcp.local.
+2025-01-03 21:04:11,106 - Server error: View function mapping is overwriting an existing endpoint function: admin_status
+2025-01-03 21:04:11,107 - Matches saved successfully
+2025-01-03 21:04:59,343 - Using proactor: IocpProactor
+2025-01-03 21:05:00,180 - MDNS service registered: _pes2021._pes-teamplay._tcp.local.
+2025-01-03 21:05:00,189 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:50124
+ * Running on http://192.168.0.34:50124
+2025-01-03 21:05:00,190 - [33mPress CTRL+C to quit[0m
+2025-01-03 21:05:00,857 - Matches saved successfully
+2025-01-03 21:05:34,123 - Matches saved successfully
+2025-01-03 21:06:17,167 - Using proactor: IocpProactor
+2025-01-03 21:06:18,000 - MDNS service registered: _pes2021._pes-teamplay._tcp.local.
+2025-01-03 21:06:18,010 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:50124
+ * Running on http://192.168.0.34:50124
+2025-01-03 21:06:18,010 - [33mPress CTRL+C to quit[0m
+2025-01-03 21:07:03,938 - Matches saved successfully
+2025-01-03 21:07:04,517 - Matches saved successfully
+2025-01-03 21:10:00,186 - Matches saved successfully
+2025-01-03 21:10:00,858 - Matches saved successfully
+2025-01-03 21:10:34,124 - Matches saved successfully
+2025-01-03 21:11:18,006 - Matches saved successfully
+2025-01-03 21:12:03,939 - Matches saved successfully
+2025-01-03 21:12:04,518 - Matches saved successfully
+2025-01-03 21:15:00,187 - Matches saved successfully
+2025-01-03 21:15:00,859 - Matches saved successfully
+2025-01-03 21:15:34,126 - Matches saved successfully
+2025-01-03 21:16:18,008 - Matches saved successfully
+2025-01-03 21:17:03,940 - Matches saved successfully
+2025-01-03 21:17:04,519 - Matches saved successfully
+2025-01-03 21:20:00,188 - Matches saved successfully
+2025-01-03 21:20:00,860 - Matches saved successfully
+2025-01-03 21:20:34,128 - Matches saved successfully
+2025-01-03 21:21:18,009 - Matches saved successfully
+2025-01-03 21:22:03,941 - Matches saved successfully
+2025-01-03 21:22:04,521 - Matches saved successfully
+2025-01-03 21:25:00,190 - Matches saved successfully
+2025-01-03 21:25:00,861 - Matches saved successfully
+2025-01-03 21:25:34,128 - Matches saved successfully
+2025-01-03 21:26:18,011 - Matches saved successfully
+2025-01-03 21:27:03,942 - Matches saved successfully
+2025-01-03 21:27:04,522 - Matches saved successfully
+2025-01-03 21:30:00,191 - Matches saved successfully
+2025-01-03 21:30:00,862 - Matches saved successfully
+2025-01-03 21:30:34,129 - Matches saved successfully
+2025-01-03 21:31:18,012 - Matches saved successfully
+2025-01-03 21:32:03,943 - Matches saved successfully
+2025-01-03 21:32:04,523 - Matches saved successfully
+2025-01-03 21:35:00,192 - Matches saved successfully
+2025-01-03 21:35:00,863 - Matches saved successfully
+2025-01-03 21:35:34,131 - Matches saved successfully
+2025-01-03 21:36:18,013 - Matches saved successfully
+2025-01-03 21:37:03,944 - Matches saved successfully
+2025-01-03 21:37:04,523 - Matches saved successfully
+2025-01-03 21:40:00,193 - Matches saved successfully
+2025-01-03 21:40:00,864 - Matches saved successfully
+2025-01-03 21:40:34,132 - Matches saved successfully
+2025-01-03 21:41:18,014 - Matches saved successfully
+2025-01-03 21:42:03,945 - Matches saved successfully
+2025-01-03 21:42:04,524 - Matches saved successfully
+2025-01-03 21:45:00,195 - Matches saved successfully
+2025-01-03 21:45:00,865 - Matches saved successfully
+2025-01-03 21:45:34,133 - Matches saved successfully
+2025-01-03 21:46:18,016 - Matches saved successfully
+2025-01-03 21:47:03,947 - Matches saved successfully
+2025-01-03 21:47:04,526 - Matches saved successfully
+2025-01-03 21:50:00,196 - Matches saved successfully
+2025-01-03 21:50:00,867 - Matches saved successfully
+2025-01-03 21:50:34,134 - Matches saved successfully
+2025-01-03 21:51:18,017 - Matches saved successfully
+2025-01-03 21:52:03,948 - Matches saved successfully
+2025-01-03 21:52:04,527 - Matches saved successfully
+2025-01-03 21:55:00,198 - Matches saved successfully
+2025-01-03 21:55:00,869 - Matches saved successfully
+2025-01-03 21:55:34,142 - Matches saved successfully
+2025-01-03 21:56:18,018 - Matches saved successfully
+2025-01-03 21:57:03,949 - Matches saved successfully
+2025-01-03 21:57:04,528 - Matches saved successfully
+2025-01-03 22:00:00,199 - Matches saved successfully
+2025-01-03 22:00:00,870 - Matches saved successfully
+2025-01-03 22:00:34,142 - Matches saved successfully
+2025-01-03 22:01:18,020 - Matches saved successfully
+2025-01-03 22:02:03,950 - Matches saved successfully
+2025-01-03 22:02:04,529 - Matches saved successfully
+2025-01-03 22:05:00,200 - Matches saved successfully
+2025-01-03 22:05:00,871 - Matches saved successfully
+2025-01-03 22:05:34,143 - Matches saved successfully
+2025-01-03 22:06:18,021 - Matches saved successfully
+2025-01-03 22:07:03,952 - Matches saved successfully
+2025-01-03 22:07:04,530 - Matches saved successfully
+2025-01-03 22:10:00,202 - Matches saved successfully
+2025-01-03 22:10:00,872 - Matches saved successfully
+2025-01-03 22:10:34,144 - Matches saved successfully
+2025-01-03 22:11:18,022 - Matches saved successfully
+2025-01-03 22:12:03,953 - Matches saved successfully
+2025-01-03 22:12:04,531 - Matches saved successfully
+2025-01-03 22:15:00,203 - Matches saved successfully
+2025-01-03 22:15:00,874 - Matches saved successfully
+2025-01-03 22:15:34,145 - Matches saved successfully
+2025-01-03 22:16:18,024 - Matches saved successfully
+2025-01-03 22:17:03,954 - Matches saved successfully
+2025-01-03 22:17:04,532 - Matches saved successfully
+2025-01-03 22:20:00,204 - Matches saved successfully
+2025-01-03 22:20:00,875 - Matches saved successfully
+2025-01-03 22:20:34,146 - Matches saved successfully
+2025-01-03 22:21:18,025 - Matches saved successfully
+2025-01-03 22:22:03,956 - Matches saved successfully
+2025-01-03 22:22:04,534 - Matches saved successfully
+2025-01-03 22:25:00,205 - Matches saved successfully
+2025-01-03 22:25:00,876 - Matches saved successfully
+2025-01-03 22:25:34,147 - Matches saved successfully
+2025-01-03 22:26:18,026 - Matches saved successfully
+2025-01-03 22:27:03,956 - Matches saved successfully
+2025-01-03 22:27:04,536 - Matches saved successfully
+2025-01-03 22:30:00,207 - Matches saved successfully
+2025-01-03 22:30:00,877 - Matches saved successfully
+2025-01-03 22:30:34,148 - Matches saved successfully
+2025-01-03 22:31:18,028 - Matches saved successfully
+2025-01-03 22:31:18,245 - Using proactor: IocpProactor
+2025-01-03 22:31:18,254 - MDNS registration failed: 
+2025-01-03 22:31:19,255 - MDNS registration failed: 
+2025-01-03 22:31:20,256 - MDNS registration failed: 
+2025-01-03 22:31:20,256 - MDNS registration failed after 3 attempts: . Continuing without MDNS.
+2025-01-03 22:31:20,265 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:50124
+ * Running on http://192.168.0.34:50124
+2025-01-03 22:31:20,266 - [33mPress CTRL+C to quit[0m
+2025-01-03 22:32:03,957 - Matches saved successfully
+2025-01-03 22:32:04,536 - Matches saved successfully
+2025-01-03 22:35:00,208 - Matches saved successfully
+2025-01-03 22:35:00,878 - Matches saved successfully
+2025-01-03 22:35:34,149 - Matches saved successfully
+2025-01-03 22:36:18,030 - Matches saved successfully
+2025-01-03 22:36:20,262 - Matches saved successfully
+2025-01-03 22:37:03,959 - Matches saved successfully
+2025-01-03 22:37:04,538 - Matches saved successfully
+2025-01-03 22:40:00,209 - Matches saved successfully
+2025-01-03 22:40:00,880 - Matches saved successfully
+2025-01-03 22:40:34,151 - Matches saved successfully
+2025-01-03 22:41:18,031 - Matches saved successfully
+2025-01-03 22:41:20,264 - Matches saved successfully
+2025-01-03 22:42:03,960 - Matches saved successfully
+2025-01-03 22:42:04,539 - Matches saved successfully
+2025-01-03 22:45:00,211 - Matches saved successfully
+2025-01-03 22:45:00,881 - Matches saved successfully
+2025-01-03 22:45:34,153 - Matches saved successfully
+2025-01-03 22:46:18,033 - Matches saved successfully
+2025-01-03 22:46:20,265 - Matches saved successfully
+2025-01-03 22:47:03,961 - Matches saved successfully
+2025-01-03 22:47:04,540 - Matches saved successfully
+2025-01-03 22:50:00,212 - Matches saved successfully
+2025-01-03 22:50:00,882 - Matches saved successfully
+2025-01-03 22:50:34,153 - Matches saved successfully
+2025-01-03 22:51:18,034 - Matches saved successfully
+2025-01-03 22:51:20,267 - Matches saved successfully
+2025-01-03 22:52:03,962 - Matches saved successfully
+2025-01-03 22:52:04,541 - Matches saved successfully
+2025-01-03 22:55:00,213 - Matches saved successfully
+2025-01-03 22:55:00,883 - Matches saved successfully
+2025-01-03 22:55:34,155 - Matches saved successfully
+2025-01-03 22:56:18,036 - Matches saved successfully
+2025-01-03 22:56:20,268 - Matches saved successfully
+2025-01-03 22:57:03,963 - Matches saved successfully
+2025-01-03 22:57:04,542 - Matches saved successfully
+2025-01-03 23:00:00,215 - Matches saved successfully
+2025-01-03 23:00:00,885 - Matches saved successfully
+2025-01-03 23:00:34,156 - Matches saved successfully
+2025-01-03 23:01:18,038 - Matches saved successfully
+2025-01-03 23:01:20,269 - Matches saved successfully
+2025-01-03 23:02:03,964 - Matches saved successfully
+2025-01-03 23:02:04,543 - Matches saved successfully
+2025-01-03 23:05:00,216 - Matches saved successfully
+2025-01-03 23:05:00,887 - Matches saved successfully
+2025-01-03 23:05:34,158 - Matches saved successfully
+2025-01-03 23:06:18,039 - Matches saved successfully
+2025-01-03 23:06:20,270 - Matches saved successfully
+2025-01-03 23:07:03,965 - Matches saved successfully
+2025-01-03 23:07:04,544 - Matches saved successfully
+2025-01-03 23:10:00,218 - Matches saved successfully
+2025-01-03 23:10:00,888 - Matches saved successfully
+2025-01-03 23:10:34,159 - Matches saved successfully
+2025-01-03 23:11:18,041 - Matches saved successfully
+2025-01-03 23:11:20,271 - Matches saved successfully
+2025-01-03 23:11:58,958 - Using proactor: IocpProactor
+2025-01-03 23:11:58,969 - MDNS registration failed: 
+2025-01-03 23:11:59,970 - MDNS registration failed: 
+2025-01-03 23:12:00,971 - MDNS registration failed: 
+2025-01-03 23:12:00,971 - MDNS registration failed after 3 attempts: . Continuing without MDNS.
+2025-01-03 23:12:00,991 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:50124
+ * Running on http://192.168.0.34:50124
+2025-01-03 23:12:00,991 - [33mPress CTRL+C to quit[0m
+2025-01-03 23:12:03,966 - Matches saved successfully
+2025-01-03 23:12:04,545 - Matches saved successfully
+2025-01-03 23:15:00,219 - Matches saved successfully
+2025-01-03 23:15:00,889 - Matches saved successfully
+2025-01-03 23:15:34,160 - Matches saved successfully
+2025-01-03 23:16:18,041 - Matches saved successfully
+2025-01-03 23:16:20,272 - Matches saved successfully
+2025-01-03 23:17:00,976 - Matches saved successfully
+2025-01-03 23:17:03,968 - Matches saved successfully
+2025-01-03 23:17:04,546 - Matches saved successfully
+2025-01-03 23:20:00,220 - Matches saved successfully
+2025-01-03 23:20:00,890 - Matches saved successfully
+2025-01-03 23:20:34,162 - Matches saved successfully
+2025-01-03 23:21:18,043 - Matches saved successfully
+2025-01-03 23:21:20,274 - Matches saved successfully
+2025-01-03 23:22:00,978 - Matches saved successfully
+2025-01-03 23:22:03,969 - Matches saved successfully
+2025-01-03 23:22:04,547 - Matches saved successfully
+2025-01-03 23:25:00,221 - Matches saved successfully
+2025-01-03 23:25:00,891 - Matches saved successfully
+2025-01-03 23:25:34,163 - Matches saved successfully
+2025-01-03 23:26:18,044 - Matches saved successfully
+2025-01-03 23:26:20,275 - Matches saved successfully
+2025-01-03 23:27:00,979 - Matches saved successfully
+2025-01-03 23:27:03,970 - Matches saved successfully
+2025-01-03 23:27:04,548 - Matches saved successfully
+2025-01-03 23:30:00,222 - Matches saved successfully
+2025-01-03 23:30:00,892 - Matches saved successfully
+2025-01-03 23:30:34,164 - Matches saved successfully
+2025-01-03 23:31:18,045 - Matches saved successfully
+2025-01-03 23:31:20,276 - Matches saved successfully
+2025-01-03 23:32:00,980 - Matches saved successfully
+2025-01-03 23:32:03,971 - Matches saved successfully
+2025-01-03 23:32:04,549 - Matches saved successfully
+2025-01-03 23:35:00,223 - Matches saved successfully
+2025-01-03 23:35:00,893 - Matches saved successfully
+2025-01-03 23:35:34,166 - Matches saved successfully
+2025-01-03 23:36:18,047 - Matches saved successfully
+2025-01-03 23:36:20,278 - Matches saved successfully
+2025-01-03 23:37:00,981 - Matches saved successfully
+2025-01-03 23:37:03,492 - Using proactor: IocpProactor
+2025-01-03 23:37:03,500 - MDNS registration failed: 
+2025-01-03 23:37:03,972 - Matches saved successfully
+2025-01-03 23:37:04,501 - MDNS registration failed: 
+2025-01-03 23:37:04,550 - Matches saved successfully
+2025-01-03 23:37:05,503 - MDNS registration failed: 
+2025-01-03 23:37:05,503 - MDNS registration failed after 3 attempts: . Continuing without MDNS.
+2025-01-03 23:37:05,513 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:50124
+ * Running on http://192.168.0.34:50124
+2025-01-03 23:37:05,514 - [33mPress CTRL+C to quit[0m
+2025-01-03 23:38:14,842 - Using proactor: IocpProactor
+2025-01-03 23:38:15,679 - MDNS service registered: _pes2021._pes-teamplay._tcp.local.
+2025-01-03 23:38:15,689 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:50124
+2025-01-03 23:38:15,689 - [33mPress CTRL+C to quit[0m
+2025-01-03 23:38:29,791 - New connection from ('127.0.0.1', 54229)
+2025-01-03 23:39:35,626 - Using proactor: IocpProactor
+2025-01-03 23:39:36,449 - MDNS service registered: _pes2021._pes-teamplay._tcp.local.
+2025-01-03 23:39:36,459 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:50124
+2025-01-03 23:39:36,459 - [33mPress CTRL+C to quit[0m
+2025-01-03 23:39:54,029 - New connection from ('127.0.0.1', 54312)
+2025-01-03 23:39:57,689 - New connection from ('127.0.0.1', 54343)
+2025-01-03 23:39:58,771 - New connection from ('127.0.0.1', 54351)
+2025-01-03 23:40:00,225 - Matches saved successfully
+2025-01-03 23:40:00,895 - Matches saved successfully
+2025-01-03 23:40:34,167 - Matches saved successfully
+2025-01-03 23:41:04,905 - New connection from ('127.0.0.1', 54404)
+2025-01-03 23:41:05,966 - New connection from ('127.0.0.1', 54409)
+2025-01-03 23:41:07,588 - New connection from ('127.0.0.1', 54414)
+2025-01-03 23:41:08,231 - New connection from ('127.0.0.1', 54418)
+2025-01-03 23:41:08,452 - New connection from ('127.0.0.1', 54422)
+2025-01-03 23:41:18,048 - Matches saved successfully
+2025-01-03 23:41:20,278 - Matches saved successfully
+2025-01-03 23:41:29,098 - Using proactor: IocpProactor
+2025-01-03 23:41:29,953 - MDNS service registered: _pes2021._pes-teamplay._tcp.local.
+2025-01-03 23:41:29,965 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5739
+2025-01-03 23:41:29,965 - [33mPress CTRL+C to quit[0m
+2025-01-03 23:41:41,506 - New connection from ('127.0.0.1', 54461)
+2025-01-03 23:41:59,770 - New connection from ('127.0.0.1', 54483)
+2025-01-03 23:42:00,982 - Matches saved successfully
+2025-01-03 23:42:03,973 - Matches saved successfully
+2025-01-03 23:42:04,552 - Matches saved successfully
+2025-01-03 23:42:05,509 - Matches saved successfully
+2025-01-03 23:43:15,684 - Matches saved successfully
+2025-01-03 23:43:57,262 - New connection from ('127.0.0.1', 54580)
+2025-01-03 23:43:59,120 - New connection from ('127.0.0.1', 54585)
+2025-01-03 23:44:36,455 - Matches saved successfully
+2025-01-03 23:45:00,226 - Matches saved successfully
+2025-01-03 23:45:00,896 - Matches saved successfully
+2025-01-03 23:45:21,042 - Using proactor: IocpProactor
+2025-01-03 23:45:21,860 - MDNS service registered: _pes2021._pes-teamplay._tcp.local.
+2025-01-03 23:45:21,873 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5739
+2025-01-03 23:45:21,873 - [33mPress CTRL+C to quit[0m
+2025-01-03 23:47:32,736 - New connection from ('127.0.0.1', 54885)
+2025-01-03 23:47:36,518 - New connection from ('127.0.0.1', 54890)
+2025-01-03 23:47:52,744 - New connection from ('127.0.0.1', 54904)
+2025-01-03 23:48:02,766 - New connection from ('127.0.0.1', 54912)
+2025-01-03 23:49:02,793 - New connection from ('127.0.0.1', 54961)
+2025-01-03 23:49:04,470 - New connection from ('127.0.0.1', 54963)
+2025-01-03 23:49:31,723 - New connection from ('127.0.0.1', 54992)
+2025-01-03 23:49:40,759 - New connection from ('127.0.0.1', 54998)
+2025-01-03 23:50:21,868 - Matches saved successfully
+2025-01-03 23:50:51,115 - Using proactor: IocpProactor
+2025-01-03 23:50:51,938 - MDNS service registered: _pes2021._pes-teamplay._tcp.local.
+2025-01-03 23:50:51,947 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5739
+2025-01-03 23:50:51,947 - [33mPress CTRL+C to quit[0m
+2025-01-03 23:51:15,508 - New connection from ('127.0.0.1', 55076)
+2025-01-03 23:51:30,222 - New connection from ('127.0.0.1', 55089)
+2025-01-03 23:51:35,717 - New connection from ('127.0.0.1', 55099)
+2025-01-03 23:53:05,304 - Client error ('127.0.0.1', 55076): [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-01-03 23:53:05,305 - Client error ('127.0.0.1', 55089): [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-01-03 23:53:05,905 - Using proactor: IocpProactor
+2025-01-03 23:53:06,733 - MDNS service registered: _pes2021._pes-teamplay._tcp.local.
+2025-01-03 23:53:06,742 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5739
+2025-01-03 23:53:06,742 - [33mPress CTRL+C to quit[0m
+2025-01-03 23:53:21,997 - New connection from ('127.0.0.1', 55330)
+2025-01-03 23:53:23,053 - New connection from ('127.0.0.1', 55341)
+2025-01-03 23:53:25,157 - New connection from ('127.0.0.1', 55343)
+2025-01-03 23:53:25,345 - New connection from ('127.0.0.1', 55347)
+2025-01-03 23:53:30,391 - New connection from ('127.0.0.1', 55363)
+2025-01-03 23:53:56,529 - New connection from ('127.0.0.1', 55407)
+2025-01-03 23:54:00,423 - New connection from ('127.0.0.1', 55415)
+2025-01-03 23:54:12,242 - New connection from ('127.0.0.1', 55434)
+2025-01-03 23:54:20,982 - New connection from ('127.0.0.1', 55447)
+2025-01-03 23:54:33,187 - New connection from ('127.0.0.1', 55474)
+2025-01-03 23:54:33,737 - New connection from ('127.0.0.1', 55478)
+2025-01-03 23:54:35,097 - New connection from ('127.0.0.1', 55485)
+2025-01-03 23:54:35,371 - New connection from ('127.0.0.1', 55489)
+2025-01-03 23:54:35,534 - New connection from ('127.0.0.1', 55493)
+2025-01-03 23:54:37,152 - New connection from ('127.0.0.1', 55497)
+2025-01-03 23:54:37,320 - New connection from ('127.0.0.1', 55501)
+2025-01-03 23:54:37,462 - New connection from ('127.0.0.1', 55505)
+2025-01-03 23:54:38,842 - New connection from ('127.0.0.1', 55511)
+2025-01-03 23:54:39,004 - New connection from ('127.0.0.1', 55515)
+2025-01-03 23:54:40,188 - New connection from ('127.0.0.1', 55522)
+2025-01-03 23:54:40,344 - New connection from ('127.0.0.1', 55526)
+2025-01-03 23:54:42,463 - New connection from ('127.0.0.1', 55535)
+2025-01-03 23:54:42,637 - New connection from ('127.0.0.1', 55539)
+2025-01-03 23:54:47,389 - New connection from ('127.0.0.1', 55548)
+2025-01-03 23:54:47,685 - New connection from ('127.0.0.1', 55549)
+2025-01-03 23:55:17,714 - New connection from ('127.0.0.1', 55578)
+2025-01-03 23:55:37,021 - New connection from ('127.0.0.1', 55591)
+2025-01-03 23:56:17,745 - New connection from ('127.0.0.1', 55627)
+2025-01-03 23:56:33,652 - New connection from ('127.0.0.1', 55638)
+2025-01-03 23:56:44,848 - New connection from ('127.0.0.1', 55655)
+2025-01-03 23:56:45,402 - New connection from ('127.0.0.1', 55659)
+2025-01-03 23:56:45,738 - New connection from ('127.0.0.1', 55664)
+2025-01-03 23:56:46,967 - New connection from ('127.0.0.1', 55669)
+2025-01-03 23:56:47,169 - New connection from ('127.0.0.1', 55673)
+2025-01-03 23:56:47,344 - New connection from ('127.0.0.1', 55677)
+2025-01-03 23:56:47,518 - New connection from ('127.0.0.1', 55681)
+2025-01-03 23:56:49,067 - New connection from ('127.0.0.1', 55688)
+2025-01-03 23:57:04,215 - New connection from ('127.0.0.1', 55707)
+2025-01-03 23:57:05,605 - New connection from ('127.0.0.1', 55712)
+2025-01-03 23:58:06,739 - Matches saved successfully
+2025-01-04 00:00:30,654 - New connection from ('127.0.0.1', 56070)
+2025-01-04 00:00:48,967 - New connection from ('127.0.0.1', 56085)
+2025-01-04 00:00:50,527 - New connection from ('127.0.0.1', 56089)
+2025-01-04 00:01:32,373 - New connection from ('127.0.0.1', 56225)
+2025-01-04 00:01:32,631 - New connection from ('127.0.0.1', 56229)
+2025-01-04 00:01:52,555 - New connection from ('127.0.0.1', 56256)
+2025-01-04 00:03:03,070 - New connection from ('127.0.0.1', 56347)
+2025-01-04 00:03:03,602 - New connection from ('127.0.0.1', 56351)
+2025-01-04 00:03:03,764 - New connection from ('127.0.0.1', 56355)
+2025-01-04 00:03:05,970 - New connection from ('127.0.0.1', 56374)
+2025-01-04 00:03:06,741 - Matches saved successfully

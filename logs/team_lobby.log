@@ -1,0 +1,51 @@
+2024-12-30 23:14:09,971 - Server started on 192.168.56.1:9123
+2024-12-30 23:23:11,074 - Server error: Service name (PES2021TeamPlay) must start with '_'
+2024-12-30 23:25:36,598 - MDNS service registered: _pes2021._pes-teamplay._tcp.local.
+2024-12-30 23:25:53,147 - New connection from ('192.168.56.1', 54842)
+2024-12-30 23:25:53,147 - Received from ('192.168.56.1', 54842): b'GET / HTTP/1.1\r\nHost: 192.168.56.1:9123\r\nConnection: keep-alive\r\nUpgrade-Insecure-Requests: 1\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\nAccept-Encoding: gzip, deflate\r\nAccept-Language: bg,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,pt;q=0.6,ko;q=0.5\r\n\r\n'
+2024-12-30 23:25:54,203 - New connection from ('192.168.56.1', 54848)
+2024-12-30 23:25:54,203 - Received from ('192.168.56.1', 54848): b'GET / HTTP/1.1\r\nHost: 192.168.56.1:9123\r\nConnection: keep-alive\r\nCache-Control: max-age=0\r\nUpgrade-Insecure-Requests: 1\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\nAccept-Encoding: gzip, deflate\r\nAccept-Language: bg,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,pt;q=0.6,ko;q=0.5\r\n\r\n'
+2024-12-30 23:25:59,236 - New connection from ('192.168.56.1', 54854)
+2024-12-30 23:25:59,236 - Received from ('192.168.56.1', 54854): b'GET / HTTP/1.1\r\nHost: 192.168.56.1:9123\r\nConnection: keep-alive\r\nCache-Control: max-age=0\r\nUpgrade-Insecure-Requests: 1\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\nAccept-Encoding: gzip, deflate\r\nAccept-Language: bg,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,pt;q=0.6,ko;q=0.5\r\n\r\n'
+2024-12-30 23:26:29,263 - New connection from ('192.168.56.1', 54863)
+2024-12-30 23:26:29,264 - Received from ('192.168.56.1', 54863): b'GET / HTTP/1.1\r\nHost: 192.168.56.1:9123\r\nConnection: keep-alive\r\nCache-Control: max-age=0\r\nUpgrade-Insecure-Requests: 1\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\nAccept-Encoding: gzip, deflate\r\nAccept-Language: bg,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,pt;q=0.6,ko;q=0.5\r\n\r\n'
+2024-12-30 23:27:29,286 - New connection from ('192.168.56.1', 54882)
+2024-12-30 23:27:29,286 - Received from ('192.168.56.1', 54882): b'GET / HTTP/1.1\r\nHost: 192.168.56.1:9123\r\nConnection: keep-alive\r\nCache-Control: max-age=0\r\nUpgrade-Insecure-Requests: 1\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\nAccept-Encoding: gzip, deflate\r\nAccept-Language: bg,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,pt;q=0.6,ko;q=0.5\r\n\r\n'
+2024-12-30 23:37:11,655 - MDNS service registered: _pes2021._pes-teamplay._tcp.local.
+2024-12-30 23:39:16,038 - New connection from ('192.168.56.1', 55172)
+2024-12-30 23:39:16,039 - Client error ('192.168.56.1', 55172): Expecting value: line 1 column 1 (char 0)
+2024-12-30 23:39:17,074 - New connection from ('192.168.56.1', 55178)
+2024-12-30 23:39:17,074 - Client error ('192.168.56.1', 55178): Expecting value: line 1 column 1 (char 0)
+2024-12-30 23:39:22,094 - New connection from ('192.168.56.1', 55180)
+2024-12-30 23:39:22,094 - Client error ('192.168.56.1', 55180): Expecting value: line 1 column 1 (char 0)
+2024-12-30 23:39:52,114 - New connection from ('192.168.56.1', 55191)
+2024-12-30 23:39:52,115 - Client error ('192.168.56.1', 55191): Expecting value: line 1 column 1 (char 0)
+2024-12-30 23:40:52,145 - New connection from ('192.168.56.1', 55202)
+2024-12-30 23:40:52,146 - Client error ('192.168.56.1', 55202): Expecting value: line 1 column 1 (char 0)
+2024-12-30 23:41:18,111 - MDNS service registered: _pes2021._pes-teamplay._tcp.local.
+2024-12-30 23:41:18,112 - Server error: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted
+2024-12-30 23:44:39,261 - MDNS service registered: _pes2021._pes-teamplay._tcp.local.
+2024-12-30 23:45:52,174 - New connection from ('192.168.56.1', 55295)
+2024-12-30 23:45:52,174 - Client error ('192.168.56.1', 55295): Expecting value: line 1 column 1 (char 0)
+2024-12-31 00:01:31,009 - MDNS service registered: _pes2021._pes-teamplay._tcp.local.
+2024-12-31 00:02:02,041 - MDNS service registered: _pes2021._pes-teamplay._tcp.local.
+2024-12-31 00:02:38,857 - New connection from ('192.168.56.1', 55681)
+2024-12-31 00:02:38,858 - Client error ('192.168.56.1', 55681): Expecting value: line 1 column 1 (char 0)
+2024-12-31 00:02:39,904 - New connection from ('192.168.56.1', 55691)
+2024-12-31 00:02:39,904 - Client error ('192.168.56.1', 55691): Expecting value: line 1 column 1 (char 0)
+2024-12-31 00:02:44,929 - New connection from ('192.168.56.1', 55693)
+2024-12-31 00:02:44,929 - Client error ('192.168.56.1', 55693): Expecting value: line 1 column 1 (char 0)
+2024-12-31 00:03:14,965 - New connection from ('192.168.56.1', 55700)
+2024-12-31 00:03:14,965 - Client error ('192.168.56.1', 55700): Expecting value: line 1 column 1 (char 0)
+2024-12-31 00:04:14,992 - New connection from ('192.168.56.1', 55716)
+2024-12-31 00:04:14,993 - Client error ('192.168.56.1', 55716): Expecting value: line 1 column 1 (char 0)
+2024-12-31 00:09:15,017 - New connection from ('192.168.56.1', 55821)
+2024-12-31 00:09:15,017 - Client error ('192.168.56.1', 55821): Expecting value: line 1 column 1 (char 0)
+2024-12-31 00:18:14,516 - MDNS service registered: _pes2021._pes-teamplay._tcp.local.
+2024-12-31 00:19:15,057 - New connection from ('192.168.56.1', 56033)
+2024-12-31 00:19:15,058 - Client error ('192.168.56.1', 56033): Expecting value: line 1 column 1 (char 0)
+2024-12-31 00:29:40,417 - MDNS service registered: _pes2021._pes-teamplay._tcp.local.
+2024-12-31 00:29:40,417 - Server error: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted
+2024-12-31 00:32:10,489 - MDNS service registered: _pes2021._pes-teamplay._tcp.local.
+2024-12-31 00:32:10,489 - Server error: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions
+2024-12-31 00:34:24,826 - MDNS service registered: _pes2021._pes-teamplay._tcp.local.

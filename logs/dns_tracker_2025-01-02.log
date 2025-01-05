@@ -1,0 +1,40 @@
+2025-01-02 22:27:53,920 - INFO - Starting DNS server with target IP: 127.0.0.1
+2025-01-02 22:29:05,998 - INFO - Starting DNS server with target IP: 127.0.0.1
+2025-01-02 22:29:06,000 - INFO - DNS server bound to 0.0.0.0:53
+2025-01-02 22:29:30,107 - INFO - DNS query from 192.168.0.34 for 34.0.168.192.in-addr.arpa. (type PTR)
+2025-01-02 22:29:30,108 - INFO - Forwarding 34.0.168.192.in-addr.arpa. to upstream DNS
+2025-01-02 22:29:30,108 - INFO - Forwarding 34.0.168.192.in-addr.arpa. (type PTR) to upstream DNS
+2025-01-02 22:29:30,109 - ERROR - Unexpected error while resolving 34.0.168.192.in-addr.arpa.: 
+Traceback (most recent call last):
+  File "C:\pes_server\dns_server.py", line 42, in forward_query
+    dp_query = dns.message.from_wire(query.pack())
+  File "C:\pes_server\.venv\Lib\site-packages\dns\message.py", line 1382, in from_wire
+    m = reader.read()
+  File "C:\pes_server\.venv\Lib\site-packages\dns\message.py", line 1272, in read
+    self._get_question(MessageSection.QUESTION, qcount)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pes_server\.venv\Lib\site-packages\dns\message.py", line 1145, in _get_question
+    qname = self.parser.get_name(self.message.origin)
+  File "C:\pes_server\.venv\Lib\site-packages\dns\wire.py", line 55, in get_name
+    name = dns.name.from_wire_parser(self)
+  File "C:\pes_server\.venv\Lib\site-packages\dns\name.py", line 1100, in from_wire_parser
+    return Name(labels)
+  File "C:\pes_server\.venv\Lib\site-packages\dns\_immutable_ctx.py", line 40, in nf
+    f(*args, **kwargs)
+    ~^^^^^^^^^^^^^^^^^
+  File "C:\pes_server\.venv\Lib\site-packages\dns\_immutable_ctx.py", line 64, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\pes_server\.venv\Lib\site-packages\dns\name.py", line 372, in __init__
+    blabels = [_maybe_convert_to_binary(x) for x in labels]
+               ~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\pes_server\.venv\Lib\site-packages\dns\name.py", line 355, in _maybe_convert_to_binary
+    raise ValueError  # pragma: no cover
+    ^^^^^^^^^^^^^^^^
+ValueError
+2025-01-02 22:29:30,122 - INFO - DNS query from 192.168.0.34 for konami-server.com. (type A)
+2025-01-02 22:29:30,122 - INFO - Redirecting konami-server.com. to 127.0.0.1
+2025-01-02 22:29:30,123 - INFO - DNS query from 192.168.0.34 for konami-server.com. (type AAAA)
+2025-01-02 22:29:30,123 - INFO - Redirecting konami-server.com. to 127.0.0.1
+2025-01-02 22:32:07,908 - INFO - Starting DNS server with target IP: 127.0.0.1
+2025-01-02 22:32:07,908 - INFO - DNS server bound to 0.0.0.0:53

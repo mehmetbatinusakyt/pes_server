@@ -1,0 +1,133 @@
+2025-01-04 00:20:46,446 - INFO - Starting DNS server with target IP: 127.0.0.1
+2025-01-04 00:20:46,446 - INFO - DNS server bound to 0.0.0.0:53
+2025-01-04 00:50:08,994 - INFO - Starting DNS server with target IP: 127.0.0.1
+2025-01-04 00:50:08,995 - INFO - DNS server bound to 0.0.0.0:53
+2025-01-04 02:20:20,908 - INFO - Starting DNS server with target IP: 127.0.0.1
+2025-01-04 02:20:20,909 - INFO - DNS server bound to 0.0.0.0:53
+2025-01-04 02:23:23,545 - INFO - DNS query from 127.0.0.1 for 1.0.0.127.in-addr.arpa. (type PTR)
+2025-01-04 02:23:23,546 - INFO - Forwarding 1.0.0.127.in-addr.arpa. to upstream DNS
+2025-01-04 02:23:23,546 - INFO - Forwarding 1.0.0.127.in-addr.arpa. (type PTR) to upstream DNS
+2025-01-04 02:23:23,548 - INFO - DNS query from 127.0.0.1 for ntleu.service.konami.net. (type A)
+2025-01-04 02:23:23,548 - INFO - Forwarding ntleu.service.konami.net. to upstream DNS
+2025-01-04 02:23:23,548 - INFO - Forwarding ntleu.service.konami.net. (type A) to upstream DNS
+2025-01-04 02:23:23,549 - ERROR - Unexpected error while resolving ntleu.service.konami.net.: 
+Traceback (most recent call last):
+  File "C:\pes_server\dns_server.py", line 143, in forward_query
+    dp_query = dns.message.from_wire(query.pack())
+  File "C:\pes_server\.venv\Lib\site-packages\dns\message.py", line 1382, in from_wire
+    m = reader.read()
+  File "C:\pes_server\.venv\Lib\site-packages\dns\message.py", line 1272, in read
+    self._get_question(MessageSection.QUESTION, qcount)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pes_server\.venv\Lib\site-packages\dns\message.py", line 1145, in _get_question
+    qname = self.parser.get_name(self.message.origin)
+  File "C:\pes_server\.venv\Lib\site-packages\dns\wire.py", line 55, in get_name
+    name = dns.name.from_wire_parser(self)
+  File "C:\pes_server\.venv\Lib\site-packages\dns\name.py", line 1100, in from_wire_parser
+    return Name(labels)
+  File "C:\pes_server\.venv\Lib\site-packages\dns\_immutable_ctx.py", line 40, in nf
+    f(*args, **kwargs)
+    ~^^^^^^^^^^^^^^^^^
+  File "C:\pes_server\.venv\Lib\site-packages\dns\_immutable_ctx.py", line 64, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\pes_server\.venv\Lib\site-packages\dns\name.py", line 372, in __init__
+    blabels = [_maybe_convert_to_binary(x) for x in labels]
+               ~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\pes_server\.venv\Lib\site-packages\dns\name.py", line 355, in _maybe_convert_to_binary
+    raise ValueError  # pragma: no cover
+    ^^^^^^^^^^^^^^^^
+ValueError
+2025-01-04 02:23:23,553 - INFO - DNS query from 127.0.0.1 for ntleu.service.konami.net. (type AAAA)
+2025-01-04 02:23:23,553 - INFO - Forwarding ntleu.service.konami.net. to upstream DNS
+2025-01-04 02:23:23,553 - INFO - Forwarding ntleu.service.konami.net. (type AAAA) to upstream DNS
+2025-01-04 02:23:23,554 - ERROR - Unexpected error while resolving ntleu.service.konami.net.: 
+Traceback (most recent call last):
+  File "C:\pes_server\dns_server.py", line 143, in forward_query
+    dp_query = dns.message.from_wire(query.pack())
+  File "C:\pes_server\.venv\Lib\site-packages\dns\message.py", line 1382, in from_wire
+    m = reader.read()
+  File "C:\pes_server\.venv\Lib\site-packages\dns\message.py", line 1272, in read
+    self._get_question(MessageSection.QUESTION, qcount)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pes_server\.venv\Lib\site-packages\dns\message.py", line 1145, in _get_question
+    qname = self.parser.get_name(self.message.origin)
+  File "C:\pes_server\.venv\Lib\site-packages\dns\wire.py", line 55, in get_name
+    name = dns.name.from_wire_parser(self)
+  File "C:\pes_server\.venv\Lib\site-packages\dns\name.py", line 1100, in from_wire_parser
+    return Name(labels)
+  File "C:\pes_server\.venv\Lib\site-packages\dns\_immutable_ctx.py", line 40, in nf
+    f(*args, **kwargs)
+    ~^^^^^^^^^^^^^^^^^
+  File "C:\pes_server\.venv\Lib\site-packages\dns\_immutable_ctx.py", line 64, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\pes_server\.venv\Lib\site-packages\dns\name.py", line 372, in __init__
+    blabels = [_maybe_convert_to_binary(x) for x in labels]
+               ~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\pes_server\.venv\Lib\site-packages\dns\name.py", line 355, in _maybe_convert_to_binary
+    raise ValueError  # pragma: no cover
+    ^^^^^^^^^^^^^^^^
+ValueError
+2025-01-04 02:23:23,557 - INFO - DNS query from 127.0.0.1 for ntleu.service.konami.net. (type A)
+2025-01-04 02:23:23,557 - INFO - Forwarding ntleu.service.konami.net. to upstream DNS
+2025-01-04 02:23:23,557 - INFO - Forwarding ntleu.service.konami.net. (type A) to upstream DNS
+2025-01-04 02:23:23,558 - ERROR - Unexpected error while resolving ntleu.service.konami.net.: 
+Traceback (most recent call last):
+  File "C:\pes_server\dns_server.py", line 143, in forward_query
+    dp_query = dns.message.from_wire(query.pack())
+  File "C:\pes_server\.venv\Lib\site-packages\dns\message.py", line 1382, in from_wire
+    m = reader.read()
+  File "C:\pes_server\.venv\Lib\site-packages\dns\message.py", line 1272, in read
+    self._get_question(MessageSection.QUESTION, qcount)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pes_server\.venv\Lib\site-packages\dns\message.py", line 1145, in _get_question
+    qname = self.parser.get_name(self.message.origin)
+  File "C:\pes_server\.venv\Lib\site-packages\dns\wire.py", line 55, in get_name
+    name = dns.name.from_wire_parser(self)
+  File "C:\pes_server\.venv\Lib\site-packages\dns\name.py", line 1100, in from_wire_parser
+    return Name(labels)
+  File "C:\pes_server\.venv\Lib\site-packages\dns\_immutable_ctx.py", line 40, in nf
+    f(*args, **kwargs)
+    ~^^^^^^^^^^^^^^^^^
+  File "C:\pes_server\.venv\Lib\site-packages\dns\_immutable_ctx.py", line 64, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\pes_server\.venv\Lib\site-packages\dns\name.py", line 372, in __init__
+    blabels = [_maybe_convert_to_binary(x) for x in labels]
+               ~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\pes_server\.venv\Lib\site-packages\dns\name.py", line 355, in _maybe_convert_to_binary
+    raise ValueError  # pragma: no cover
+    ^^^^^^^^^^^^^^^^
+ValueError
+2025-01-04 02:23:23,561 - INFO - DNS query from 127.0.0.1 for ntleu.service.konami.net. (type AAAA)
+2025-01-04 02:23:23,561 - INFO - Forwarding ntleu.service.konami.net. to upstream DNS
+2025-01-04 02:23:23,561 - INFO - Forwarding ntleu.service.konami.net. (type AAAA) to upstream DNS
+2025-01-04 02:23:23,562 - ERROR - Unexpected error while resolving ntleu.service.konami.net.: 
+Traceback (most recent call last):
+  File "C:\pes_server\dns_server.py", line 143, in forward_query
+    dp_query = dns.message.from_wire(query.pack())
+  File "C:\pes_server\.venv\Lib\site-packages\dns\message.py", line 1382, in from_wire
+    m = reader.read()
+  File "C:\pes_server\.venv\Lib\site-packages\dns\message.py", line 1272, in read
+    self._get_question(MessageSection.QUESTION, qcount)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\pes_server\.venv\Lib\site-packages\dns\message.py", line 1145, in _get_question
+    qname = self.parser.get_name(self.message.origin)
+  File "C:\pes_server\.venv\Lib\site-packages\dns\wire.py", line 55, in get_name
+    name = dns.name.from_wire_parser(self)
+  File "C:\pes_server\.venv\Lib\site-packages\dns\name.py", line 1100, in from_wire_parser
+    return Name(labels)
+  File "C:\pes_server\.venv\Lib\site-packages\dns\_immutable_ctx.py", line 40, in nf
+    f(*args, **kwargs)
+    ~^^^^^^^^^^^^^^^^^
+  File "C:\pes_server\.venv\Lib\site-packages\dns\_immutable_ctx.py", line 64, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\pes_server\.venv\Lib\site-packages\dns\name.py", line 372, in __init__
+    blabels = [_maybe_convert_to_binary(x) for x in labels]
+               ~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\pes_server\.venv\Lib\site-packages\dns\name.py", line 355, in _maybe_convert_to_binary
+    raise ValueError  # pragma: no cover
+    ^^^^^^^^^^^^^^^^
+ValueError
