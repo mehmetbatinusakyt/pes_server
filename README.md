@@ -3,9 +3,11 @@
 ## Project Overview
 
 ### English
+
 PES 2021 Team Play Lobby Server is a custom server implementation that emulates Konami's original 11v11 match functionality. Provides full control over matchmaking, lobbies, and server configuration.
 
 ### Български
+
 PES 2021 Team Play Lobby Server е персонализирана сървърна имплементация, която емулира оригиналната функционалност на Konami сървъра за 11v11 мачове. Осигурява пълен контрол върху matchmaking, лобита и конфигурация на сървъра.
 
 ---
@@ -47,18 +49,21 @@ pes_server/
 ### WordPress Integration (wp_login.py)
 
 #### English
+
 - User authentication through WordPress user database
 - Password validation (supports both MD5 and phpass hashes)
 - Connection to WordPress MySQL database
 - Logging of all operations
 
 #### Български
+
 - Автентикация на потребители чрез WordPress потребителската база
 - Валидация на пароли (поддържа както MD5, така и phpass хешове)
 - Връзка с MySQL базата данни на WordPress
 - Логиране на всички операции
 
 **Configuration (config.py):**
+
 - wp_db_host: Database host
 - wp_db_user: Database username
 - wp_db_password: Database password
@@ -70,6 +75,7 @@ pes_server/
 ### Game Server (game_server.py)
 
 #### English
+
 - Manages connections between players
 - Coordinates lobby creation and management
 - Handles client messaging
@@ -77,6 +83,7 @@ pes_server/
 - Integrates with WordPress for user authentication
 
 #### Български
+
 - Управлява връзките между играчите
 - Координира създаването и управлението на лобита
 - Обработва съобщения между клиентите
@@ -88,12 +95,14 @@ pes_server/
 ## Server Configuration
 
 ### Basic Setup
+
 1. Edit `config.py` with your server settings
 2. Configure DNS mappings in `hosts.py`
 3. Place SSL certificates in `certs/` directory
 4. Set up WordPress integration in `wp_login.py`
 
 ### STUN Server Configuration
+
 - STUN_SERVER_IP: Your public IP address
 - STUN_SERVER_PORT: Default 3478
 - STUN_LOG_LEVEL: Debug level (1-3)
@@ -103,6 +112,7 @@ pes_server/
 ## Server Architecture and Startup
 
 ### Component Integration
+
 - `server.py` is the main entry point that manages all components
 - It imports and uses:
   - `wp_login.py` for WordPress authentication
@@ -113,19 +123,23 @@ pes_server/
 ### Detailed Startup Sequence
 
 1. Start STUN server (required for NAT traversal):
+
    ```bash
    python stun_server.py
    ```
 
 2. Start DNS server (handles custom domain resolution):
+
    ```bash
    python dns_server.py
    ```
 
 3. Start main server (manages all game and authentication services):
+
    ```bash
    python server.py
    ```
+
    - Automatically loads:
      - WordPress authentication (wp_login.py)
      - Game server (game_server.py)
@@ -133,16 +147,19 @@ pes_server/
      - Lobby manager
 
 4. Launch the client application:
+
    ```bash
    python pes_launcher.py
    ```
 
 5. Access admin panel:
+
    ```bash
    http://localhost:8000/admin
    ```
 
 ### Component Dependencies
+
 ```mermaid
 graph TD
     A[server.py] --> B[wp_login.py]
