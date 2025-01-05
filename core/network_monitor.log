@@ -1,0 +1,13 @@
+2024-12-31 00:05:03,005 - INFO - Network monitor started
+2024-12-31 00:05:03,031 - ERROR - TCP monitor error: [WinError 10022] An invalid argument was supplied
+2024-12-31 00:05:03,047 - ERROR - TCP monitor error: [WinError 10022] An invalid argument was supplied
+2024-12-31 00:12:43,336 - INFO - Network monitor started
+2024-12-31 00:12:43,337 - ERROR - TCP monitor error: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions
+2024-12-31 00:12:43,337 - ERROR - TCP monitor error: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions
+2024-12-31 00:12:43,372 - ERROR - Discovery monitor error: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted
+2024-12-31 00:38:14,031 - INFO - Network monitor started
+2024-12-31 00:38:14,032 - ERROR - TCP monitor error: [WinError 10022] An invalid argument was supplied
+2024-12-31 00:38:14,032 - ERROR - TCP monitor error: [WinError 10022] An invalid argument was supplied
+2024-12-31 00:38:14,080 - ERROR - Discovery monitor error: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted
+2024-12-31 00:41:45,425 - INFO - Network monitor started
+2024-12-31 00:41:45,427 - ERROR - TCP monitor error on port 50124: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions
