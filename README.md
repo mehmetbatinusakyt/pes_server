@@ -100,13 +100,57 @@ pes_server/
 
 ---
 
-## Startup Sequence
+## Server Architecture and Startup
 
-1. Start STUN server: `python stun_server.py`
-2. Start DNS server: `python dns_server.py`
-3. Start main server: `python server.py`
-4. Launch the client: `python pes_launcher.py`
-5. Access admin panel: `http://localhost:8000/admin`
+### Component Integration
+- `server.py` is the main entry point that manages all components
+- It imports and uses:
+  - `wp_login.py` for WordPress authentication
+  - `game_server.py` for Team Play Lobby functionality
+  - `network_manager.py` for network operations
+- Other components are started as separate processes
+
+### Detailed Startup Sequence
+
+1. Start STUN server (required for NAT traversal):
+   ```bash
+   python stun_server.py
+   ```
+
+2. Start DNS server (handles custom domain resolution):
+   ```bash
+   python dns_server.py
+   ```
+
+3. Start main server (manages all game and authentication services):
+   ```bash
+   python server.py
+   ```
+   - Automatically loads:
+     - WordPress authentication (wp_login.py)
+     - Game server (game_server.py)
+     - Network manager
+     - Lobby manager
+
+4. Launch the client application:
+   ```bash
+   python pes_launcher.py
+   ```
+
+5. Access admin panel:
+   ```bash
+   http://localhost:8000/admin
+   ```
+
+### Component Dependencies
+```mermaid
+graph TD
+    A[server.py] --> B[wp_login.py]
+    A --> C[game_server.py]
+    A --> D[network_manager.py]
+    C --> E[lobby_manager.py]
+    C --> F[match_manager.py]
+    B --> G[WordPress DB]
 
 ---
 
