@@ -18,7 +18,13 @@ SERVER_CONFIG = {
         'GK', 'LB', 'CB1', 'CB2', 'RB',
         'LM', 'CM1', 'CM2', 'RM',
         'ST1', 'ST2'
-    ]
+    ],
+    # WordPress database configuration
+    'wp_db_host': 'localhost',
+    'wp_db_user': 'wp',
+    'wp_db_password': 'wp',
+    'wp_db_name': 'wp',
+    'wp_db_port': 3306
 }
 
 # Network configuration
