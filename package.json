@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "express": "^4.21.2",
+    "mysql": "^2.18.1",
+    "wordpress-plugin": "^0.1.8-alpha",
+    "wordpress-rest-api": "^0.7.0"
+  },
+  "name": "pes_server",
+  "version": "1.0.0",
+  "main": "admin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

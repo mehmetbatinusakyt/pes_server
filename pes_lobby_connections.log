@@ -1,0 +1,17 @@
+
+Written to pes_packets_detailed.json: {
+  
+PES Packet: UDP 192.168.0.220:None -> 255.255.255.255:None | Type: Unknown PES Data
+Connection attempt: 192.168.0.34:55003 -> 20.54.232.160:443
+Connection attempt: 192.168.0.34:55003 -> 20.54.232.160:443
+Connection attempt: 192.168.0.34:55003 -> 20.54.232.160:443
+Connection attempt: 192.168.0.34:55003 -> 20.54.232.160:443
+Connection attempt: 192.168.0.34:55003 -> 20.54.232.160:443
+Connection attempt: 192.168.0.34:55003 -> 20.54.232.160:443
+Connection attempt: 192.168.0.34:54324 -> 192.168.0.204:445
+Connection attempt: 192.168.0.34:54480 -> 192.168.0.72:8009
+Unknown PC connection payload: 41542b4c5645520d
+
+PES Packet: UDP 192.168.0.131:None -> 255.255.255.255:None | Type: Unknown PES Data
+Connection attempt: 192.168.0.34:55051 -> 194.153.145.73:443
+Connection attempt: 192.168.0.34:2869 -> 192.168.0.65:39522

@@ -1,0 +1,14 @@
+=== PES Server Emulation Requirements ===
+
+1. Main Authentication Server: 18.165.61.88
+   - Requires TLS 1.3 support
+   - Handles initial connection
+
+2. Game Server: 40.86.103.106
+   - Handles actual game communication
+   - Receives redirected connections
+
+3. Protocol Details:
+   - Uses TLS 1.3 encryption
+   - Initial handshake required
+   - Multiple connection sequence

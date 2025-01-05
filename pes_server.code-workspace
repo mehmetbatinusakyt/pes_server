@@ -1,0 +1,10 @@
+{
+    "folders": [
+        {
+            "path": "."
+        },
+        {
+            "path": "../xampp/htdocs/wp-content/plugins"
+        }
+    ]
+}

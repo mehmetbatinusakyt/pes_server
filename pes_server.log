@@ -1,0 +1,1441 @@
+2025-01-03 17:45:19,398 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5739
+ * Running on http://192.168.0.34:5739
+2025-01-03 17:45:19,398 INFO [33mPress CTRL+C to quit[0m
+2025-01-03 18:00:56,792 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5739
+ * Running on http://192.168.0.34:5739
+2025-01-03 18:00:56,801 INFO [33mPress CTRL+C to quit[0m
+2025-01-03 18:10:51,067 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5739
+ * Running on http://192.168.0.34:5739
+2025-01-03 18:10:51,068 INFO [33mPress CTRL+C to quit[0m
+2025-01-03 18:28:36,819 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5739
+ * Running on http://192.168.0.34:5739
+2025-01-03 18:28:36,820 INFO [33mPress CTRL+C to quit[0m
+2025-01-03 18:28:40,400 INFO Registered routes:
+2025-01-03 18:28:40,401 INFO static: /static/<path:filename> (['GET', 'HEAD', 'OPTIONS'])
+2025-01-03 18:28:40,401 INFO index: / (['GET', 'HEAD', 'OPTIONS'])
+2025-01-03 18:28:40,401 INFO admin_status: /api/admin/status/ (['GET', 'HEAD', 'OPTIONS'])
+2025-01-03 18:28:40,401 INFO game_connect: /api/game/connect/ (['OPTIONS', 'POST'])
+2025-01-03 18:28:40,402 INFO debug_routes: /api/debug/routes/ (['GET', 'HEAD', 'OPTIONS'])
+2025-01-03 18:28:40,402 INFO 192.168.0.34 - - [03/Jan/2025 18:28:40] "GET / HTTP/1.1" 200 -
+2025-01-03 18:29:16,335 INFO Executing players count query
+2025-01-03 18:29:16,337 INFO Players count result: {'total_players': 0}
+2025-01-03 18:29:16,337 INFO Executing matches count query
+2025-01-03 18:29:16,338 INFO Matches count result: {'active_matches': 0}
+2025-01-03 18:29:16,338 INFO Database connection successful
+2025-01-03 18:29:16,338 INFO Total players: 0
+2025-01-03 18:29:16,338 INFO Active matches: 0
+2025-01-03 18:29:16,339 INFO 127.0.0.1 - - [03/Jan/2025 18:29:16] "GET /api/admin/status/ HTTP/1.1" 200 -
+2025-01-03 18:29:33,529 INFO Executing players count query
+2025-01-03 18:29:33,530 INFO Players count result: {'total_players': 0}
+2025-01-03 18:29:33,530 INFO Executing matches count query
+2025-01-03 18:29:33,530 INFO Matches count result: {'active_matches': 0}
+2025-01-03 18:29:33,531 INFO Database connection successful
+2025-01-03 18:29:33,531 INFO Total players: 0
+2025-01-03 18:29:33,531 INFO Active matches: 0
+2025-01-03 18:29:33,532 INFO 127.0.0.1 - - [03/Jan/2025 18:29:33] "GET /api/admin/status/ HTTP/1.1" 200 -
+2025-01-03 18:29:44,469 INFO 192.168.0.34 - - [03/Jan/2025 18:29:44] "GET / HTTP/1.1" 200 -
+2025-01-03 18:29:46,150 INFO Executing players count query
+2025-01-03 18:29:46,151 INFO Players count result: {'total_players': 0}
+2025-01-03 18:29:46,151 INFO Executing matches count query
+2025-01-03 18:29:46,151 INFO Matches count result: {'active_matches': 0}
+2025-01-03 18:29:46,152 INFO Database connection successful
+2025-01-03 18:29:46,152 INFO Total players: 0
+2025-01-03 18:29:46,152 INFO Active matches: 0
+2025-01-03 18:29:46,152 INFO 127.0.0.1 - - [03/Jan/2025 18:29:46] "GET /api/admin/status/ HTTP/1.1" 200 -
+2025-01-03 18:32:34,264 INFO 192.168.0.34 - - [03/Jan/2025 18:32:34] "GET / HTTP/1.1" 200 -
+2025-01-03 18:32:36,529 INFO Executing players count query
+2025-01-03 18:32:36,531 INFO Players count result: {'total_players': 0}
+2025-01-03 18:32:36,531 INFO Executing matches count query
+2025-01-03 18:32:36,532 INFO Matches count result: {'active_matches': 0}
+2025-01-03 18:32:36,532 INFO Database connection successful
+2025-01-03 18:32:36,532 INFO Total players: 0
+2025-01-03 18:32:36,533 INFO Active matches: 0
+2025-01-03 18:32:36,533 INFO 127.0.0.1 - - [03/Jan/2025 18:32:36] "GET /api/admin/status/ HTTP/1.1" 200 -
+2025-01-03 18:32:54,149 INFO Executing players count query
+2025-01-03 18:32:54,150 INFO Players count result: {'total_players': 0}
+2025-01-03 18:32:54,150 INFO Executing matches count query
+2025-01-03 18:32:54,150 INFO Matches count result: {'active_matches': 0}
+2025-01-03 18:32:54,150 INFO Database connection successful
+2025-01-03 18:32:54,151 INFO Total players: 0
+2025-01-03 18:32:54,151 INFO Active matches: 0
+2025-01-03 18:32:54,151 INFO 127.0.0.1 - - [03/Jan/2025 18:32:54] "GET /api/admin/status/ HTTP/1.1" 200 -
+2025-01-03 18:32:57,716 INFO 127.0.0.1 - - [03/Jan/2025 18:32:57] "[33mGET /api/status HTTP/1.1[0m" 404 -
+2025-01-03 18:33:08,081 INFO 192.168.0.34 - - [03/Jan/2025 18:33:08] "GET / HTTP/1.1" 200 -
+2025-01-03 18:33:12,354 INFO 127.0.0.1 - - [03/Jan/2025 18:33:12] "[32mGET /api/admin/status HTTP/1.1[0m" 308 -
+2025-01-03 18:33:49,968 INFO 127.0.0.1 - - [03/Jan/2025 18:33:49] "[33mGET /api/ HTTP/1.1[0m" 404 -
+2025-01-03 18:33:50,028 INFO 127.0.0.1 - - [03/Jan/2025 18:33:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-03 18:33:57,832 INFO Executing players count query
+2025-01-03 18:33:57,833 INFO Players count result: {'total_players': 0}
+2025-01-03 18:33:57,833 INFO Executing matches count query
+2025-01-03 18:33:57,833 INFO Matches count result: {'active_matches': 0}
+2025-01-03 18:33:57,834 INFO Database connection successful
+2025-01-03 18:33:57,834 INFO Total players: 0
+2025-01-03 18:33:57,834 INFO Active matches: 0
+2025-01-03 18:33:57,835 INFO 127.0.0.1 - - [03/Jan/2025 18:33:57] "GET /api/admin/status/ HTTP/1.1" 200 -
+2025-01-03 18:34:20,832 INFO 192.168.0.34 - - [03/Jan/2025 18:34:20] "GET / HTTP/1.1" 200 -
+2025-01-03 18:37:10,027 INFO 192.168.0.34 - - [03/Jan/2025 18:37:10] "GET / HTTP/1.1" 200 -
+2025-01-03 18:37:17,121 INFO 192.168.0.34 - - [03/Jan/2025 18:37:17] "GET / HTTP/1.1" 200 -
+2025-01-03 18:37:18,763 INFO Executing players count query
+2025-01-03 18:37:18,763 INFO Players count result: {'total_players': 0}
+2025-01-03 18:37:18,763 INFO Executing matches count query
+2025-01-03 18:37:18,764 INFO Matches count result: {'active_matches': 0}
+2025-01-03 18:37:18,764 INFO Database connection successful
+2025-01-03 18:37:18,764 INFO Total players: 0
+2025-01-03 18:37:18,765 INFO Active matches: 0
+2025-01-03 18:37:18,765 INFO 127.0.0.1 - - [03/Jan/2025 18:37:18] "GET /api/admin/status/ HTTP/1.1" 200 -
+2025-01-03 18:37:19,417 INFO Executing players count query
+2025-01-03 18:37:19,418 INFO Players count result: {'total_players': 0}
+2025-01-03 18:37:19,418 INFO Executing matches count query
+2025-01-03 18:37:19,418 INFO Matches count result: {'active_matches': 0}
+2025-01-03 18:37:19,418 INFO Database connection successful
+2025-01-03 18:37:19,419 INFO Total players: 0
+2025-01-03 18:37:19,419 INFO Active matches: 0
+2025-01-03 18:37:19,419 INFO 127.0.0.1 - - [03/Jan/2025 18:37:19] "GET /api/admin/status/ HTTP/1.1" 200 -
+2025-01-03 18:37:21,617 INFO 127.0.0.1 - - [03/Jan/2025 18:37:21] "[33mGET /api/ HTTP/1.1[0m" 404 -
+2025-01-03 18:41:02,573 INFO Executing players count query
+2025-01-03 18:41:02,574 INFO Players count result: {'total_players': 0}
+2025-01-03 18:41:02,574 INFO Executing matches count query
+2025-01-03 18:41:02,574 INFO Matches count result: {'active_matches': 0}
+2025-01-03 18:41:02,575 INFO Database connection successful
+2025-01-03 18:41:02,575 INFO Total players: 0
+2025-01-03 18:41:02,575 INFO Active matches: 0
+2025-01-03 18:41:02,575 INFO 127.0.0.1 - - [03/Jan/2025 18:41:02] "GET /api/admin/status/ HTTP/1.1" 200 -
+2025-01-03 18:41:02,600 INFO 127.0.0.1 - - [03/Jan/2025 18:41:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-03 18:41:03,300 INFO Executing players count query
+2025-01-03 18:41:03,301 INFO Players count result: {'total_players': 0}
+2025-01-03 18:41:03,301 INFO Executing matches count query
+2025-01-03 18:41:03,302 INFO Matches count result: {'active_matches': 0}
+2025-01-03 18:41:03,302 INFO Database connection successful
+2025-01-03 18:41:03,302 INFO Total players: 0
+2025-01-03 18:41:03,302 INFO Active matches: 0
+2025-01-03 18:41:03,303 INFO 127.0.0.1 - - [03/Jan/2025 18:41:03] "GET /api/admin/status/ HTTP/1.1" 200 -
+2025-01-03 18:41:03,329 INFO 127.0.0.1 - - [03/Jan/2025 18:41:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-03 18:41:03,540 INFO Executing players count query
+2025-01-03 18:41:03,540 INFO Players count result: {'total_players': 0}
+2025-01-03 18:41:03,541 INFO Executing matches count query
+2025-01-03 18:41:03,541 INFO Matches count result: {'active_matches': 0}
+2025-01-03 18:41:03,541 INFO Database connection successful
+2025-01-03 18:41:03,541 INFO Total players: 0
+2025-01-03 18:41:03,542 INFO Active matches: 0
+2025-01-03 18:41:03,542 INFO 127.0.0.1 - - [03/Jan/2025 18:41:03] "GET /api/admin/status/ HTTP/1.1" 200 -
+2025-01-03 18:41:03,565 INFO 127.0.0.1 - - [03/Jan/2025 18:41:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-03 18:41:03,659 INFO Executing players count query
+2025-01-03 18:41:03,660 INFO Players count result: {'total_players': 0}
+2025-01-03 18:41:03,660 INFO Executing matches count query
+2025-01-03 18:41:03,660 INFO Matches count result: {'active_matches': 0}
+2025-01-03 18:41:03,660 INFO Database connection successful
+2025-01-03 18:41:03,661 INFO Total players: 0
+2025-01-03 18:41:03,661 INFO Active matches: 0
+2025-01-03 18:41:03,661 INFO 127.0.0.1 - - [03/Jan/2025 18:41:03] "GET /api/admin/status/ HTTP/1.1" 200 -
+2025-01-03 18:41:03,687 INFO 127.0.0.1 - - [03/Jan/2025 18:41:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-03 18:41:04,786 INFO 192.168.0.34 - - [03/Jan/2025 18:41:04] "GET / HTTP/1.1" 200 -
+2025-01-03 18:41:04,830 INFO 192.168.0.34 - - [03/Jan/2025 18:41:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-03 18:41:04,962 INFO 192.168.0.34 - - [03/Jan/2025 18:41:04] "GET / HTTP/1.1" 200 -
+2025-01-03 18:41:05,012 INFO 192.168.0.34 - - [03/Jan/2025 18:41:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-03 18:43:23,329 INFO 192.168.0.34 - - [03/Jan/2025 18:43:23] "GET / HTTP/1.1" 200 -
+2025-01-03 18:43:23,438 INFO 192.168.0.34 - - [03/Jan/2025 18:43:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-03 18:43:24,589 INFO 192.168.0.34 - - [03/Jan/2025 18:43:24] "GET / HTTP/1.1" 200 -
+2025-01-03 18:52:01,372 INFO Executing players count query
+2025-01-03 18:52:01,373 INFO Players count result: {'total_players': 0}
+2025-01-03 18:52:01,373 INFO Executing matches count query
+2025-01-03 18:52:01,374 INFO Matches count result: {'active_matches': 0}
+2025-01-03 18:52:01,374 INFO Database connection successful
+2025-01-03 18:52:01,374 INFO Total players: 0
+2025-01-03 18:52:01,374 INFO Active matches: 0
+2025-01-03 18:52:01,375 INFO 127.0.0.1 - - [03/Jan/2025 18:52:01] "GET /api/admin/status/ HTTP/1.1" 200 -
+2025-01-03 18:52:01,404 INFO 127.0.0.1 - - [03/Jan/2025 18:52:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-03 18:52:02,908 INFO 192.168.0.34 - - [03/Jan/2025 18:52:02] "GET / HTTP/1.1" 200 -
+2025-01-03 18:54:20,699 INFO 192.168.0.34 - - [03/Jan/2025 18:54:20] "GET / HTTP/1.1" 200 -
+2025-01-03 18:54:20,760 INFO 192.168.0.34 - - [03/Jan/2025 18:54:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-03 18:54:22,865 INFO Executing players count query
+2025-01-03 18:54:22,865 INFO Players count result: {'total_players': 0}
+2025-01-03 18:54:22,866 INFO Executing matches count query
+2025-01-03 18:54:22,866 INFO Matches count result: {'active_matches': 0}
+2025-01-03 18:54:22,866 INFO Database connection successful
+2025-01-03 18:54:22,867 INFO Total players: 0
+2025-01-03 18:54:22,867 INFO Active matches: 0
+2025-01-03 18:54:22,867 INFO 127.0.0.1 - - [03/Jan/2025 18:54:22] "GET /api/admin/status/ HTTP/1.1" 200 -
+2025-01-03 18:54:22,896 INFO 127.0.0.1 - - [03/Jan/2025 18:54:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-03 18:54:23,527 INFO Executing players count query
+2025-01-03 18:54:23,527 INFO Players count result: {'total_players': 0}
+2025-01-03 18:54:23,527 INFO Executing matches count query
+2025-01-03 18:54:23,528 INFO Matches count result: {'active_matches': 0}
+2025-01-03 18:54:23,528 INFO Database connection successful
+2025-01-03 18:54:23,528 INFO Total players: 0
+2025-01-03 18:54:23,529 INFO Active matches: 0
+2025-01-03 18:54:23,529 INFO 127.0.0.1 - - [03/Jan/2025 18:54:23] "GET /api/admin/status/ HTTP/1.1" 200 -
+2025-01-03 18:54:23,557 INFO 127.0.0.1 - - [03/Jan/2025 18:54:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-03 18:55:31,722 INFO 192.168.0.34 - - [03/Jan/2025 18:55:31] "GET / HTTP/1.1" 200 -
+2025-01-03 18:55:32,328 INFO 192.168.0.34 - - [03/Jan/2025 18:55:32] "GET / HTTP/1.1" 200 -
+2025-01-03 19:00:48,687 INFO 192.168.0.34 - - [03/Jan/2025 19:00:48] "GET / HTTP/1.1" 200 -
+2025-01-03 19:32:48,162 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5739
+ * Running on http://192.168.0.34:5739
+2025-01-03 19:32:48,163 INFO [33mPress CTRL+C to quit[0m
+2025-01-03 19:32:53,293 INFO Registered routes:
+2025-01-03 19:32:53,293 INFO static: /static/<path:filename> (['GET', 'HEAD', 'OPTIONS'])
+2025-01-03 19:32:53,294 INFO index: / (['GET', 'HEAD', 'OPTIONS'])
+2025-01-03 19:32:53,294 INFO admin_status: /api/admin/status/ (['GET', 'HEAD', 'OPTIONS'])
+2025-01-03 19:32:53,294 INFO game_connect: /api/game/connect/ (['OPTIONS', 'POST'])
+2025-01-03 19:32:53,294 INFO debug_routes: /api/debug/routes/ (['GET', 'HEAD', 'OPTIONS'])
+2025-01-03 19:32:53,295 INFO 192.168.0.34 - - [03/Jan/2025 19:32:53] "[33mGET /api/ HTTP/1.1[0m" 404 -
+2025-01-03 19:32:56,098 INFO Executing players count query
+2025-01-03 19:32:56,099 INFO Players count result: {'total_players': 0}
+2025-01-03 19:32:56,099 INFO Executing matches count query
+2025-01-03 19:32:56,100 INFO Matches count result: {'active_matches': 0}
+2025-01-03 19:32:56,100 INFO Database connection successful
+2025-01-03 19:32:56,101 INFO Total players: 0
+2025-01-03 19:32:56,101 INFO Active matches: 0
+2025-01-03 19:32:56,101 INFO 127.0.0.1 - - [03/Jan/2025 19:32:56] "GET /api/admin/status/ HTTP/1.1" 200 -
+2025-01-03 19:32:56,127 INFO 127.0.0.1 - - [03/Jan/2025 19:32:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-03 19:32:57,969 INFO 192.168.0.34 - - [03/Jan/2025 19:32:57] "GET / HTTP/1.1" 200 -
+2025-01-03 19:37:23,538 INFO 192.168.0.34 - - [03/Jan/2025 19:37:23] "GET / HTTP/1.1" 200 -
+2025-01-03 19:37:25,309 INFO Executing players count query
+2025-01-03 19:37:25,310 INFO Players count result: {'total_players': 0}
+2025-01-03 19:37:25,310 INFO Executing matches count query
+2025-01-03 19:37:25,311 INFO Matches count result: {'active_matches': 0}
+2025-01-03 19:37:25,311 INFO Database connection successful
+2025-01-03 19:37:25,312 INFO Total players: 0
+2025-01-03 19:37:25,312 INFO Active matches: 0
+2025-01-03 19:37:25,312 INFO 127.0.0.1 - - [03/Jan/2025 19:37:25] "GET /api/admin/status/ HTTP/1.1" 200 -
+2025-01-03 19:37:25,336 INFO 127.0.0.1 - - [03/Jan/2025 19:37:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-03 19:37:25,921 INFO Executing players count query
+2025-01-03 19:37:25,922 INFO Players count result: {'total_players': 0}
+2025-01-03 19:37:25,922 INFO Executing matches count query
+2025-01-03 19:37:25,923 INFO Matches count result: {'active_matches': 0}
+2025-01-03 19:37:25,923 INFO Database connection successful
+2025-01-03 19:37:25,923 INFO Total players: 0
+2025-01-03 19:37:25,923 INFO Active matches: 0
+2025-01-03 19:37:25,923 INFO 127.0.0.1 - - [03/Jan/2025 19:37:25] "GET /api/admin/status/ HTTP/1.1" 200 -
+2025-01-03 19:37:25,942 INFO 127.0.0.1 - - [03/Jan/2025 19:37:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-03 19:37:26,109 INFO Executing players count query
+2025-01-03 19:37:26,110 INFO Players count result: {'total_players': 0}
+2025-01-03 19:37:26,110 INFO Executing matches count query
+2025-01-03 19:37:26,110 INFO Matches count result: {'active_matches': 0}
+2025-01-03 19:37:26,111 INFO Database connection successful
+2025-01-03 19:37:26,111 INFO Total players: 0
+2025-01-03 19:37:26,111 INFO Active matches: 0
+2025-01-03 19:37:26,111 INFO 127.0.0.1 - - [03/Jan/2025 19:37:26] "GET /api/admin/status/ HTTP/1.1" 200 -
+2025-01-03 19:37:26,136 INFO 127.0.0.1 - - [03/Jan/2025 19:37:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-03 19:37:26,301 INFO Executing players count query
+2025-01-03 19:37:26,302 INFO Players count result: {'total_players': 0}
+2025-01-03 19:37:26,302 INFO Executing matches count query
+2025-01-03 19:37:26,302 INFO Matches count result: {'active_matches': 0}
+2025-01-03 19:37:26,303 INFO Database connection successful
+2025-01-03 19:37:26,303 INFO Total players: 0
+2025-01-03 19:37:26,303 INFO Active matches: 0
+2025-01-03 19:37:26,303 INFO 127.0.0.1 - - [03/Jan/2025 19:37:26] "GET /api/admin/status/ HTTP/1.1" 200 -
+2025-01-03 19:37:26,323 INFO 127.0.0.1 - - [03/Jan/2025 19:37:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-03 19:37:42,684 INFO 192.168.0.34 - - [03/Jan/2025 19:37:42] "GET / HTTP/1.1" 200 -
+2025-01-03 19:39:46,170 INFO 192.168.0.34 - - [03/Jan/2025 19:39:46] "GET / HTTP/1.1" 200 -
+2025-01-03 19:43:06,490 INFO 192.168.0.34 - - [03/Jan/2025 19:43:06] "[33mGET /api/ HTTP/1.1[0m" 404 -
+2025-01-03 19:43:06,767 INFO 192.168.0.34 - - [03/Jan/2025 19:43:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-03 19:43:11,559 INFO 192.168.0.34 - - [03/Jan/2025 19:43:11] "[33mGET /api HTTP/1.1[0m" 404 -
+2025-01-03 19:43:19,117 INFO 192.168.0.34 - - [03/Jan/2025 19:43:19] "GET / HTTP/1.1" 200 -
+2025-01-03 19:43:21,361 INFO Executing players count query
+2025-01-03 19:43:21,361 INFO Players count result: {'total_players': 0}
+2025-01-03 19:43:21,362 INFO Executing matches count query
+2025-01-03 19:43:21,362 INFO Matches count result: {'active_matches': 0}
+2025-01-03 19:43:21,362 INFO Database connection successful
+2025-01-03 19:43:21,363 INFO Total players: 0
+2025-01-03 19:43:21,363 INFO Active matches: 0
+2025-01-03 19:43:21,363 INFO 127.0.0.1 - - [03/Jan/2025 19:43:21] "GET /api/admin/status/ HTTP/1.1" 200 -
+2025-01-03 19:43:21,384 INFO 127.0.0.1 - - [03/Jan/2025 19:43:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-03 19:43:21,941 INFO Executing players count query
+2025-01-03 19:43:21,941 INFO Players count result: {'total_players': 0}
+2025-01-03 19:43:21,941 INFO Executing matches count query
+2025-01-03 19:43:21,942 INFO Matches count result: {'active_matches': 0}
+2025-01-03 19:43:21,942 INFO Database connection successful
+2025-01-03 19:43:21,942 INFO Total players: 0
+2025-01-03 19:43:21,942 INFO Active matches: 0
+2025-01-03 19:43:21,943 INFO 127.0.0.1 - - [03/Jan/2025 19:43:21] "GET /api/admin/status/ HTTP/1.1" 200 -
+2025-01-03 19:43:21,962 INFO 127.0.0.1 - - [03/Jan/2025 19:43:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-03 19:43:39,823 INFO 127.0.0.1 - - [03/Jan/2025 19:43:39] "[33mGET /api/admin/status/admin/status/ HTTP/1.1[0m" 404 -
+2025-01-03 19:43:49,106 INFO Executing players count query
+2025-01-03 19:43:49,107 INFO Players count result: {'total_players': 0}
+2025-01-03 19:43:49,107 INFO Executing matches count query
+2025-01-03 19:43:49,108 INFO Matches count result: {'active_matches': 0}
+2025-01-03 19:43:49,108 INFO Database connection successful
+2025-01-03 19:43:49,108 INFO Total players: 0
+2025-01-03 19:43:49,109 INFO Active matches: 0
+2025-01-03 19:43:49,109 INFO 127.0.0.1 - - [03/Jan/2025 19:43:49] "GET /api/admin/status/ HTTP/1.1" 200 -
+2025-01-03 19:43:56,266 INFO 127.0.0.1 - - [03/Jan/2025 19:43:56] "[33mGET /api/admin HTTP/1.1[0m" 404 -
+2025-01-03 19:43:56,422 INFO 127.0.0.1 - - [03/Jan/2025 19:43:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-03 19:43:59,858 INFO 127.0.0.1 - - [03/Jan/2025 19:43:59] "[33mGET /api HTTP/1.1[0m" 404 -
+2025-01-03 19:44:15,388 INFO 192.168.0.34 - - [03/Jan/2025 19:44:15] "GET / HTTP/1.1" 200 -
+2025-01-03 19:44:15,929 INFO 192.168.0.34 - - [03/Jan/2025 19:44:15] "GET / HTTP/1.1" 200 -
+2025-01-03 19:44:17,490 INFO Executing players count query
+2025-01-03 19:44:17,490 INFO Players count result: {'total_players': 0}
+2025-01-03 19:44:17,490 INFO Executing matches count query
+2025-01-03 19:44:17,491 INFO Matches count result: {'active_matches': 0}
+2025-01-03 19:44:17,491 INFO Database connection successful
+2025-01-03 19:44:17,491 INFO Total players: 0
+2025-01-03 19:44:17,491 INFO Active matches: 0
+2025-01-03 19:44:17,492 INFO 127.0.0.1 - - [03/Jan/2025 19:44:17] "GET /api/admin/status/ HTTP/1.1" 200 -
+2025-01-03 19:44:17,510 INFO 127.0.0.1 - - [03/Jan/2025 19:44:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-03 19:44:18,041 INFO Executing players count query
+2025-01-03 19:44:18,042 INFO Players count result: {'total_players': 0}
+2025-01-03 19:44:18,042 INFO Executing matches count query
+2025-01-03 19:44:18,042 INFO Matches count result: {'active_matches': 0}
+2025-01-03 19:44:18,043 INFO Database connection successful
+2025-01-03 19:44:18,043 INFO Total players: 0
+2025-01-03 19:44:18,043 INFO Active matches: 0
+2025-01-03 19:44:18,043 INFO 127.0.0.1 - - [03/Jan/2025 19:44:18] "GET /api/admin/status/ HTTP/1.1" 200 -
+2025-01-03 19:44:18,068 INFO 127.0.0.1 - - [03/Jan/2025 19:44:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-03 19:44:18,220 INFO Executing players count query
+2025-01-03 19:44:18,221 INFO Players count result: {'total_players': 0}
+2025-01-03 19:44:18,221 INFO Executing matches count query
+2025-01-03 19:44:18,221 INFO Matches count result: {'active_matches': 0}
+2025-01-03 19:44:18,222 INFO Database connection successful
+2025-01-03 19:44:18,222 INFO Total players: 0
+2025-01-03 19:44:18,222 INFO Active matches: 0
+2025-01-03 19:44:18,222 INFO 127.0.0.1 - - [03/Jan/2025 19:44:18] "GET /api/admin/status/ HTTP/1.1" 200 -
+2025-01-03 19:44:18,240 INFO 127.0.0.1 - - [03/Jan/2025 19:44:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-03 19:44:18,371 INFO Executing players count query
+2025-01-03 19:44:18,372 INFO Players count result: {'total_players': 0}
+2025-01-03 19:44:18,372 INFO Executing matches count query
+2025-01-03 19:44:18,372 INFO Matches count result: {'active_matches': 0}
+2025-01-03 19:44:18,373 INFO Database connection successful
+2025-01-03 19:44:18,373 INFO Total players: 0
+2025-01-03 19:44:18,373 INFO Active matches: 0
+2025-01-03 19:44:18,374 INFO 127.0.0.1 - - [03/Jan/2025 19:44:18] "GET /api/admin/status/ HTTP/1.1" 200 -
+2025-01-03 19:44:18,401 INFO 127.0.0.1 - - [03/Jan/2025 19:44:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-03 19:44:21,325 INFO 127.0.0.1 - - [03/Jan/2025 19:44:21] "[33mGET /api HTTP/1.1[0m" 404 -
+2025-01-03 19:44:22,476 INFO 127.0.0.1 - - [03/Jan/2025 19:44:22] "[33mGET /api HTTP/1.1[0m" 404 -
+2025-01-03 19:44:27,093 INFO 127.0.0.1 - - [03/Jan/2025 19:44:27] "[33mGET /api/admin/status/admin/status/ HTTP/1.1[0m" 404 -
+2025-01-03 19:44:28,974 INFO 127.0.0.1 - - [03/Jan/2025 19:44:28] "[33mGET /api/admin/status/admin/status/ HTTP/1.1[0m" 404 -
+2025-01-03 19:46:41,025 INFO Executing players count query
+2025-01-03 19:46:41,026 INFO Players count result: {'total_players': 0}
+2025-01-03 19:46:41,026 INFO Executing matches count query
+2025-01-03 19:46:41,026 INFO Matches count result: {'active_matches': 0}
+2025-01-03 19:46:41,027 INFO Database connection successful
+2025-01-03 19:46:41,027 INFO Total players: 0
+2025-01-03 19:46:41,027 INFO Active matches: 0
+2025-01-03 19:46:41,028 INFO 127.0.0.1 - - [03/Jan/2025 19:46:41] "GET /api/admin/status/ HTTP/1.1" 200 -
+2025-01-03 19:46:41,054 INFO 127.0.0.1 - - [03/Jan/2025 19:46:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-03 19:48:02,290 INFO 192.168.0.34 - - [03/Jan/2025 19:48:02] "[32mGET /api//admin/status/ HTTP/1.1[0m" 308 -
+2025-01-03 19:48:02,316 INFO Executing players count query
+2025-01-03 19:48:02,316 INFO Players count result: {'total_players': 0}
+2025-01-03 19:48:02,317 INFO Executing matches count query
+2025-01-03 19:48:02,317 INFO Matches count result: {'active_matches': 0}
+2025-01-03 19:48:02,317 INFO Database connection successful
+2025-01-03 19:48:02,318 INFO Total players: 0
+2025-01-03 19:48:02,318 INFO Active matches: 0
+2025-01-03 19:48:02,318 INFO 192.168.0.34 - - [03/Jan/2025 19:48:02] "GET /api/admin/status/ HTTP/1.1" 200 -
+2025-01-03 19:49:03,944 INFO 192.168.0.34 - - [03/Jan/2025 19:49:03] "GET / HTTP/1.1" 200 -
+2025-01-03 19:49:05,768 INFO Executing players count query
+2025-01-03 19:49:05,768 INFO Players count result: {'total_players': 0}
+2025-01-03 19:49:05,769 INFO Executing matches count query
+2025-01-03 19:49:05,769 INFO Matches count result: {'active_matches': 0}
+2025-01-03 19:49:05,769 INFO Database connection successful
+2025-01-03 19:49:05,769 INFO Total players: 0
+2025-01-03 19:49:05,770 INFO Active matches: 0
+2025-01-03 19:49:05,770 INFO 127.0.0.1 - - [03/Jan/2025 19:49:05] "GET /api/admin/status/ HTTP/1.1" 200 -
+2025-01-03 19:49:05,789 INFO 127.0.0.1 - - [03/Jan/2025 19:49:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-03 19:49:06,346 INFO Executing players count query
+2025-01-03 19:49:06,346 INFO Players count result: {'total_players': 0}
+2025-01-03 19:49:06,347 INFO Executing matches count query
+2025-01-03 19:49:06,347 INFO Matches count result: {'active_matches': 0}
+2025-01-03 19:49:06,347 INFO Database connection successful
+2025-01-03 19:49:06,348 INFO Total players: 0
+2025-01-03 19:49:06,348 INFO Active matches: 0
+2025-01-03 19:49:06,348 INFO 127.0.0.1 - - [03/Jan/2025 19:49:06] "GET /api/admin/status/ HTTP/1.1" 200 -
+2025-01-03 19:49:06,369 INFO 127.0.0.1 - - [03/Jan/2025 19:49:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-03 19:49:06,522 INFO Executing players count query
+2025-01-03 19:49:06,523 INFO Players count result: {'total_players': 0}
+2025-01-03 19:49:06,523 INFO Executing matches count query
+2025-01-03 19:49:06,524 INFO Matches count result: {'active_matches': 0}
+2025-01-03 19:49:06,524 INFO Database connection successful
+2025-01-03 19:49:06,524 INFO Total players: 0
+2025-01-03 19:49:06,524 INFO Active matches: 0
+2025-01-03 19:49:06,525 INFO 127.0.0.1 - - [03/Jan/2025 19:49:06] "GET /api/admin/status/ HTTP/1.1" 200 -
+2025-01-03 19:49:06,551 INFO 127.0.0.1 - - [03/Jan/2025 19:49:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-03 19:49:06,885 INFO Executing players count query
+2025-01-03 19:49:06,885 INFO Players count result: {'total_players': 0}
+2025-01-03 19:49:06,885 INFO Executing matches count query
+2025-01-03 19:49:06,886 INFO Matches count result: {'active_matches': 0}
+2025-01-03 19:49:06,886 INFO Database connection successful
+2025-01-03 19:49:06,886 INFO Total players: 0
+2025-01-03 19:49:06,887 INFO Active matches: 0
+2025-01-03 19:49:06,887 INFO 127.0.0.1 - - [03/Jan/2025 19:49:06] "GET /api/admin/status/ HTTP/1.1" 200 -
+2025-01-03 19:49:06,910 INFO 127.0.0.1 - - [03/Jan/2025 19:49:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-03 19:49:07,041 INFO Executing players count query
+2025-01-03 19:49:07,041 INFO Players count result: {'total_players': 0}
+2025-01-03 19:49:07,041 INFO Executing matches count query
+2025-01-03 19:49:07,042 INFO Matches count result: {'active_matches': 0}
+2025-01-03 19:49:07,042 INFO Database connection successful
+2025-01-03 19:49:07,042 INFO Total players: 0
+2025-01-03 19:49:07,042 INFO Active matches: 0
+2025-01-03 19:49:07,043 INFO 127.0.0.1 - - [03/Jan/2025 19:49:07] "GET /api/admin/status/ HTTP/1.1" 200 -
+2025-01-03 19:49:07,068 INFO 127.0.0.1 - - [03/Jan/2025 19:49:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-03 19:49:07,191 INFO Executing players count query
+2025-01-03 19:49:07,191 INFO Players count result: {'total_players': 0}
+2025-01-03 19:49:07,192 INFO Executing matches count query
+2025-01-03 19:49:07,192 INFO Matches count result: {'active_matches': 0}
+2025-01-03 19:49:07,192 INFO Database connection successful
+2025-01-03 19:49:07,192 INFO Total players: 0
+2025-01-03 19:49:07,193 INFO Active matches: 0
+2025-01-03 19:49:07,193 INFO 127.0.0.1 - - [03/Jan/2025 19:49:07] "GET /api/admin/status/ HTTP/1.1" 200 -
+2025-01-03 19:49:07,220 INFO 127.0.0.1 - - [03/Jan/2025 19:49:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-03 19:49:07,351 INFO Executing players count query
+2025-01-03 19:49:07,352 INFO Players count result: {'total_players': 0}
+2025-01-03 19:49:07,352 INFO Executing matches count query
+2025-01-03 19:49:07,352 INFO Matches count result: {'active_matches': 0}
+2025-01-03 19:49:07,352 INFO Database connection successful
+2025-01-03 19:49:07,352 INFO Total players: 0
+2025-01-03 19:49:07,353 INFO Active matches: 0
+2025-01-03 19:49:07,353 INFO 127.0.0.1 - - [03/Jan/2025 19:49:07] "GET /api/admin/status/ HTTP/1.1" 200 -
+2025-01-03 19:49:07,378 INFO 127.0.0.1 - - [03/Jan/2025 19:49:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-03 19:49:07,509 INFO Executing players count query
+2025-01-03 19:49:07,509 INFO Players count result: {'total_players': 0}
+2025-01-03 19:49:07,510 INFO Executing matches count query
+2025-01-03 19:49:07,510 INFO Matches count result: {'active_matches': 0}
+2025-01-03 19:49:07,510 INFO Database connection successful
+2025-01-03 19:49:07,511 INFO Total players: 0
+2025-01-03 19:49:07,511 INFO Active matches: 0
+2025-01-03 19:49:07,511 INFO 127.0.0.1 - - [03/Jan/2025 19:49:07] "GET /api/admin/status/ HTTP/1.1" 200 -
+2025-01-03 19:49:07,537 INFO 127.0.0.1 - - [03/Jan/2025 19:49:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-03 19:49:23,280 INFO Executing players count query
+2025-01-03 19:49:23,281 INFO Players count result: {'total_players': 0}
+2025-01-03 19:49:23,281 INFO Executing matches count query
+2025-01-03 19:49:23,281 INFO Matches count result: {'active_matches': 0}
+2025-01-03 19:49:23,282 INFO Database connection successful
+2025-01-03 19:49:23,282 INFO Total players: 0
+2025-01-03 19:49:23,282 INFO Active matches: 0
+2025-01-03 19:49:23,283 INFO 192.168.0.34 - - [03/Jan/2025 19:49:23] "GET /api/admin/status/ HTTP/1.1" 200 -
+2025-01-03 19:51:14,098 ERROR 192.168.0.34 - - [03/Jan/2025 19:51:14] code 400, message Bad request version ('\x00\x02\x01\x00\x00')
+2025-01-03 19:51:14,099 INFO 192.168.0.34 - - [03/Jan/2025 19:51:14] "[31m[1m\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03ýX\x9dÉ\x10Z´WçS-\x91\x86QI¿÷ÀÇ\x97\x80á¥\x08\x93\x8c«!º\x04Dê GMWÄ\x82Fªâ\x89\x8f\x06[ÊËV©\x0cÄ\x1a\x84+Z|\x7f\x1c'¡Xp+&\x92\x00 ÊÊ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06Szz\x00\x00\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1\x00+\x00\x07\x06**\x03\x04\x03\x03\x00\x12\x00\x00\x00-\x00\x02\x01\x01\x00\x0b\x00\x02\x01\x00\x00[0m" 400 -
+2025-01-03 19:51:14,102 ERROR 192.168.0.34 - - [03/Jan/2025 19:51:14] code 400, message Bad request version ('ª,')
+2025-01-03 19:51:14,102 INFO 192.168.0.34 - - [03/Jan/2025 19:51:14] "[31m[1m\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03\x14\x0få,âÉ0QtÔ«\x99Y\x93X\x15hµ;w \x07\x0cM\x14\x95\\\x1bAÆ>¥ ÄÍ\x947d]»\x92\x0c§\x94g¢\x97\x94I=í'¹Ø\x1bùÐÊÂ\x14$Ö\x8c<\x96\x00 \x1a\x1a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06SÚÚ\x00\x00ÿ\x01\x00\x01\x00þ\x0d\x00Ú\x00\x00\x01\x00\x01\x89\x00 u\x12ð°·§Y\x9aJÇ\x00¨\x10"Hç\x10ö°PG~ã¶(g¶[¢åq(\x00°¿b\x8fæïañvÍ\x88¥û.\x14\x17Ý^\x14\x8cÐÄ\x0cA#rÑ­d\x04ù¥W9Å¦­\x1a=\x8ak\x16m+ø¡«?äBüm\x9e\x9a5Ê÷\x04ÜÄE>÷z¯2ä2<\x99ö»g\x15Ü\x08Û§.\x88\x94fù\x09$·ì\x1e+{¶5ýYLvÿ\x19US²f\x09\x1eª,[0m" 400 -
+2025-01-03 19:51:15,874 ERROR 192.168.0.34 - - [03/Jan/2025 19:51:15] code 400, message Bad request version ('::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06sêê\x00\x00\x00')
+2025-01-03 19:51:15,876 INFO 192.168.0.34 - - [03/Jan/2025 19:51:15] "[31m[1m\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03\x7fÍ!\x0dÊü¼f-µÓs)\x99Ù\x99Ó\x8cÙ^\x1a\x901\x93\x85fäÚ¹7¥6 XB\x86¢\x98-®µRÈ7Õ<¹\x09¬^7#È\\\x01VðvWR÷õýp\x05\x00 ::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06sêê\x00\x00\x00[0m" 400 -
+2025-01-03 19:51:15,878 ERROR 192.168.0.34 - - [03/Jan/2025 19:51:15] code 400, message Bad request version ('µ\x8dñüMñ§')
+2025-01-03 19:51:15,878 INFO 192.168.0.34 - - [03/Jan/2025 19:51:15] "[31m[1m\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03{R×%qîõ\x84vQ\x0de:B¢?ËÜPð\x80K\x1dtN²>;5<\x85\x88 Èc\x11£ø¨;\x0e\x97E\x99\x96\x14´Q«\x1b\x00r½÷zíµÉ~LZÜjø\x97\x00 **\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063êê\x00\x00\x00\x12\x00\x00\x00\x0b\x00\x02\x01\x00\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00-\x00\x02\x01\x01ÿ\x01\x00\x01\x00\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1\x00\x1b\x00\x03\x02\x00\x02\x00\x05\x00\x05\x01\x00\x00\x00\x00þ\x0d\x00º\x00\x00\x01\x00\x01\x0e\x00 óa\x01êºí@2óg~Ñ\x144ö{z\x7fhüéÌCUqÖ\x02\x98I°Z%\x00\x90Û %\x14\x1c¸\x07C\x08gUÔ^r\x7f\x8f}u7¢ìgTóo¦'\x91X¯zì\x91ê½Ô\x03 ò_(Îî§B)ÀQøý#2Dr£le¶²1u?Që)KþOrÒt\x8d06©\x08Ü\x11\x82$nxëÁ\x87ÿ:J\x92\x8ek~×c\x9d\x09Ô\x87Ã\x09AÊZ´\x8f|0\x15\x0c\x98³\x96\x95Ò\x1d µ\x8dñüMñ§[0m" 400 -
+2025-01-03 19:52:49,669 INFO Executing players count query
+2025-01-03 19:52:49,670 INFO Players count result: {'total_players': 0}
+2025-01-03 19:52:49,670 INFO Executing matches count query
+2025-01-03 19:52:49,670 INFO Matches count result: {'active_matches': 0}
+2025-01-03 19:52:49,670 INFO Database connection successful
+2025-01-03 19:52:49,670 INFO Total players: 0
+2025-01-03 19:52:49,671 INFO Active matches: 0
+2025-01-03 19:52:49,671 INFO 192.168.0.34 - - [03/Jan/2025 19:52:49] "GET /api/admin/status/ HTTP/1.1" 200 -
+2025-01-03 19:55:00,845 INFO Executing players count query
+2025-01-03 19:55:00,845 INFO Players count result: {'total_players': 0}
+2025-01-03 19:55:00,846 INFO Executing matches count query
+2025-01-03 19:55:00,846 INFO Matches count result: {'active_matches': 0}
+2025-01-03 19:55:00,846 INFO Database connection successful
+2025-01-03 19:55:00,846 INFO Total players: 0
+2025-01-03 19:55:00,847 INFO Active matches: 0
+2025-01-03 19:55:00,847 INFO 192.168.0.34 - - [03/Jan/2025 19:55:00] "GET /api/admin/status/ HTTP/1.1" 200 -
+2025-01-03 19:56:47,272 INFO 192.168.0.34 - - [03/Jan/2025 19:56:47] "GET / HTTP/1.1" 200 -
+2025-01-03 19:56:49,039 INFO Executing players count query
+2025-01-03 19:56:49,039 INFO Players count result: {'total_players': 0}
+2025-01-03 19:56:49,039 INFO Executing matches count query
+2025-01-03 19:56:49,040 INFO Matches count result: {'active_matches': 0}
+2025-01-03 19:56:49,040 INFO Database connection successful
+2025-01-03 19:56:49,040 INFO Total players: 0
+2025-01-03 19:56:49,040 INFO Active matches: 0
+2025-01-03 19:56:49,041 INFO 127.0.0.1 - - [03/Jan/2025 19:56:49] "GET /api/admin/status/ HTTP/1.1" 200 -
+2025-01-03 19:56:49,060 INFO 127.0.0.1 - - [03/Jan/2025 19:56:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-03 19:56:53,620 INFO 127.0.0.1 - - [03/Jan/2025 19:56:53] "[32mGET /api//admin/status/ HTTP/1.1[0m" 308 -
+2025-01-03 19:56:57,045 INFO 127.0.0.1 - - [03/Jan/2025 19:56:57] "[32mGET /api//admin/status/ HTTP/1.1[0m" 308 -
+2025-01-03 19:59:16,504 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5739
+ * Running on http://192.168.0.34:5739
+2025-01-03 19:59:16,504 INFO [33mPress CTRL+C to quit[0m
+2025-01-03 20:11:09,935 INFO Executing players count query
+2025-01-03 20:11:09,943 INFO Players count result: {'total_players': 0}
+2025-01-03 20:11:09,944 INFO Executing matches count query
+2025-01-03 20:11:09,945 INFO Matches count result: {'active_matches': 0}
+2025-01-03 20:11:09,945 INFO Database connection successful
+2025-01-03 20:11:09,945 INFO Total players: 0
+2025-01-03 20:11:09,945 INFO Active matches: 0
+2025-01-03 20:11:09,946 INFO 192.168.0.34 - - [03/Jan/2025 20:11:09] "GET /api/admin/status/ HTTP/1.1" 200 -
+2025-01-03 20:11:19,209 INFO 127.0.0.1 - - [03/Jan/2025 20:11:19] "[32mGET /api//admin/status/ HTTP/1.1[0m" 308 -
+2025-01-03 20:12:47,199 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5739
+ * Running on http://192.168.0.34:5739
+2025-01-03 20:12:47,199 INFO [33mPress CTRL+C to quit[0m
+2025-01-03 20:12:52,485 INFO Registered routes:
+2025-01-03 20:12:52,485 INFO static: /static/<path:filename> (['GET', 'HEAD', 'OPTIONS'])
+2025-01-03 20:12:52,486 INFO index: / (['GET', 'HEAD', 'OPTIONS'])
+2025-01-03 20:12:52,486 INFO admin_status: /api/admin/status (['GET', 'HEAD', 'OPTIONS'])
+2025-01-03 20:12:52,486 INFO game_connect: /api/game/connect/ (['OPTIONS', 'POST'])
+2025-01-03 20:12:52,486 INFO debug_routes: /api/debug/routes/ (['GET', 'HEAD', 'OPTIONS'])
+2025-01-03 20:12:52,487 INFO 127.0.0.1 - - [03/Jan/2025 20:12:52] "[33mGET /api//admin/status/ HTTP/1.1[0m" 404 -
+2025-01-03 20:13:26,511 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5739
+ * Running on http://192.168.0.34:5739
+2025-01-03 20:13:26,511 INFO [33mPress CTRL+C to quit[0m
+2025-01-03 20:13:30,451 INFO 127.0.0.1 - - [03/Jan/2025 20:13:30] "[33mGET /api/admin/status/ HTTP/1.1[0m" 404 -
+2025-01-03 20:13:30,500 INFO 127.0.0.1 - - [03/Jan/2025 20:13:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-03 20:13:31,974 INFO 127.0.0.1 - - [03/Jan/2025 20:13:31] "[33mGET /api/admin/status/ HTTP/1.1[0m" 404 -
+2025-01-03 20:13:33,470 INFO 192.168.0.34 - - [03/Jan/2025 20:13:33] "GET / HTTP/1.1" 200 -
+2025-01-03 20:13:47,039 INFO 192.168.0.34 - - [03/Jan/2025 20:13:47] "GET / HTTP/1.1" 200 -
+2025-01-03 20:13:49,838 INFO 127.0.0.1 - - [03/Jan/2025 20:13:49] "[33mGET /api/admin/status/ HTTP/1.1[0m" 404 -
+2025-01-03 20:13:50,478 INFO 127.0.0.1 - - [03/Jan/2025 20:13:50] "[33mGET /api/admin/status/ HTTP/1.1[0m" 404 -
+2025-01-03 20:13:50,657 INFO 127.0.0.1 - - [03/Jan/2025 20:13:50] "[33mGET /api/admin/status/ HTTP/1.1[0m" 404 -
+2025-01-03 20:13:54,970 INFO 127.0.0.1 - - [03/Jan/2025 20:13:54] "[33mGET /api/admin/status/ HTTP/1.1[0m" 404 -
+2025-01-03 20:13:55,231 INFO 127.0.0.1 - - [03/Jan/2025 20:13:55] "[33mGET /api/admin/status/ HTTP/1.1[0m" 404 -
+2025-01-03 20:14:01,295 INFO 127.0.0.1 - - [03/Jan/2025 20:14:01] "GET / HTTP/1.1" 200 -
+2025-01-03 20:14:14,448 INFO 127.0.0.1 - - [03/Jan/2025 20:14:14] "[33mGET /api//admin/status/ HTTP/1.1[0m" 404 -
+2025-01-03 20:15:04,808 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5739
+ * Running on http://192.168.0.34:5739
+2025-01-03 20:15:04,809 INFO [33mPress CTRL+C to quit[0m
+2025-01-03 20:15:45,276 INFO 127.0.0.1 - - [03/Jan/2025 20:15:45] "[33mGET /api//admin/status/ HTTP/1.1[0m" 404 -
+2025-01-03 20:15:47,078 INFO 127.0.0.1 - - [03/Jan/2025 20:15:47] "[33mGET /api//admin/status/ HTTP/1.1[0m" 404 -
+2025-01-03 20:16:26,980 INFO 192.168.0.34 - - [03/Jan/2025 20:16:26] "[33mGET /api/admin/status/ HTTP/1.1[0m" 404 -
+2025-01-03 20:16:27,167 INFO 192.168.0.34 - - [03/Jan/2025 20:16:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-03 20:16:28,246 INFO 192.168.0.34 - - [03/Jan/2025 20:16:28] "[33mGET /api/admin/status/ HTTP/1.1[0m" 404 -
+2025-01-03 20:16:28,948 INFO 192.168.0.34 - - [03/Jan/2025 20:16:28] "[33mGET /api/admin/status/ HTTP/1.1[0m" 404 -
+2025-01-03 20:16:29,151 INFO 192.168.0.34 - - [03/Jan/2025 20:16:29] "[33mGET /api/admin/status/ HTTP/1.1[0m" 404 -
+2025-01-03 20:16:29,338 INFO 192.168.0.34 - - [03/Jan/2025 20:16:29] "[33mGET /api/admin/status/ HTTP/1.1[0m" 404 -
+2025-01-03 20:16:29,513 INFO 192.168.0.34 - - [03/Jan/2025 20:16:29] "[33mGET /api/admin/status/ HTTP/1.1[0m" 404 -
+2025-01-03 20:16:44,588 INFO 192.168.0.34 - - [03/Jan/2025 20:16:44] "[33mGET /api/admin/status/ HTTP/1.1[0m" 404 -
+2025-01-03 20:16:52,790 INFO 127.0.0.1 - - [03/Jan/2025 20:16:52] "GET / HTTP/1.1" 200 -
+2025-01-03 20:16:53,411 INFO 127.0.0.1 - - [03/Jan/2025 20:16:53] "GET / HTTP/1.1" 200 -
+2025-01-03 20:16:53,606 INFO 127.0.0.1 - - [03/Jan/2025 20:16:53] "GET / HTTP/1.1" 200 -
+2025-01-03 20:16:55,133 INFO 192.168.0.34 - - [03/Jan/2025 20:16:55] "GET / HTTP/1.1" 200 -
+2025-01-03 20:16:55,315 INFO 192.168.0.34 - - [03/Jan/2025 20:16:55] "GET / HTTP/1.1" 200 -
+2025-01-03 20:16:55,621 INFO 192.168.0.34 - - [03/Jan/2025 20:16:55] "GET / HTTP/1.1" 200 -
+2025-01-03 20:16:58,005 INFO 192.168.0.34 - - [03/Jan/2025 20:16:58] "GET / HTTP/1.1" 200 -
+2025-01-03 20:16:58,181 INFO 192.168.0.34 - - [03/Jan/2025 20:16:58] "GET / HTTP/1.1" 200 -
+2025-01-03 20:17:00,907 INFO 192.168.0.34 - - [03/Jan/2025 20:17:00] "GET / HTTP/1.1" 200 -
+2025-01-03 20:17:01,099 INFO 192.168.0.34 - - [03/Jan/2025 20:17:01] "GET / HTTP/1.1" 200 -
+2025-01-03 20:18:13,875 INFO 127.0.0.1 - - [03/Jan/2025 20:18:13] "[33mGET /api//admin/status/ HTTP/1.1[0m" 404 -
+2025-01-03 20:18:15,367 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5739
+ * Running on http://192.168.0.34:5739
+2025-01-03 20:18:15,367 INFO [33mPress CTRL+C to quit[0m
+2025-01-03 20:18:35,239 INFO 192.168.0.34 - - [03/Jan/2025 20:18:35] "GET / HTTP/1.1" 200 -
+2025-01-03 20:18:35,829 INFO 192.168.0.34 - - [03/Jan/2025 20:18:35] "GET / HTTP/1.1" 200 -
+2025-01-03 20:18:37,544 INFO 127.0.0.1 - - [03/Jan/2025 20:18:37] "GET / HTTP/1.1" 200 -
+2025-01-03 20:18:38,914 INFO 192.168.0.34 - - [03/Jan/2025 20:18:38] "GET / HTTP/1.1" 200 -
+2025-01-03 20:18:39,414 INFO 192.168.0.34 - - [03/Jan/2025 20:18:39] "GET / HTTP/1.1" 200 -
+2025-01-03 20:20:17,629 INFO 127.0.0.1 - - [03/Jan/2025 20:20:17] "GET /api/debug/routes/ HTTP/1.1" 200 -
+2025-01-03 20:21:04,530 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5739
+ * Running on http://192.168.0.34:5739
+2025-01-03 20:21:04,531 INFO [33mPress CTRL+C to quit[0m
+2025-01-03 20:21:21,372 INFO 127.0.0.1 - - [03/Jan/2025 20:21:21] "[33mGET /api//admin/status/ HTTP/1.1[0m" 404 -
+2025-01-03 20:23:14,015 INFO 127.0.0.1 - - [03/Jan/2025 20:23:14] "[33mGET /api//admin/status/ HTTP/1.1[0m" 404 -
+2025-01-03 20:25:27,967 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5739
+ * Running on http://192.168.0.34:5739
+2025-01-03 20:25:27,968 INFO [33mPress CTRL+C to quit[0m
+2025-01-03 20:25:59,684 INFO 127.0.0.1 - - [03/Jan/2025 20:25:59] "[33mGET /api//admin/status/ HTTP/1.1[0m" 404 -
+2025-01-03 20:26:06,670 INFO 192.168.0.34 - - [03/Jan/2025 20:26:06] "GET / HTTP/1.1" 200 -
+2025-01-03 20:26:14,535 INFO 127.0.0.1 - - [03/Jan/2025 20:26:14] "GET / HTTP/1.1" 200 -
+2025-01-03 20:28:57,002 INFO 127.0.0.1 - - [03/Jan/2025 20:28:57] "[33mGET /api//admin/status/ HTTP/1.1[0m" 404 -
+2025-01-03 20:31:03,829 INFO 127.0.0.1 - - [03/Jan/2025 20:31:03] "GET / HTTP/1.1" 200 -
+2025-01-03 20:31:04,117 INFO 127.0.0.1 - - [03/Jan/2025 20:31:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-03 20:33:26,428 INFO 127.0.0.1 - - [03/Jan/2025 20:33:26] "GET / HTTP/1.1" 200 -
+2025-01-03 20:33:26,732 INFO 127.0.0.1 - - [03/Jan/2025 20:33:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-03 20:35:06,995 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5739
+ * Running on http://192.168.0.34:5739
+2025-01-03 20:35:06,995 INFO [33mPress CTRL+C to quit[0m
+2025-01-03 20:35:30,125 INFO 127.0.0.1 - - [03/Jan/2025 20:35:30] "[33mGET /api/admin/status/ HTTP/1.1[0m" 404 -
+2025-01-03 20:51:23,356 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5740
+ * Running on http://192.168.0.34:5740
+2025-01-03 20:51:23,357 INFO [33mPress CTRL+C to quit[0m
+2025-01-03 20:58:19,461 INFO 127.0.0.1 - - [03/Jan/2025 20:58:19] "[33mGET /api/status HTTP/1.1[0m" 404 -
+2025-01-03 20:59:06,811 ERROR Database connection error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061)
+2025-01-03 20:59:06,812 INFO 127.0.0.1 - - [03/Jan/2025 20:59:06] "[35m[1mGET /api/admin/status HTTP/1.1[0m" 500 -
+2025-01-03 21:05:32,218 INFO 127.0.0.1 - - [03/Jan/2025 21:05:32] "[33mGET /api/admin/status/ HTTP/1.1[0m" 404 -
+2025-01-03 22:30:31,530 INFO Executing players count query
+2025-01-03 22:30:31,538 INFO Players count result: {'total_players': 0}
+2025-01-03 22:30:31,538 INFO Executing matches count query
+2025-01-03 22:30:31,540 INFO Matches count result: {'active_matches': 0}
+2025-01-03 22:30:31,540 INFO Database connection successful
+2025-01-03 22:30:31,540 INFO Total players: 0
+2025-01-03 22:30:31,540 INFO Active matches: 0
+2025-01-03 22:30:31,543 INFO 127.0.0.1 - - [03/Jan/2025 22:30:31] "GET /api/admin/status HTTP/1.1" 200 -
+2025-01-03 22:30:48,373 INFO 127.0.0.1 - - [03/Jan/2025 22:30:48] "[33mGET /api/admin/status/ HTTP/1.1[0m" 404 -
+2025-01-03 23:11:14,783 INFO Executing players count query
+2025-01-03 23:11:14,783 INFO Players count result: {'total_players': 0}
+2025-01-03 23:11:14,783 INFO Executing matches count query
+2025-01-03 23:11:14,786 INFO Matches count result: {'active_matches': 0}
+2025-01-03 23:11:14,787 INFO Database connection successful
+2025-01-03 23:11:14,787 INFO Total players: 0
+2025-01-03 23:11:14,787 INFO Active matches: 0
+2025-01-03 23:11:14,788 INFO 127.0.0.1 - - [03/Jan/2025 23:11:14] "GET /api/admin/status HTTP/1.1" 200 -
+2025-01-03 23:11:25,879 INFO 127.0.0.1 - - [03/Jan/2025 23:11:25] "[33mGET /api/admin/status/ HTTP/1.1[0m" 404 -
+2025-01-03 23:36:25,378 INFO Executing players count query
+2025-01-03 23:36:25,379 INFO Players count result: {'total_players': 0}
+2025-01-03 23:36:25,379 INFO Executing matches count query
+2025-01-03 23:36:25,379 INFO Matches count result: {'active_matches': 0}
+2025-01-03 23:36:25,379 INFO Database connection successful
+2025-01-03 23:36:25,380 INFO Total players: 0
+2025-01-03 23:36:25,380 INFO Active matches: 0
+2025-01-03 23:36:25,380 INFO 127.0.0.1 - - [03/Jan/2025 23:36:25] "GET /api/admin/status HTTP/1.1" 200 -
+2025-01-03 23:36:37,842 INFO 127.0.0.1 - - [03/Jan/2025 23:36:37] "[33mGET /api/admin/status/ HTTP/1.1[0m" 404 -
+2025-01-03 23:37:16,945 INFO Executing players count query
+2025-01-03 23:37:16,945 INFO Players count result: {'total_players': 0}
+2025-01-03 23:37:16,945 INFO Executing matches count query
+2025-01-03 23:37:16,946 INFO Matches count result: {'active_matches': 0}
+2025-01-03 23:37:16,946 INFO Database connection successful
+2025-01-03 23:37:16,946 INFO Total players: 0
+2025-01-03 23:37:16,946 INFO Active matches: 0
+2025-01-03 23:37:16,947 INFO 127.0.0.1 - - [03/Jan/2025 23:37:16] "GET /api/admin/status HTTP/1.1" 200 -
+2025-01-04 00:00:17,802 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5739
+ * Running on http://192.168.0.34:5739
+2025-01-04 00:00:17,802 INFO [33mPress CTRL+C to quit[0m
+2025-01-04 00:04:20,441 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5740
+ * Running on http://192.168.0.34:5740
+2025-01-04 00:04:20,441 INFO [33mPress CTRL+C to quit[0m
+2025-01-04 01:36:53,435 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5739
+ * Running on http://192.168.0.34:5739
+2025-01-04 01:36:53,435 INFO [33mPress CTRL+C to quit[0m
+2025-01-04 01:38:15,978 INFO 192.168.0.34 - - [04/Jan/2025 01:38:15] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:38:16,006 INFO 192.168.0.34 - - [04/Jan/2025 01:38:16] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:38:16,021 INFO 192.168.0.34 - - [04/Jan/2025 01:38:16] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:38:16,032 INFO 192.168.0.34 - - [04/Jan/2025 01:38:16] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:38:16,041 INFO 192.168.0.34 - - [04/Jan/2025 01:38:16] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:38:16,050 INFO 192.168.0.34 - - [04/Jan/2025 01:38:16] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:38:16,061 INFO 192.168.0.34 - - [04/Jan/2025 01:38:16] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:38:16,069 INFO 192.168.0.34 - - [04/Jan/2025 01:38:16] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:38:16,078 INFO 192.168.0.34 - - [04/Jan/2025 01:38:16] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:38:16,087 INFO 192.168.0.34 - - [04/Jan/2025 01:38:16] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:38:16,097 INFO 192.168.0.34 - - [04/Jan/2025 01:38:16] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:38:16,105 INFO 192.168.0.34 - - [04/Jan/2025 01:38:16] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:38:16,116 INFO 192.168.0.34 - - [04/Jan/2025 01:38:16] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:38:16,123 INFO 192.168.0.34 - - [04/Jan/2025 01:38:16] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:38:16,136 INFO 192.168.0.34 - - [04/Jan/2025 01:38:16] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:38:16,146 INFO 192.168.0.34 - - [04/Jan/2025 01:38:16] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:38:16,157 INFO 192.168.0.34 - - [04/Jan/2025 01:38:16] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:38:16,166 INFO 192.168.0.34 - - [04/Jan/2025 01:38:16] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:38:16,175 INFO 192.168.0.34 - - [04/Jan/2025 01:38:16] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:38:16,183 INFO 192.168.0.34 - - [04/Jan/2025 01:38:16] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:39:21,622 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5740
+ * Running on http://192.168.0.34:5740
+2025-01-04 01:39:21,623 INFO [33mPress CTRL+C to quit[0m
+2025-01-04 01:39:59,563 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5739
+ * Running on http://192.168.0.34:5739
+2025-01-04 01:39:59,564 INFO [33mPress CTRL+C to quit[0m
+2025-01-04 01:41:10,486 INFO 192.168.0.34 - - [04/Jan/2025 01:41:10] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:41:10,522 INFO 192.168.0.34 - - [04/Jan/2025 01:41:10] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:41:10,535 INFO 192.168.0.34 - - [04/Jan/2025 01:41:10] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:41:10,545 INFO 192.168.0.34 - - [04/Jan/2025 01:41:10] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:41:10,553 INFO 192.168.0.34 - - [04/Jan/2025 01:41:10] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:41:10,563 INFO 192.168.0.34 - - [04/Jan/2025 01:41:10] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:41:10,573 INFO 192.168.0.34 - - [04/Jan/2025 01:41:10] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:41:10,583 INFO 192.168.0.34 - - [04/Jan/2025 01:41:10] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:41:10,591 INFO 192.168.0.34 - - [04/Jan/2025 01:41:10] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:41:10,600 INFO 192.168.0.34 - - [04/Jan/2025 01:41:10] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:41:10,611 INFO 192.168.0.34 - - [04/Jan/2025 01:41:10] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:41:10,618 INFO 192.168.0.34 - - [04/Jan/2025 01:41:10] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:41:10,627 INFO 192.168.0.34 - - [04/Jan/2025 01:41:10] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:41:10,635 INFO 192.168.0.34 - - [04/Jan/2025 01:41:10] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:41:10,645 INFO 192.168.0.34 - - [04/Jan/2025 01:41:10] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:41:10,653 INFO 192.168.0.34 - - [04/Jan/2025 01:41:10] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:41:10,666 INFO 192.168.0.34 - - [04/Jan/2025 01:41:10] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:41:10,677 INFO 192.168.0.34 - - [04/Jan/2025 01:41:10] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:41:10,684 INFO 192.168.0.34 - - [04/Jan/2025 01:41:10] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:41:10,693 INFO 192.168.0.34 - - [04/Jan/2025 01:41:10] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:42:29,184 INFO 192.168.0.34 - - [04/Jan/2025 01:42:29] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:42:29,196 INFO 192.168.0.34 - - [04/Jan/2025 01:42:29] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:42:29,210 INFO 192.168.0.34 - - [04/Jan/2025 01:42:29] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:42:29,220 INFO 192.168.0.34 - - [04/Jan/2025 01:42:29] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:42:29,233 INFO 192.168.0.34 - - [04/Jan/2025 01:42:29] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:42:29,243 INFO 192.168.0.34 - - [04/Jan/2025 01:42:29] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:42:29,252 INFO 192.168.0.34 - - [04/Jan/2025 01:42:29] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:42:29,262 INFO 192.168.0.34 - - [04/Jan/2025 01:42:29] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:42:29,270 INFO 192.168.0.34 - - [04/Jan/2025 01:42:29] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:42:29,280 INFO 192.168.0.34 - - [04/Jan/2025 01:42:29] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:42:29,290 INFO 192.168.0.34 - - [04/Jan/2025 01:42:29] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:42:29,299 INFO 192.168.0.34 - - [04/Jan/2025 01:42:29] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:42:29,311 INFO 192.168.0.34 - - [04/Jan/2025 01:42:29] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:42:29,327 INFO 192.168.0.34 - - [04/Jan/2025 01:42:29] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:42:29,339 INFO 192.168.0.34 - - [04/Jan/2025 01:42:29] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:42:29,349 INFO 192.168.0.34 - - [04/Jan/2025 01:42:29] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:42:29,359 INFO 192.168.0.34 - - [04/Jan/2025 01:42:29] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:42:29,367 INFO 192.168.0.34 - - [04/Jan/2025 01:42:29] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:42:29,376 INFO 192.168.0.34 - - [04/Jan/2025 01:42:29] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:42:29,384 INFO 192.168.0.34 - - [04/Jan/2025 01:42:29] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:42:29,393 INFO 192.168.0.34 - - [04/Jan/2025 01:42:29] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:42:31,521 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5739
+ * Running on http://192.168.0.34:5739
+2025-01-04 01:42:31,522 INFO [33mPress CTRL+C to quit[0m
+2025-01-04 01:42:38,537 INFO 127.0.0.1 - - [04/Jan/2025 01:42:38] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:42:38,549 INFO 127.0.0.1 - - [04/Jan/2025 01:42:38] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:42:38,557 INFO 127.0.0.1 - - [04/Jan/2025 01:42:38] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:42:38,564 INFO 127.0.0.1 - - [04/Jan/2025 01:42:38] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:42:38,570 INFO 127.0.0.1 - - [04/Jan/2025 01:42:38] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:42:38,575 INFO 127.0.0.1 - - [04/Jan/2025 01:42:38] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:42:38,583 INFO 127.0.0.1 - - [04/Jan/2025 01:42:38] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:42:38,589 INFO 127.0.0.1 - - [04/Jan/2025 01:42:38] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:42:38,597 INFO 127.0.0.1 - - [04/Jan/2025 01:42:38] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:42:38,603 INFO 127.0.0.1 - - [04/Jan/2025 01:42:38] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:42:38,610 INFO 127.0.0.1 - - [04/Jan/2025 01:42:38] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:42:38,617 INFO 127.0.0.1 - - [04/Jan/2025 01:42:38] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:42:38,623 INFO 127.0.0.1 - - [04/Jan/2025 01:42:38] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:42:38,631 INFO 127.0.0.1 - - [04/Jan/2025 01:42:38] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:42:38,637 INFO 127.0.0.1 - - [04/Jan/2025 01:42:38] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:42:38,644 INFO 127.0.0.1 - - [04/Jan/2025 01:42:38] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:42:38,650 INFO 127.0.0.1 - - [04/Jan/2025 01:42:38] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:42:38,656 INFO 127.0.0.1 - - [04/Jan/2025 01:42:38] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:42:38,664 INFO 127.0.0.1 - - [04/Jan/2025 01:42:38] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:42:38,670 INFO 127.0.0.1 - - [04/Jan/2025 01:42:38] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:42:38,677 INFO 127.0.0.1 - - [04/Jan/2025 01:42:38] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:44:31,475 INFO 192.168.0.34 - - [04/Jan/2025 01:44:31] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:44:31,502 INFO 192.168.0.34 - - [04/Jan/2025 01:44:31] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:44:31,513 INFO 192.168.0.34 - - [04/Jan/2025 01:44:31] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:44:31,522 INFO 192.168.0.34 - - [04/Jan/2025 01:44:31] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:44:31,538 INFO 192.168.0.34 - - [04/Jan/2025 01:44:31] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:44:31,549 INFO 192.168.0.34 - - [04/Jan/2025 01:44:31] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:44:31,558 INFO 192.168.0.34 - - [04/Jan/2025 01:44:31] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:44:31,568 INFO 192.168.0.34 - - [04/Jan/2025 01:44:31] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:44:31,577 INFO 192.168.0.34 - - [04/Jan/2025 01:44:31] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:44:31,584 INFO 192.168.0.34 - - [04/Jan/2025 01:44:31] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:44:31,597 INFO 192.168.0.34 - - [04/Jan/2025 01:44:31] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:44:31,606 INFO 192.168.0.34 - - [04/Jan/2025 01:44:31] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:44:31,617 INFO 192.168.0.34 - - [04/Jan/2025 01:44:31] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:44:31,628 INFO 192.168.0.34 - - [04/Jan/2025 01:44:31] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:44:31,636 INFO 192.168.0.34 - - [04/Jan/2025 01:44:31] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:44:31,646 INFO 192.168.0.34 - - [04/Jan/2025 01:44:31] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:44:31,658 INFO 192.168.0.34 - - [04/Jan/2025 01:44:31] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:44:31,667 INFO 192.168.0.34 - - [04/Jan/2025 01:44:31] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:44:31,676 INFO 192.168.0.34 - - [04/Jan/2025 01:44:31] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:44:31,684 INFO 192.168.0.34 - - [04/Jan/2025 01:44:31] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:44:32,765 INFO 192.168.0.34 - - [04/Jan/2025 01:44:32] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:44:32,777 INFO 192.168.0.34 - - [04/Jan/2025 01:44:32] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:44:32,788 INFO 192.168.0.34 - - [04/Jan/2025 01:44:32] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:44:32,798 INFO 192.168.0.34 - - [04/Jan/2025 01:44:32] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:44:32,806 INFO 192.168.0.34 - - [04/Jan/2025 01:44:32] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:44:32,815 INFO 192.168.0.34 - - [04/Jan/2025 01:44:32] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:44:32,822 INFO 192.168.0.34 - - [04/Jan/2025 01:44:32] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:44:32,832 INFO 192.168.0.34 - - [04/Jan/2025 01:44:32] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:44:32,840 INFO 192.168.0.34 - - [04/Jan/2025 01:44:32] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:44:32,850 INFO 192.168.0.34 - - [04/Jan/2025 01:44:32] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:44:32,858 INFO 192.168.0.34 - - [04/Jan/2025 01:44:32] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:44:32,867 INFO 192.168.0.34 - - [04/Jan/2025 01:44:32] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:44:32,876 INFO 192.168.0.34 - - [04/Jan/2025 01:44:32] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:44:32,885 INFO 192.168.0.34 - - [04/Jan/2025 01:44:32] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:44:32,894 INFO 192.168.0.34 - - [04/Jan/2025 01:44:32] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:44:32,902 INFO 192.168.0.34 - - [04/Jan/2025 01:44:32] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:44:32,911 INFO 192.168.0.34 - - [04/Jan/2025 01:44:32] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:44:32,919 INFO 192.168.0.34 - - [04/Jan/2025 01:44:32] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:44:32,927 INFO 192.168.0.34 - - [04/Jan/2025 01:44:32] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:44:32,935 INFO 192.168.0.34 - - [04/Jan/2025 01:44:32] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:44:32,946 INFO 192.168.0.34 - - [04/Jan/2025 01:44:32] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:44:53,156 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5739
+ * Running on http://192.168.0.34:5739
+2025-01-04 01:44:53,156 INFO [33mPress CTRL+C to quit[0m
+2025-01-04 01:47:20,108 INFO 192.168.0.34 - - [04/Jan/2025 01:47:20] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:20,122 INFO 192.168.0.34 - - [04/Jan/2025 01:47:20] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:20,134 INFO 192.168.0.34 - - [04/Jan/2025 01:47:20] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:20,143 INFO 192.168.0.34 - - [04/Jan/2025 01:47:20] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:20,152 INFO 192.168.0.34 - - [04/Jan/2025 01:47:20] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:20,164 INFO 192.168.0.34 - - [04/Jan/2025 01:47:20] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:20,172 INFO 192.168.0.34 - - [04/Jan/2025 01:47:20] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:20,185 INFO 192.168.0.34 - - [04/Jan/2025 01:47:20] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:20,194 INFO 192.168.0.34 - - [04/Jan/2025 01:47:20] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:20,202 INFO 192.168.0.34 - - [04/Jan/2025 01:47:20] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:20,213 INFO 192.168.0.34 - - [04/Jan/2025 01:47:20] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:20,220 INFO 192.168.0.34 - - [04/Jan/2025 01:47:20] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:20,231 INFO 192.168.0.34 - - [04/Jan/2025 01:47:20] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:20,238 INFO 192.168.0.34 - - [04/Jan/2025 01:47:20] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:20,250 INFO 192.168.0.34 - - [04/Jan/2025 01:47:20] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:20,263 INFO 192.168.0.34 - - [04/Jan/2025 01:47:20] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:20,274 INFO 192.168.0.34 - - [04/Jan/2025 01:47:20] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:20,285 INFO 192.168.0.34 - - [04/Jan/2025 01:47:20] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:20,294 INFO 192.168.0.34 - - [04/Jan/2025 01:47:20] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:20,302 INFO 192.168.0.34 - - [04/Jan/2025 01:47:20] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:20,314 INFO 192.168.0.34 - - [04/Jan/2025 01:47:20] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:22,566 INFO 192.168.0.34 - - [04/Jan/2025 01:47:22] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:22,579 INFO 192.168.0.34 - - [04/Jan/2025 01:47:22] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:22,588 INFO 192.168.0.34 - - [04/Jan/2025 01:47:22] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:22,598 INFO 192.168.0.34 - - [04/Jan/2025 01:47:22] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:22,608 INFO 192.168.0.34 - - [04/Jan/2025 01:47:22] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:22,619 INFO 192.168.0.34 - - [04/Jan/2025 01:47:22] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:22,631 INFO 192.168.0.34 - - [04/Jan/2025 01:47:22] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:22,641 INFO 192.168.0.34 - - [04/Jan/2025 01:47:22] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:22,650 INFO 192.168.0.34 - - [04/Jan/2025 01:47:22] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:22,662 INFO 192.168.0.34 - - [04/Jan/2025 01:47:22] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:22,676 INFO 192.168.0.34 - - [04/Jan/2025 01:47:22] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:22,684 INFO 192.168.0.34 - - [04/Jan/2025 01:47:22] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:22,694 INFO 192.168.0.34 - - [04/Jan/2025 01:47:22] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:22,702 INFO 192.168.0.34 - - [04/Jan/2025 01:47:22] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:22,714 INFO 192.168.0.34 - - [04/Jan/2025 01:47:22] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:22,721 INFO 192.168.0.34 - - [04/Jan/2025 01:47:22] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:22,732 INFO 192.168.0.34 - - [04/Jan/2025 01:47:22] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:22,739 INFO 192.168.0.34 - - [04/Jan/2025 01:47:22] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:22,750 INFO 192.168.0.34 - - [04/Jan/2025 01:47:22] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:22,765 INFO 192.168.0.34 - - [04/Jan/2025 01:47:22] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:22,782 INFO 192.168.0.34 - - [04/Jan/2025 01:47:22] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:24,485 INFO 127.0.0.1 - - [04/Jan/2025 01:47:24] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:24,496 INFO 127.0.0.1 - - [04/Jan/2025 01:47:24] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:24,502 INFO 127.0.0.1 - - [04/Jan/2025 01:47:24] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:24,511 INFO 127.0.0.1 - - [04/Jan/2025 01:47:24] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:24,516 INFO 127.0.0.1 - - [04/Jan/2025 01:47:24] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:24,524 INFO 127.0.0.1 - - [04/Jan/2025 01:47:24] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:24,530 INFO 127.0.0.1 - - [04/Jan/2025 01:47:24] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:24,537 INFO 127.0.0.1 - - [04/Jan/2025 01:47:24] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:24,542 INFO 127.0.0.1 - - [04/Jan/2025 01:47:24] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:24,548 INFO 127.0.0.1 - - [04/Jan/2025 01:47:24] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:24,553 INFO 127.0.0.1 - - [04/Jan/2025 01:47:24] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:24,559 INFO 127.0.0.1 - - [04/Jan/2025 01:47:24] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:24,565 INFO 127.0.0.1 - - [04/Jan/2025 01:47:24] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:24,570 INFO 127.0.0.1 - - [04/Jan/2025 01:47:24] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:24,577 INFO 127.0.0.1 - - [04/Jan/2025 01:47:24] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:24,583 INFO 127.0.0.1 - - [04/Jan/2025 01:47:24] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:24,588 INFO 127.0.0.1 - - [04/Jan/2025 01:47:24] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:24,595 INFO 127.0.0.1 - - [04/Jan/2025 01:47:24] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:24,601 INFO 127.0.0.1 - - [04/Jan/2025 01:47:24] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:24,606 INFO 127.0.0.1 - - [04/Jan/2025 01:47:24] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:24,614 INFO 127.0.0.1 - - [04/Jan/2025 01:47:24] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:26,414 INFO 192.168.0.34 - - [04/Jan/2025 01:47:26] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:26,423 INFO 192.168.0.34 - - [04/Jan/2025 01:47:26] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:26,435 INFO 192.168.0.34 - - [04/Jan/2025 01:47:26] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:26,443 INFO 192.168.0.34 - - [04/Jan/2025 01:47:26] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:26,452 INFO 192.168.0.34 - - [04/Jan/2025 01:47:26] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:26,460 INFO 192.168.0.34 - - [04/Jan/2025 01:47:26] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:26,467 INFO 192.168.0.34 - - [04/Jan/2025 01:47:26] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:26,477 INFO 192.168.0.34 - - [04/Jan/2025 01:47:26] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:26,484 INFO 192.168.0.34 - - [04/Jan/2025 01:47:26] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:26,492 INFO 192.168.0.34 - - [04/Jan/2025 01:47:26] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:26,499 INFO 192.168.0.34 - - [04/Jan/2025 01:47:26] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:26,506 INFO 192.168.0.34 - - [04/Jan/2025 01:47:26] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:26,515 INFO 192.168.0.34 - - [04/Jan/2025 01:47:26] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:26,522 INFO 192.168.0.34 - - [04/Jan/2025 01:47:26] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:26,532 INFO 192.168.0.34 - - [04/Jan/2025 01:47:26] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:26,539 INFO 192.168.0.34 - - [04/Jan/2025 01:47:26] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:26,548 INFO 192.168.0.34 - - [04/Jan/2025 01:47:26] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:26,554 INFO 192.168.0.34 - - [04/Jan/2025 01:47:26] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:26,563 INFO 192.168.0.34 - - [04/Jan/2025 01:47:26] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:26,570 INFO 192.168.0.34 - - [04/Jan/2025 01:47:26] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:26,578 INFO 192.168.0.34 - - [04/Jan/2025 01:47:26] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:28,066 INFO 127.0.0.1 - - [04/Jan/2025 01:47:28] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:28,078 INFO 127.0.0.1 - - [04/Jan/2025 01:47:28] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:28,087 INFO 127.0.0.1 - - [04/Jan/2025 01:47:28] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:28,098 INFO 127.0.0.1 - - [04/Jan/2025 01:47:28] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:28,106 INFO 127.0.0.1 - - [04/Jan/2025 01:47:28] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:28,117 INFO 127.0.0.1 - - [04/Jan/2025 01:47:28] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:28,126 INFO 127.0.0.1 - - [04/Jan/2025 01:47:28] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:28,135 INFO 127.0.0.1 - - [04/Jan/2025 01:47:28] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:28,143 INFO 127.0.0.1 - - [04/Jan/2025 01:47:28] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:28,150 INFO 127.0.0.1 - - [04/Jan/2025 01:47:28] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:28,158 INFO 127.0.0.1 - - [04/Jan/2025 01:47:28] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:28,168 INFO 127.0.0.1 - - [04/Jan/2025 01:47:28] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:28,177 INFO 127.0.0.1 - - [04/Jan/2025 01:47:28] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:28,184 INFO 127.0.0.1 - - [04/Jan/2025 01:47:28] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:28,192 INFO 127.0.0.1 - - [04/Jan/2025 01:47:28] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:28,200 INFO 127.0.0.1 - - [04/Jan/2025 01:47:28] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:28,206 INFO 127.0.0.1 - - [04/Jan/2025 01:47:28] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:28,214 INFO 127.0.0.1 - - [04/Jan/2025 01:47:28] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:28,220 INFO 127.0.0.1 - - [04/Jan/2025 01:47:28] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:28,229 INFO 127.0.0.1 - - [04/Jan/2025 01:47:28] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:28,236 INFO 127.0.0.1 - - [04/Jan/2025 01:47:28] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:32,151 INFO 127.0.0.1 - - [04/Jan/2025 01:47:32] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:32,162 INFO 127.0.0.1 - - [04/Jan/2025 01:47:32] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:32,167 INFO 127.0.0.1 - - [04/Jan/2025 01:47:32] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:32,177 INFO 127.0.0.1 - - [04/Jan/2025 01:47:32] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:32,185 INFO 127.0.0.1 - - [04/Jan/2025 01:47:32] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:32,191 INFO 127.0.0.1 - - [04/Jan/2025 01:47:32] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:32,200 INFO 127.0.0.1 - - [04/Jan/2025 01:47:32] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:32,211 INFO 127.0.0.1 - - [04/Jan/2025 01:47:32] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:32,220 INFO 127.0.0.1 - - [04/Jan/2025 01:47:32] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:32,232 INFO 127.0.0.1 - - [04/Jan/2025 01:47:32] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:32,238 INFO 127.0.0.1 - - [04/Jan/2025 01:47:32] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:32,250 INFO 127.0.0.1 - - [04/Jan/2025 01:47:32] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:32,255 INFO 127.0.0.1 - - [04/Jan/2025 01:47:32] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:32,263 INFO 127.0.0.1 - - [04/Jan/2025 01:47:32] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:32,268 INFO 127.0.0.1 - - [04/Jan/2025 01:47:32] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:32,274 INFO 127.0.0.1 - - [04/Jan/2025 01:47:32] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:32,281 INFO 127.0.0.1 - - [04/Jan/2025 01:47:32] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:32,287 INFO 127.0.0.1 - - [04/Jan/2025 01:47:32] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:32,293 INFO 127.0.0.1 - - [04/Jan/2025 01:47:32] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:32,299 INFO 127.0.0.1 - - [04/Jan/2025 01:47:32] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:32,305 INFO 127.0.0.1 - - [04/Jan/2025 01:47:32] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:39,843 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5739
+ * Running on http://192.168.0.34:5739
+2025-01-04 01:47:39,843 INFO [33mPress CTRL+C to quit[0m
+2025-01-04 01:47:49,511 INFO 192.168.0.34 - - [04/Jan/2025 01:47:49] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:49,543 INFO 192.168.0.34 - - [04/Jan/2025 01:47:49] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:49,554 INFO 192.168.0.34 - - [04/Jan/2025 01:47:49] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:49,563 INFO 192.168.0.34 - - [04/Jan/2025 01:47:49] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:49,570 INFO 192.168.0.34 - - [04/Jan/2025 01:47:49] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:49,580 INFO 192.168.0.34 - - [04/Jan/2025 01:47:49] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:49,587 INFO 192.168.0.34 - - [04/Jan/2025 01:47:49] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:49,597 INFO 192.168.0.34 - - [04/Jan/2025 01:47:49] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:49,605 INFO 192.168.0.34 - - [04/Jan/2025 01:47:49] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:49,616 INFO 192.168.0.34 - - [04/Jan/2025 01:47:49] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:49,628 INFO 192.168.0.34 - - [04/Jan/2025 01:47:49] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:49,636 INFO 192.168.0.34 - - [04/Jan/2025 01:47:49] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:49,644 INFO 192.168.0.34 - - [04/Jan/2025 01:47:49] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:49,652 INFO 192.168.0.34 - - [04/Jan/2025 01:47:49] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:49,660 INFO 192.168.0.34 - - [04/Jan/2025 01:47:49] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:49,668 INFO 192.168.0.34 - - [04/Jan/2025 01:47:49] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:49,675 INFO 192.168.0.34 - - [04/Jan/2025 01:47:49] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:49,683 INFO 192.168.0.34 - - [04/Jan/2025 01:47:49] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:49,689 INFO 192.168.0.34 - - [04/Jan/2025 01:47:49] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:49,698 INFO 192.168.0.34 - - [04/Jan/2025 01:47:49] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:51,097 INFO 192.168.0.34 - - [04/Jan/2025 01:47:51] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:51,107 INFO 192.168.0.34 - - [04/Jan/2025 01:47:51] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:51,116 INFO 192.168.0.34 - - [04/Jan/2025 01:47:51] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:51,125 INFO 192.168.0.34 - - [04/Jan/2025 01:47:51] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:51,132 INFO 192.168.0.34 - - [04/Jan/2025 01:47:51] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:51,140 INFO 192.168.0.34 - - [04/Jan/2025 01:47:51] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:51,148 INFO 192.168.0.34 - - [04/Jan/2025 01:47:51] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:51,157 INFO 192.168.0.34 - - [04/Jan/2025 01:47:51] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:51,165 INFO 192.168.0.34 - - [04/Jan/2025 01:47:51] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:51,174 INFO 192.168.0.34 - - [04/Jan/2025 01:47:51] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:51,202 INFO 192.168.0.34 - - [04/Jan/2025 01:47:51] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:51,217 INFO 192.168.0.34 - - [04/Jan/2025 01:47:51] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:51,228 INFO 192.168.0.34 - - [04/Jan/2025 01:47:51] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:51,240 INFO 192.168.0.34 - - [04/Jan/2025 01:47:51] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:51,255 INFO 192.168.0.34 - - [04/Jan/2025 01:47:51] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:51,268 INFO 192.168.0.34 - - [04/Jan/2025 01:47:51] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:51,278 INFO 192.168.0.34 - - [04/Jan/2025 01:47:51] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:51,287 INFO 192.168.0.34 - - [04/Jan/2025 01:47:51] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:51,303 INFO 192.168.0.34 - - [04/Jan/2025 01:47:51] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:51,315 INFO 192.168.0.34 - - [04/Jan/2025 01:47:51] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:47:51,323 INFO 192.168.0.34 - - [04/Jan/2025 01:47:51] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:49:03,357 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5739
+ * Running on http://192.168.0.34:5739
+2025-01-04 01:49:03,357 INFO [33mPress CTRL+C to quit[0m
+2025-01-04 01:49:23,952 INFO 127.0.0.1 - - [04/Jan/2025 01:49:23] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:50:21,448 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5739
+ * Running on http://192.168.0.34:5739
+2025-01-04 01:50:21,449 INFO [33mPress CTRL+C to quit[0m
+2025-01-04 01:50:46,476 INFO 127.0.0.1 - - [04/Jan/2025 01:50:46] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:51:47,464 INFO Registered routes:
+2025-01-04 01:51:47,465 INFO static: /static/<path:filename> (['GET', 'HEAD', 'OPTIONS'])
+2025-01-04 01:51:47,465 INFO index: / (['GET', 'HEAD', 'OPTIONS'])
+2025-01-04 01:51:47,465 INFO admin_status: /api/admin/status (['GET', 'HEAD', 'OPTIONS'])
+2025-01-04 01:51:47,465 INFO admin_status: /api/admin/status/ (['GET', 'HEAD', 'OPTIONS'])
+2025-01-04 01:51:47,466 INFO game_connect: /api/game/connect/ (['OPTIONS', 'POST'])
+2025-01-04 01:51:47,466 INFO debug_routes: /api/debug/routes/ (['GET', 'HEAD', 'OPTIONS'])
+2025-01-04 01:51:47,466 INFO Normalizing URL: /api/matchmaking/
+2025-01-04 01:51:47,466 INFO Processing path: /api/matchmaking/
+2025-01-04 01:51:47,467 INFO 127.0.0.1 - - [04/Jan/2025 01:51:47] "[33mGET /api/matchmaking/ HTTP/1.1[0m" 404 -
+2025-01-04 01:51:47,772 INFO Normalizing URL: /favicon.ico
+2025-01-04 01:51:47,772 INFO Processing path: /favicon.ico
+2025-01-04 01:51:47,773 INFO 127.0.0.1 - - [04/Jan/2025 01:51:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-04 01:51:49,412 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5739
+ * Running on http://192.168.0.34:5739
+2025-01-04 01:51:49,412 INFO [33mPress CTRL+C to quit[0m
+2025-01-04 01:51:53,401 INFO Normalizing URL: /api/matchmaking/
+2025-01-04 01:51:53,402 INFO Processing path: /api/matchmaking/
+2025-01-04 01:51:53,402 INFO 127.0.0.1 - - [04/Jan/2025 01:51:53] "[33mGET /api/matchmaking/ HTTP/1.1[0m" 404 -
+2025-01-04 01:51:55,046 INFO 127.0.0.1 - - [04/Jan/2025 01:51:55] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:51:55,055 INFO 127.0.0.1 - - [04/Jan/2025 01:51:55] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:51:55,090 INFO 127.0.0.1 - - [04/Jan/2025 01:51:55] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:51:55,097 INFO 127.0.0.1 - - [04/Jan/2025 01:51:55] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:51:55,133 INFO 127.0.0.1 - - [04/Jan/2025 01:51:55] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:51:55,146 INFO 127.0.0.1 - - [04/Jan/2025 01:51:55] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:51:55,176 INFO 127.0.0.1 - - [04/Jan/2025 01:51:55] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:51:55,186 INFO 127.0.0.1 - - [04/Jan/2025 01:51:55] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:51:55,208 INFO 127.0.0.1 - - [04/Jan/2025 01:51:55] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:51:55,225 INFO 127.0.0.1 - - [04/Jan/2025 01:51:55] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:51:55,234 INFO 127.0.0.1 - - [04/Jan/2025 01:51:55] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:51:55,270 INFO 127.0.0.1 - - [04/Jan/2025 01:51:55] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:51:55,293 INFO 127.0.0.1 - - [04/Jan/2025 01:51:55] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:51:55,308 INFO 127.0.0.1 - - [04/Jan/2025 01:51:55] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:51:55,354 INFO 127.0.0.1 - - [04/Jan/2025 01:51:55] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:51:55,361 INFO 127.0.0.1 - - [04/Jan/2025 01:51:55] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:51:55,394 INFO 127.0.0.1 - - [04/Jan/2025 01:51:55] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:51:55,405 INFO 127.0.0.1 - - [04/Jan/2025 01:51:55] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:51:55,431 INFO 127.0.0.1 - - [04/Jan/2025 01:51:55] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:51:55,473 INFO 127.0.0.1 - - [04/Jan/2025 01:51:55] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:53:31,029 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5739
+ * Running on http://192.168.0.34:5739
+2025-01-04 01:53:31,030 INFO [33mPress CTRL+C to quit[0m
+2025-01-04 01:53:40,050 INFO Normalizing URL: /api/matchmaking/
+2025-01-04 01:53:40,051 INFO Processing path: /api/matchmaking/
+2025-01-04 01:53:40,051 INFO 127.0.0.1 - - [04/Jan/2025 01:53:40] "[33mGET /api/matchmaking/ HTTP/1.1[0m" 404 -
+2025-01-04 01:53:40,723 INFO Normalizing URL: /api/matchmaking/
+2025-01-04 01:53:40,724 INFO Processing path: /api/matchmaking/
+2025-01-04 01:53:40,725 INFO 127.0.0.1 - - [04/Jan/2025 01:53:40] "[33mGET /api/matchmaking/ HTTP/1.1[0m" 404 -
+2025-01-04 01:53:40,914 INFO Normalizing URL: /api/matchmaking/
+2025-01-04 01:53:40,915 INFO Processing path: /api/matchmaking/
+2025-01-04 01:53:40,915 INFO 127.0.0.1 - - [04/Jan/2025 01:53:40] "[33mGET /api/matchmaking/ HTTP/1.1[0m" 404 -
+2025-01-04 01:53:42,438 INFO 127.0.0.1 - - [04/Jan/2025 01:53:42] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:53:42,446 INFO 127.0.0.1 - - [04/Jan/2025 01:53:42] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:53:42,481 INFO 127.0.0.1 - - [04/Jan/2025 01:53:42] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:53:42,496 INFO 127.0.0.1 - - [04/Jan/2025 01:53:42] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:53:42,529 INFO 127.0.0.1 - - [04/Jan/2025 01:53:42] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:53:42,538 INFO 127.0.0.1 - - [04/Jan/2025 01:53:42] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:53:42,567 INFO 127.0.0.1 - - [04/Jan/2025 01:53:42] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:53:42,585 INFO 127.0.0.1 - - [04/Jan/2025 01:53:42] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:53:42,618 INFO 127.0.0.1 - - [04/Jan/2025 01:53:42] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:53:42,631 INFO 127.0.0.1 - - [04/Jan/2025 01:53:42] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:53:42,665 INFO 127.0.0.1 - - [04/Jan/2025 01:53:42] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:53:42,698 INFO 127.0.0.1 - - [04/Jan/2025 01:53:42] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:53:42,712 INFO 127.0.0.1 - - [04/Jan/2025 01:53:42] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:53:42,747 INFO 127.0.0.1 - - [04/Jan/2025 01:53:42] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:53:42,762 INFO 127.0.0.1 - - [04/Jan/2025 01:53:42] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:53:42,787 INFO 127.0.0.1 - - [04/Jan/2025 01:53:42] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:53:42,829 INFO 127.0.0.1 - - [04/Jan/2025 01:53:42] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:53:42,844 INFO 127.0.0.1 - - [04/Jan/2025 01:53:42] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:53:42,881 INFO 127.0.0.1 - - [04/Jan/2025 01:53:42] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:53:42,899 INFO 127.0.0.1 - - [04/Jan/2025 01:53:42] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:53:46,724 INFO 127.0.0.1 - - [04/Jan/2025 01:53:46] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:53:47,302 INFO Normalizing URL: /api/matchmaking/
+2025-01-04 01:53:47,302 INFO Processing path: /api/matchmaking/
+2025-01-04 01:53:47,302 INFO 127.0.0.1 - - [04/Jan/2025 01:53:47] "[33mGET /api/matchmaking/ HTTP/1.1[0m" 404 -
+2025-01-04 01:54:17,201 INFO 127.0.0.1 - - [04/Jan/2025 01:54:17] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:54:17,208 INFO 127.0.0.1 - - [04/Jan/2025 01:54:17] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:54:17,230 INFO 127.0.0.1 - - [04/Jan/2025 01:54:17] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:54:17,277 INFO 127.0.0.1 - - [04/Jan/2025 01:54:17] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:54:17,286 INFO 127.0.0.1 - - [04/Jan/2025 01:54:17] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:54:17,320 INFO 127.0.0.1 - - [04/Jan/2025 01:54:17] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:54:17,347 INFO 127.0.0.1 - - [04/Jan/2025 01:54:17] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:54:17,367 INFO 127.0.0.1 - - [04/Jan/2025 01:54:17] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:54:17,463 INFO 127.0.0.1 - - [04/Jan/2025 01:54:17] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:54:17,515 INFO 127.0.0.1 - - [04/Jan/2025 01:54:17] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:54:17,568 INFO 127.0.0.1 - - [04/Jan/2025 01:54:17] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:54:17,612 INFO 127.0.0.1 - - [04/Jan/2025 01:54:17] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:54:17,625 INFO 127.0.0.1 - - [04/Jan/2025 01:54:17] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:54:17,664 INFO 127.0.0.1 - - [04/Jan/2025 01:54:17] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:54:17,731 INFO 127.0.0.1 - - [04/Jan/2025 01:54:17] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:54:17,752 INFO 127.0.0.1 - - [04/Jan/2025 01:54:17] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:54:17,799 INFO 127.0.0.1 - - [04/Jan/2025 01:54:17] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:54:17,857 INFO 127.0.0.1 - - [04/Jan/2025 01:54:17] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:54:17,878 INFO 127.0.0.1 - - [04/Jan/2025 01:54:17] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:54:17,908 INFO 127.0.0.1 - - [04/Jan/2025 01:54:17] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:54:43,119 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5739
+ * Running on http://192.168.0.34:5739
+2025-01-04 01:54:43,121 INFO [33mPress CTRL+C to quit[0m
+2025-01-04 01:54:44,440 INFO Normalizing URL: /api//admin/status/
+2025-01-04 01:54:44,441 INFO Processing normalized path: /api/admin/status
+2025-01-04 01:54:44,442 INFO Processing path: /api//admin/status/
+2025-01-04 01:54:44,442 INFO 127.0.0.1 - - [04/Jan/2025 01:54:44] "[32mGET /api//admin/status/ HTTP/1.1[0m" 308 -
+2025-01-04 01:54:44,700 INFO Normalizing URL: /api/admin/status/
+2025-01-04 01:54:44,700 INFO Processing path: /api/admin/status/
+2025-01-04 01:54:44,758 INFO 127.0.0.1 - - [04/Jan/2025 01:54:44] "GET /api/admin/status/ HTTP/1.1" 200 -
+2025-01-04 01:54:46,319 INFO Normalizing URL: /api/admin/status/
+2025-01-04 01:54:46,319 INFO Processing path: /api/admin/status/
+2025-01-04 01:54:46,322 INFO 127.0.0.1 - - [04/Jan/2025 01:54:46] "GET /api/admin/status/ HTTP/1.1" 200 -
+2025-01-04 01:55:51,425 INFO Normalizing URL: /api/admin/status/
+2025-01-04 01:55:51,425 INFO Processing path: /api/admin/status/
+2025-01-04 01:55:51,428 INFO 127.0.0.1 - - [04/Jan/2025 01:55:51] "GET /api/admin/status/ HTTP/1.1" 200 -
+2025-01-04 01:58:05,859 INFO 127.0.0.1 - - [04/Jan/2025 01:58:05] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:05,872 INFO Normalizing URL: /api/matchmaking/
+2025-01-04 01:58:05,872 INFO Processing path: /api/matchmaking/
+2025-01-04 01:58:05,874 INFO 127.0.0.1 - - [04/Jan/2025 01:58:05] "[33mGET /api/matchmaking/ HTTP/1.1[0m" 404 -
+2025-01-04 01:58:05,885 INFO 127.0.0.1 - - [04/Jan/2025 01:58:05] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:05,896 INFO Normalizing URL: /api/matchmaking/
+2025-01-04 01:58:05,897 INFO Processing path: /api/matchmaking/
+2025-01-04 01:58:05,897 INFO 127.0.0.1 - - [04/Jan/2025 01:58:05] "[33mGET /api/matchmaking/ HTTP/1.1[0m" 404 -
+2025-01-04 01:58:05,900 INFO 192.168.0.34 - - [04/Jan/2025 01:58:05] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:05,902 INFO 192.168.0.34 - - [04/Jan/2025 01:58:05] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:05,904 INFO 192.168.0.34 - - [04/Jan/2025 01:58:05] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:05,909 INFO 192.168.0.34 - - [04/Jan/2025 01:58:05] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:05,914 INFO 127.0.0.1 - - [04/Jan/2025 01:58:05] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:05,949 INFO 192.168.0.34 - - [04/Jan/2025 01:58:05] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:05,959 INFO 192.168.0.34 - - [04/Jan/2025 01:58:05] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:05,964 INFO 192.168.0.34 - - [04/Jan/2025 01:58:05] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:05,971 INFO 192.168.0.34 - - [04/Jan/2025 01:58:05] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:05,979 INFO 127.0.0.1 - - [04/Jan/2025 01:58:05] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,008 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,011 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,024 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,027 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,053 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,058 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,064 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,068 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,071 INFO 127.0.0.1 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,095 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,097 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,100 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,102 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,109 INFO 127.0.0.1 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,117 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,121 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,126 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,131 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,135 INFO 127.0.0.1 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,148 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,152 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,155 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,159 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,163 INFO 127.0.0.1 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,181 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,184 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,188 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,191 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,200 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,205 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,208 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,212 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,215 INFO 127.0.0.1 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,232 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,235 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,236 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,238 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,251 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,253 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,255 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,258 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,270 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,272 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,275 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,277 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,288 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,292 INFO 127.0.0.1 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,301 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,304 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,308 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,311 INFO 127.0.0.1 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,324 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,327 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,330 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,333 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,336 INFO 127.0.0.1 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,354 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,356 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,360 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,363 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,370 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,378 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,381 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,386 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,389 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,393 INFO 127.0.0.1 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,416 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,419 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,421 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,424 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,429 INFO 127.0.0.1 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,447 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,449 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,451 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,454 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,463 INFO 127.0.0.1 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,477 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,480 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,482 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,485 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,493 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,496 INFO 127.0.0.1 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,504 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,508 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,510 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,513 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,526 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,529 INFO 127.0.0.1 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,547 INFO 192.168.0.34 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,578 INFO 127.0.0.1 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,629 INFO 127.0.0.1 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,637 INFO 127.0.0.1 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:06,663 INFO 127.0.0.1 - - [04/Jan/2025 01:58:06] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:15,103 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5739
+ * Running on http://192.168.0.34:5739
+2025-01-04 01:58:15,104 INFO [33mPress CTRL+C to quit[0m
+2025-01-04 01:58:39,013 INFO 127.0.0.1 - - [04/Jan/2025 01:58:39] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:39,018 INFO 127.0.0.1 - - [04/Jan/2025 01:58:39] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:39,050 INFO 127.0.0.1 - - [04/Jan/2025 01:58:39] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:39,062 INFO 127.0.0.1 - - [04/Jan/2025 01:58:39] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:39,086 INFO 127.0.0.1 - - [04/Jan/2025 01:58:39] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:39,108 INFO 127.0.0.1 - - [04/Jan/2025 01:58:39] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:39,138 INFO 127.0.0.1 - - [04/Jan/2025 01:58:39] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:39,175 INFO 127.0.0.1 - - [04/Jan/2025 01:58:39] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:39,182 INFO 127.0.0.1 - - [04/Jan/2025 01:58:39] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:39,211 INFO 127.0.0.1 - - [04/Jan/2025 01:58:39] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:39,221 INFO 127.0.0.1 - - [04/Jan/2025 01:58:39] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:39,253 INFO 127.0.0.1 - - [04/Jan/2025 01:58:39] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:39,284 INFO 127.0.0.1 - - [04/Jan/2025 01:58:39] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:39,296 INFO 127.0.0.1 - - [04/Jan/2025 01:58:39] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:39,329 INFO 127.0.0.1 - - [04/Jan/2025 01:58:39] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:39,341 INFO 127.0.0.1 - - [04/Jan/2025 01:58:39] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:39,372 INFO 127.0.0.1 - - [04/Jan/2025 01:58:39] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:39,390 INFO 127.0.0.1 - - [04/Jan/2025 01:58:39] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:39,419 INFO 127.0.0.1 - - [04/Jan/2025 01:58:39] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:39,454 INFO 127.0.0.1 - - [04/Jan/2025 01:58:39] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:49,324 INFO 127.0.0.1 - - [04/Jan/2025 01:58:49] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:49,332 INFO 127.0.0.1 - - [04/Jan/2025 01:58:49] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:49,357 INFO 127.0.0.1 - - [04/Jan/2025 01:58:49] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:49,379 INFO 127.0.0.1 - - [04/Jan/2025 01:58:49] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:49,412 INFO 127.0.0.1 - - [04/Jan/2025 01:58:49] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:49,425 INFO 127.0.0.1 - - [04/Jan/2025 01:58:49] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:49,447 INFO 127.0.0.1 - - [04/Jan/2025 01:58:49] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:49,474 INFO 127.0.0.1 - - [04/Jan/2025 01:58:49] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:49,504 INFO 127.0.0.1 - - [04/Jan/2025 01:58:49] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:49,520 INFO 127.0.0.1 - - [04/Jan/2025 01:58:49] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:49,542 INFO 127.0.0.1 - - [04/Jan/2025 01:58:49] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:49,562 INFO 127.0.0.1 - - [04/Jan/2025 01:58:49] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:49,591 INFO 127.0.0.1 - - [04/Jan/2025 01:58:49] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:49,619 INFO 127.0.0.1 - - [04/Jan/2025 01:58:49] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:49,632 INFO 127.0.0.1 - - [04/Jan/2025 01:58:49] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:49,657 INFO 127.0.0.1 - - [04/Jan/2025 01:58:49] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:49,690 INFO 127.0.0.1 - - [04/Jan/2025 01:58:49] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:49,705 INFO 127.0.0.1 - - [04/Jan/2025 01:58:49] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:49,730 INFO 127.0.0.1 - - [04/Jan/2025 01:58:49] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:49,773 INFO 127.0.0.1 - - [04/Jan/2025 01:58:49] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 01:58:51,597 INFO Normalizing URL: /api/matchmaking/
+2025-01-04 01:58:51,598 INFO Processing path: /api/matchmaking/
+2025-01-04 01:58:51,598 INFO 127.0.0.1 - - [04/Jan/2025 01:58:51] "[33mGET /api/matchmaking/ HTTP/1.1[0m" 404 -
+2025-01-04 01:58:52,321 INFO Normalizing URL: /api/matchmaking/
+2025-01-04 01:58:52,322 INFO Processing path: /api/matchmaking/
+2025-01-04 01:58:52,322 INFO 127.0.0.1 - - [04/Jan/2025 01:58:52] "[33mGET /api/matchmaking/ HTTP/1.1[0m" 404 -
+2025-01-04 01:59:56,638 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5739
+ * Running on http://192.168.0.34:5739
+2025-01-04 01:59:56,638 INFO [33mPress CTRL+C to quit[0m
+2025-01-04 02:01:23,443 INFO Normalizing URL: /api/matchmaking/
+2025-01-04 02:01:23,443 INFO Processing path: /api/matchmaking/
+2025-01-04 02:01:23,444 INFO 127.0.0.1 - - [04/Jan/2025 02:01:23] "[33mGET /api/matchmaking/ HTTP/1.1[0m" 404 -
+2025-01-04 02:01:25,015 INFO 127.0.0.1 - - [04/Jan/2025 02:01:25] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:01:25,029 INFO 127.0.0.1 - - [04/Jan/2025 02:01:25] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:01:25,060 INFO 127.0.0.1 - - [04/Jan/2025 02:01:25] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:01:25,086 INFO 127.0.0.1 - - [04/Jan/2025 02:01:25] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:01:25,097 INFO 127.0.0.1 - - [04/Jan/2025 02:01:25] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:01:25,117 INFO 127.0.0.1 - - [04/Jan/2025 02:01:25] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:01:25,141 INFO 127.0.0.1 - - [04/Jan/2025 02:01:25] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:01:25,196 INFO 127.0.0.1 - - [04/Jan/2025 02:01:25] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:01:25,269 INFO 127.0.0.1 - - [04/Jan/2025 02:01:25] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:01:25,287 INFO 127.0.0.1 - - [04/Jan/2025 02:01:25] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:01:25,316 INFO 127.0.0.1 - - [04/Jan/2025 02:01:25] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:01:25,353 INFO 127.0.0.1 - - [04/Jan/2025 02:01:25] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:01:25,369 INFO 127.0.0.1 - - [04/Jan/2025 02:01:25] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:01:25,405 INFO 127.0.0.1 - - [04/Jan/2025 02:01:25] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:01:25,416 INFO 127.0.0.1 - - [04/Jan/2025 02:01:25] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:01:25,439 INFO 127.0.0.1 - - [04/Jan/2025 02:01:25] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:01:25,485 INFO 127.0.0.1 - - [04/Jan/2025 02:01:25] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:01:25,495 INFO 127.0.0.1 - - [04/Jan/2025 02:01:25] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:01:25,529 INFO 127.0.0.1 - - [04/Jan/2025 02:01:25] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:01:25,542 INFO 127.0.0.1 - - [04/Jan/2025 02:01:25] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:02:08,070 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5739
+ * Running on http://192.168.0.34:5739
+2025-01-04 02:02:08,070 INFO [33mPress CTRL+C to quit[0m
+2025-01-04 02:02:13,028 INFO 192.168.0.34 - - [04/Jan/2025 02:02:13] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:02:13,054 INFO 192.168.0.34 - - [04/Jan/2025 02:02:13] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:02:13,068 INFO 192.168.0.34 - - [04/Jan/2025 02:02:13] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:02:13,080 INFO 192.168.0.34 - - [04/Jan/2025 02:02:13] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:02:13,090 INFO 192.168.0.34 - - [04/Jan/2025 02:02:13] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:02:13,103 INFO 192.168.0.34 - - [04/Jan/2025 02:02:13] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:02:13,121 INFO 192.168.0.34 - - [04/Jan/2025 02:02:13] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:02:13,132 INFO 192.168.0.34 - - [04/Jan/2025 02:02:13] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:02:13,149 INFO 192.168.0.34 - - [04/Jan/2025 02:02:13] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:02:13,155 INFO 192.168.0.34 - - [04/Jan/2025 02:02:13] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:02:13,167 INFO 192.168.0.34 - - [04/Jan/2025 02:02:13] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:02:13,175 INFO 192.168.0.34 - - [04/Jan/2025 02:02:13] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:02:13,185 INFO 192.168.0.34 - - [04/Jan/2025 02:02:13] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:02:13,193 INFO 192.168.0.34 - - [04/Jan/2025 02:02:13] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:02:13,201 INFO 192.168.0.34 - - [04/Jan/2025 02:02:13] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:02:13,209 INFO 192.168.0.34 - - [04/Jan/2025 02:02:13] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:02:13,218 INFO 192.168.0.34 - - [04/Jan/2025 02:02:13] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:02:13,225 INFO 192.168.0.34 - - [04/Jan/2025 02:02:13] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:02:13,233 INFO 192.168.0.34 - - [04/Jan/2025 02:02:13] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:02:13,240 INFO 192.168.0.34 - - [04/Jan/2025 02:02:13] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:02:14,405 INFO 192.168.0.34 - - [04/Jan/2025 02:02:14] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:02:14,419 INFO 192.168.0.34 - - [04/Jan/2025 02:02:14] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:02:14,428 INFO 192.168.0.34 - - [04/Jan/2025 02:02:14] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:02:14,438 INFO 192.168.0.34 - - [04/Jan/2025 02:02:14] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:02:14,447 INFO 192.168.0.34 - - [04/Jan/2025 02:02:14] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:02:14,455 INFO 192.168.0.34 - - [04/Jan/2025 02:02:14] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:02:14,464 INFO 192.168.0.34 - - [04/Jan/2025 02:02:14] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:02:14,472 INFO 192.168.0.34 - - [04/Jan/2025 02:02:14] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:02:14,480 INFO 192.168.0.34 - - [04/Jan/2025 02:02:14] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:02:14,488 INFO 192.168.0.34 - - [04/Jan/2025 02:02:14] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:02:14,496 INFO 192.168.0.34 - - [04/Jan/2025 02:02:14] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:02:14,505 INFO 192.168.0.34 - - [04/Jan/2025 02:02:14] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:02:14,514 INFO 192.168.0.34 - - [04/Jan/2025 02:02:14] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:02:14,524 INFO 192.168.0.34 - - [04/Jan/2025 02:02:14] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:02:14,532 INFO 192.168.0.34 - - [04/Jan/2025 02:02:14] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:02:14,540 INFO 192.168.0.34 - - [04/Jan/2025 02:02:14] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:02:14,548 INFO 192.168.0.34 - - [04/Jan/2025 02:02:14] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:02:14,555 INFO 192.168.0.34 - - [04/Jan/2025 02:02:14] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:02:14,566 INFO 192.168.0.34 - - [04/Jan/2025 02:02:14] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:02:14,573 INFO 192.168.0.34 - - [04/Jan/2025 02:02:14] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:02:14,584 INFO 192.168.0.34 - - [04/Jan/2025 02:02:14] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:03:50,225 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5739
+ * Running on http://192.168.0.34:5739
+2025-01-04 02:03:50,225 INFO [33mPress CTRL+C to quit[0m
+2025-01-04 02:06:52,257 INFO 127.0.0.1 - - [04/Jan/2025 02:06:52] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:06:52,267 INFO 127.0.0.1 - - [04/Jan/2025 02:06:52] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:06:52,289 INFO 127.0.0.1 - - [04/Jan/2025 02:06:52] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:06:52,307 INFO 127.0.0.1 - - [04/Jan/2025 02:06:52] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:06:52,328 INFO 127.0.0.1 - - [04/Jan/2025 02:06:52] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:06:52,352 INFO 127.0.0.1 - - [04/Jan/2025 02:06:52] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:06:52,393 INFO 127.0.0.1 - - [04/Jan/2025 02:06:52] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:06:52,407 INFO 127.0.0.1 - - [04/Jan/2025 02:06:52] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:06:52,448 INFO 127.0.0.1 - - [04/Jan/2025 02:06:52] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:06:52,461 INFO 127.0.0.1 - - [04/Jan/2025 02:06:52] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:06:52,482 INFO 127.0.0.1 - - [04/Jan/2025 02:06:52] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:06:52,492 INFO 127.0.0.1 - - [04/Jan/2025 02:06:52] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:06:52,551 INFO 127.0.0.1 - - [04/Jan/2025 02:06:52] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:06:52,564 INFO 127.0.0.1 - - [04/Jan/2025 02:06:52] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:06:52,591 INFO 127.0.0.1 - - [04/Jan/2025 02:06:52] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:06:52,639 INFO 127.0.0.1 - - [04/Jan/2025 02:06:52] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:06:52,653 INFO 127.0.0.1 - - [04/Jan/2025 02:06:52] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:06:52,679 INFO 127.0.0.1 - - [04/Jan/2025 02:06:52] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:06:52,724 INFO 127.0.0.1 - - [04/Jan/2025 02:06:52] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:06:52,773 INFO 127.0.0.1 - - [04/Jan/2025 02:06:52] "[32mGET / HTTP/1.1[0m" 308 -
+2025-01-04 02:06:53,971 INFO Normalizing URL: /api/matchmaking/
+2025-01-04 02:06:53,971 INFO Processing path: /api/matchmaking/
+2025-01-04 02:06:53,972 INFO 127.0.0.1 - - [04/Jan/2025 02:06:53] "[33mGET /api/matchmaking/ HTTP/1.1[0m" 404 -
+2025-01-04 02:06:54,351 INFO Normalizing URL: /api/matchmaking/
+2025-01-04 02:06:54,351 INFO Processing path: /api/matchmaking/
+2025-01-04 02:06:54,352 INFO 127.0.0.1 - - [04/Jan/2025 02:06:54] "[33mGET /api/matchmaking/ HTTP/1.1[0m" 404 -
+2025-01-04 19:20:34,949 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5739
+ * Running on http://192.168.0.34:5739
+2025-01-04 19:20:34,950 INFO [33mPress CTRL+C to quit[0m
+2025-01-04 19:45:08,636 INFO Registered routes:
+2025-01-04 19:45:08,636 INFO static: /static/<path:filename> (['GET', 'HEAD', 'OPTIONS'])
+2025-01-04 19:45:08,637 INFO index: /index (['GET', 'HEAD', 'OPTIONS'])
+2025-01-04 19:45:08,637 INFO index: / (['GET', 'HEAD', 'OPTIONS'])
+2025-01-04 19:45:08,637 INFO catch_all: /<path:path> (['GET', 'HEAD', 'OPTIONS'])
+2025-01-04 19:45:08,638 INFO admin_status: /api/admin/status (['GET', 'HEAD', 'OPTIONS'])
+2025-01-04 19:45:08,638 INFO admin_status: /api/admin/status/ (['GET', 'HEAD', 'OPTIONS'])
+2025-01-04 19:45:08,638 INFO game_connect: /api/game/connect/ (['OPTIONS', 'POST'])
+2025-01-04 19:45:08,638 INFO debug_routes: /api/debug/routes/ (['GET', 'HEAD', 'OPTIONS'])
+2025-01-04 19:45:08,639 INFO 192.168.0.34 - - [04/Jan/2025 19:45:08] "GET / HTTP/1.1" 200 -
+2025-01-04 19:45:17,873 INFO 127.0.0.1 - - [04/Jan/2025 19:45:17] "GET / HTTP/1.1" 200 -
+2025-01-04 19:45:19,917 INFO 192.168.0.34 - - [04/Jan/2025 19:45:19] "GET / HTTP/1.1" 200 -
+2025-01-04 19:45:25,296 INFO 192.168.0.34 - - [04/Jan/2025 19:45:25] "GET / HTTP/1.1" 200 -
+2025-01-04 19:45:46,860 INFO 127.0.0.1 - - [04/Jan/2025 19:45:46] "GET / HTTP/1.1" 200 -
+2025-01-04 19:45:54,697 INFO 127.0.0.1 - - [04/Jan/2025 19:45:54] "GET / HTTP/1.1" 200 -
+2025-01-04 19:47:09,686 INFO 192.168.0.34 - - [04/Jan/2025 19:47:09] "GET / HTTP/1.1" 200 -
+2025-01-04 19:47:10,417 INFO 192.168.0.34 - - [04/Jan/2025 19:47:10] "GET / HTTP/1.1" 200 -
+2025-01-04 19:47:10,663 INFO 192.168.0.34 - - [04/Jan/2025 19:47:10] "GET / HTTP/1.1" 200 -
+2025-01-04 19:47:13,218 INFO 192.168.0.34 - - [04/Jan/2025 19:47:13] "GET / HTTP/1.1" 200 -
+2025-01-04 19:47:13,405 INFO 192.168.0.34 - - [04/Jan/2025 19:47:13] "GET / HTTP/1.1" 200 -
+2025-01-04 19:47:13,595 INFO 192.168.0.34 - - [04/Jan/2025 19:47:13] "GET / HTTP/1.1" 200 -
+2025-01-04 19:47:15,490 INFO 127.0.0.1 - - [04/Jan/2025 19:47:15] "GET / HTTP/1.1" 200 -
+2025-01-04 19:47:15,676 INFO 127.0.0.1 - - [04/Jan/2025 19:47:15] "GET / HTTP/1.1" 200 -
+2025-01-04 19:49:36,653 INFO 127.0.0.1 - - [04/Jan/2025 19:49:36] "GET / HTTP/1.1" 200 -
+2025-01-04 19:49:37,248 INFO 127.0.0.1 - - [04/Jan/2025 19:49:37] "GET / HTTP/1.1" 200 -
+2025-01-04 19:49:37,425 INFO 127.0.0.1 - - [04/Jan/2025 19:49:37] "GET / HTTP/1.1" 200 -
+2025-01-04 19:49:37,601 INFO 127.0.0.1 - - [04/Jan/2025 19:49:37] "GET / HTTP/1.1" 200 -
+2025-01-04 19:49:45,663 INFO 127.0.0.1 - - [04/Jan/2025 19:49:45] "GET / HTTP/1.1" 200 -
+2025-01-04 19:49:46,123 INFO 127.0.0.1 - - [04/Jan/2025 19:49:46] "GET / HTTP/1.1" 200 -
+2025-01-04 19:49:46,490 INFO 127.0.0.1 - - [04/Jan/2025 19:49:46] "GET / HTTP/1.1" 200 -
+2025-01-04 19:49:51,103 INFO 192.168.0.34 - - [04/Jan/2025 19:49:51] "GET / HTTP/1.1" 200 -
+2025-01-04 19:51:04,752 INFO 192.168.0.34 - - [04/Jan/2025 19:51:04] "GET / HTTP/1.1" 200 -
+2025-01-04 19:51:05,274 INFO 192.168.0.34 - - [04/Jan/2025 19:51:05] "GET / HTTP/1.1" 200 -
+2025-01-04 19:51:05,464 INFO 192.168.0.34 - - [04/Jan/2025 19:51:05] "GET / HTTP/1.1" 200 -
+2025-01-04 19:51:05,624 INFO 192.168.0.34 - - [04/Jan/2025 19:51:05] "GET / HTTP/1.1" 200 -
+2025-01-04 19:54:02,059 INFO 127.0.0.1 - - [04/Jan/2025 19:54:02] "GET / HTTP/1.1" 200 -
+2025-01-04 19:54:02,569 INFO 127.0.0.1 - - [04/Jan/2025 19:54:02] "GET / HTTP/1.1" 200 -
+2025-01-04 19:54:02,741 INFO 127.0.0.1 - - [04/Jan/2025 19:54:02] "GET / HTTP/1.1" 200 -
+2025-01-04 19:56:01,383 INFO 192.168.0.34 - - [04/Jan/2025 19:56:01] "GET / HTTP/1.1" 200 -
+2025-01-04 19:56:01,962 INFO 192.168.0.34 - - [04/Jan/2025 19:56:01] "GET / HTTP/1.1" 200 -
+2025-01-04 19:56:08,013 INFO 127.0.0.1 - - [04/Jan/2025 19:56:08] "GET / HTTP/1.1" 200 -
+2025-01-04 19:56:08,574 INFO 127.0.0.1 - - [04/Jan/2025 19:56:08] "GET / HTTP/1.1" 200 -
+2025-01-04 19:56:08,855 INFO 127.0.0.1 - - [04/Jan/2025 19:56:08] "GET / HTTP/1.1" 200 -
+2025-01-04 19:56:09,084 INFO 127.0.0.1 - - [04/Jan/2025 19:56:09] "GET / HTTP/1.1" 200 -
+2025-01-04 19:56:10,067 INFO 127.0.0.1 - - [04/Jan/2025 19:56:10] "GET / HTTP/1.1" 200 -
+2025-01-04 19:56:10,581 INFO 127.0.0.1 - - [04/Jan/2025 19:56:10] "GET / HTTP/1.1" 200 -
+2025-01-04 19:56:10,853 INFO 127.0.0.1 - - [04/Jan/2025 19:56:10] "GET / HTTP/1.1" 200 -
+2025-01-04 19:56:12,522 INFO 192.168.0.34 - - [04/Jan/2025 19:56:12] "GET / HTTP/1.1" 200 -
+2025-01-04 19:56:13,033 INFO 192.168.0.34 - - [04/Jan/2025 19:56:13] "GET / HTTP/1.1" 200 -
+2025-01-04 19:56:13,207 INFO 192.168.0.34 - - [04/Jan/2025 19:56:13] "GET / HTTP/1.1" 200 -
+2025-01-04 19:56:13,371 INFO 192.168.0.34 - - [04/Jan/2025 19:56:13] "GET / HTTP/1.1" 200 -
+2025-01-04 19:56:20,787 INFO 192.168.0.34 - - [04/Jan/2025 19:56:20] "GET / HTTP/1.1" 200 -
+2025-01-04 19:56:21,252 INFO 192.168.0.34 - - [04/Jan/2025 19:56:21] "GET / HTTP/1.1" 200 -
+2025-01-04 19:56:21,424 INFO 192.168.0.34 - - [04/Jan/2025 19:56:21] "GET / HTTP/1.1" 200 -
+2025-01-04 19:56:21,583 INFO 192.168.0.34 - - [04/Jan/2025 19:56:21] "GET / HTTP/1.1" 200 -
+2025-01-04 19:56:21,750 INFO 192.168.0.34 - - [04/Jan/2025 19:56:21] "GET / HTTP/1.1" 200 -
+2025-01-04 19:56:21,888 INFO 192.168.0.34 - - [04/Jan/2025 19:56:21] "GET / HTTP/1.1" 200 -
+2025-01-04 19:56:22,064 INFO 192.168.0.34 - - [04/Jan/2025 19:56:22] "GET / HTTP/1.1" 200 -
+2025-01-04 19:56:25,625 INFO 127.0.0.1 - - [04/Jan/2025 19:56:25] "GET / HTTP/1.1" 200 -
+2025-01-04 19:56:26,113 INFO 127.0.0.1 - - [04/Jan/2025 19:56:26] "GET / HTTP/1.1" 200 -
+2025-01-04 19:56:26,275 INFO 127.0.0.1 - - [04/Jan/2025 19:56:26] "GET / HTTP/1.1" 200 -
+2025-01-04 19:56:28,189 INFO 127.0.0.1 - - [04/Jan/2025 19:56:28] "GET / HTTP/1.1" 200 -
+2025-01-04 19:56:28,684 INFO 127.0.0.1 - - [04/Jan/2025 19:56:28] "GET / HTTP/1.1" 200 -
+2025-01-04 19:58:22,830 INFO 127.0.0.1 - - [04/Jan/2025 19:58:22] "GET / HTTP/1.1" 200 -
+2025-01-04 19:58:23,387 INFO 127.0.0.1 - - [04/Jan/2025 19:58:23] "GET / HTTP/1.1" 200 -
+2025-01-04 19:58:23,568 INFO 127.0.0.1 - - [04/Jan/2025 19:58:23] "GET / HTTP/1.1" 200 -
+2025-01-04 19:58:25,596 INFO 192.168.0.34 - - [04/Jan/2025 19:58:25] "GET / HTTP/1.1" 200 -
+2025-01-04 19:58:25,962 INFO 192.168.0.34 - - [04/Jan/2025 19:58:25] "GET / HTTP/1.1" 200 -
+2025-01-04 19:58:40,166 INFO 192.168.0.34 - - [04/Jan/2025 19:58:40] "GET / HTTP/1.1" 200 -
+2025-01-04 19:58:40,661 INFO 192.168.0.34 - - [04/Jan/2025 19:58:40] "GET / HTTP/1.1" 200 -
+2025-01-04 19:58:40,831 INFO 192.168.0.34 - - [04/Jan/2025 19:58:40] "GET / HTTP/1.1" 200 -
+2025-01-04 20:03:05,743 INFO 192.168.0.34 - - [04/Jan/2025 20:03:05] "GET / HTTP/1.1" 200 -
+2025-01-04 20:03:06,399 INFO 192.168.0.34 - - [04/Jan/2025 20:03:06] "GET / HTTP/1.1" 200 -
+2025-01-04 20:03:06,619 INFO 192.168.0.34 - - [04/Jan/2025 20:03:06] "GET / HTTP/1.1" 200 -
+2025-01-04 20:03:06,816 INFO 192.168.0.34 - - [04/Jan/2025 20:03:06] "GET / HTTP/1.1" 200 -
+2025-01-04 20:03:08,420 INFO 127.0.0.1 - - [04/Jan/2025 20:03:08] "GET / HTTP/1.1" 200 -
+2025-01-04 20:03:08,601 INFO 127.0.0.1 - - [04/Jan/2025 20:03:08] "GET / HTTP/1.1" 200 -
+2025-01-04 20:03:09,144 INFO 127.0.0.1 - - [04/Jan/2025 20:03:09] "GET / HTTP/1.1" 200 -
+2025-01-04 20:13:12,944 INFO 127.0.0.1 - - [04/Jan/2025 20:13:12] "GET / HTTP/1.1" 200 -
+2025-01-04 20:13:13,562 INFO 127.0.0.1 - - [04/Jan/2025 20:13:13] "GET / HTTP/1.1" 200 -
+2025-01-04 20:13:34,110 INFO 192.168.0.34 - - [04/Jan/2025 20:13:34] "GET / HTTP/1.1" 200 -
+2025-01-04 20:13:34,793 INFO 192.168.0.34 - - [04/Jan/2025 20:13:34] "GET / HTTP/1.1" 200 -
+2025-01-04 20:25:53,241 INFO 192.168.0.34 - - [04/Jan/2025 20:25:53] "GET / HTTP/1.1" 200 -
+2025-01-04 20:25:53,874 INFO 192.168.0.34 - - [04/Jan/2025 20:25:53] "GET / HTTP/1.1" 200 -
+2025-01-05 02:32:36,472 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5739
+ * Running on http://192.168.0.34:5739
+2025-01-05 02:32:36,473 INFO [33mPress CTRL+C to quit[0m
+2025-01-05 02:32:45,659 INFO Registered routes:
+2025-01-05 02:32:45,659 INFO static: /static/<path:filename> (['GET', 'HEAD', 'OPTIONS'])
+2025-01-05 02:32:45,659 INFO index: /index (['GET', 'HEAD', 'OPTIONS'])
+2025-01-05 02:32:45,660 INFO index: / (['GET', 'HEAD', 'OPTIONS'])
+2025-01-05 02:32:45,660 INFO catch_all: /<path:path> (['GET', 'HEAD', 'OPTIONS'])
+2025-01-05 02:32:45,660 INFO admin_status: /api/admin/status (['GET', 'HEAD', 'OPTIONS'])
+2025-01-05 02:32:45,660 INFO admin_status: /api/admin/status/ (['GET', 'HEAD', 'OPTIONS'])
+2025-01-05 02:32:45,660 INFO game_connect: /api/game/connect/ (['OPTIONS', 'POST'])
+2025-01-05 02:32:45,660 INFO debug_routes: /api/debug/routes/ (['GET', 'HEAD', 'OPTIONS'])
+2025-01-05 02:32:45,661 INFO 192.168.0.34 - - [05/Jan/2025 02:32:45] "GET / HTTP/1.1" 200 -
+2025-01-05 02:37:59,543 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5739
+ * Running on http://192.168.0.34:5739
+2025-01-05 02:37:59,544 INFO [33mPress CTRL+C to quit[0m
+2025-01-05 03:04:46,255 INFO 192.168.0.34 - - [05/Jan/2025 03:04:46] "GET / HTTP/1.1" 200 -
+2025-01-05 03:04:46,295 INFO 192.168.0.34 - - [05/Jan/2025 03:04:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-05 03:04:47,078 INFO 192.168.0.34 - - [05/Jan/2025 03:04:47] "GET / HTTP/1.1" 200 -
+2025-01-05 03:04:47,126 INFO 192.168.0.34 - - [05/Jan/2025 03:04:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-05 03:04:47,573 INFO 192.168.0.34 - - [05/Jan/2025 03:04:47] "GET / HTTP/1.1" 200 -
+2025-01-05 03:04:47,596 INFO 192.168.0.34 - - [05/Jan/2025 03:04:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
