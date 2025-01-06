@@ -5,11 +5,12 @@
 ### English
 
 PES 2021 Team Play Lobby Server is a custom server implementation that emulates Konami's original 11v11 match functionality. Provides full control over matchmaking, lobbies, and server configuration.
+We still have no success with connecting the game to the server, but I hope that will change.
 
 ### Български
 
 PES 2021 Team Play Lobby Server е персонализирана сървърна имплементация, която емулира оригиналната функционалност на Konami сървъра за 11v11 мачове. Осигурява пълен контрол върху matchmaking, лобита и конфигурация на сървъра.
-
+Все още нямаме успех с това да вържем играта към сървъра, но се надявам това да се промени.
 ---
 
 ## File Structure
