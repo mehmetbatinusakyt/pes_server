@@ -3,7 +3,7 @@
 ## Project Overview
 
 ### English
-
+It's not working, it is still in development!
 PES 2021 Team Play Lobby Server is a custom server implementation that emulates Konami's original 11v11 match functionality. Provides full control over matchmaking, lobbies, and server configuration.
 We still have no success with connecting the game to the server, but I hope that will change.
 
