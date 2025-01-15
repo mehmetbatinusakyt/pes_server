@@ -3,83 +3,86 @@ import logging
 import schedule
 import time
 
-def start_settings():
-    # Код за стартиране на настройките
-    print("Стартиране на настройките")
+def ayarlari_baslat():
+    # Ayarların başlatılması için kod
+    print("Ayarlar başlatılıyor")
 
-def start_game():
-    # Код за стартиране на играта
-    print("Стартиране на играта")
+def oyunu_baslat():
+    # Oyunun başlatılması için kod
+    print("Oyun başlatılıyor")
 
-def auto_restart_server():
-    # Код за автоматичен рестарт на сървъра
-    print("Автоматичен рестарт на сървъра")
+def sunucu_oto_yeniden_baslat():
+    # Sunucunun otomatik yeniden başlatılması için kod
+    print("Sunucu otomatik olarak yeniden başlatılıyor")
 
-def logs_and_notifications_settings():
-    # Код за настройки за логове и системи за уведомления
-    print("Настройки за логове и системи за уведомления")
-    # Конфигурация на логове
-    logging.basicConfig(filename='server.log', level=logging.INFO)
-    # Конфигурация на системи за уведомления
+def loglar_ve_bildirim_ayarlari():
+    # Log ve bildirim sistemleri ayarları için kod
+    print("Loglar ve bildirim sistemleri ayarları")
+    # Logların yapılandırılması
+    logging.basicConfig(filename='sunucu.log', level=logging.INFO)
+    # Bildirim sistemlerinin yapılandırılması
     # ...
 
-def network_traffic_visualization():
-    # Код за визуализация на мрежов трафик и активност на сървъра
-    print("Визуализация на мрежов трафик и активност на сървъра")
-    # Данни за мрежов трафик и активност на сървъра
-    traffic_data = [10, 20, 30, 40, 50]
-    activity_data = [5, 10, 15, 20, 25]
-    # Създаване на график
-    plt.plot(traffic_data, label='Мрежов трафик')
-    plt.plot(activity_data, label='Активност на сървъра')
-    plt.xlabel('Време')
-    plt.ylabel('Данни')
-    plt.title('Мрежов трафик и активност на сървъра')
+def ag_trafigi_gorsellestirme():
+    # Ağ trafiği ve sunucu aktivitesinin görselleştirilmesi için kod
+    print("Ağ trafiği ve sunucu aktivitesinin görselleştirilmesi")
+    # Ağ trafiği ve sunucu aktivite verileri
+    trafik_verisi = [10, 20, 30, 40, 50]
+    aktivite_verisi = [5, 10, 15, 20, 25]
+    # Grafik oluşturma
+    plt.plot(trafik_verisi, label='Ağ Trafiği')
+    plt.plot(aktivite_verisi, label='Sunucu Aktivitesi')
+    plt.xlabel('Zaman')
+    plt.ylabel('Veri')
+    plt.title('Ağ Trafiği ve Sunucu Aktivitesi')
     plt.legend()
     plt.show()
 
-def server_config_settings():
-    # Код за детайлни настройки за конфигурация на сървъра
-    print("Детайлни настройки за конфигурация на сървъра")
+def sunucu_konfigurasyon_ayarlari():
+    # Sunucu yapılandırması için detaylı ayarlar
+    print("Sunucu yapılandırması için detaylı ayarlar")
 
-def auto_restart_settings():
-    # Код за настройки за автоматични рестарти и обновления
-    print("Настройки за автоматични рестарти и обновления")
-    # Конфигурация на автоматични рестарти
-    schedule.every(1).hours.do(auto_restart_server)  # рестарт на сървъра на всеки час
+def oto_yeniden_baslatma_ayarlari():
+    # Otomatik yeniden başlatma ve güncellemeler için ayarlar
+    print("Otomatik yeniden başlatma ve güncellemeler için ayarlar")
+    # Otomatik yeniden başlatma yapılandırması
+    schedule.every(1).hours.do(sunucu_oto_yeniden_baslat)  # Sunucu her saat başı yeniden başlatılacak
     while True:
         schedule.run_pending()
         time.sleep(1)
 
-def main():
-    print("Лаунчер за PES 2021")
-    print("1. Стартиране на играта")
-    print("2. Стартиране на настройките")
-    print("3. Автоматичен рестарт на сървъра")
-    print("4. Визуализация на мрежов трафик и активност на сървъра")
-    print("5. Логове и системи за уведомления")
-    print("6. Автоматични рестарти и обновления")
-    print("7. Детайлни настройки за конфигурация на сървъра")
-    print("8. Настройки за логове и уведомления")
-    print("9. Настройки за автоматични рестарти и обновления")
-    choice = input("Изберете опция: ")
-    if choice == "1":
-        start_game()
-    elif choice == "2":
-        start_settings()
-    elif choice == "3":
-        auto_restart_server()
-    elif choice == "4":
-        network_traffic_visualization()
-    elif choice == "5":
-        logs_and_notifications_settings()
-    elif choice == "7":
-        server_config_settings()
-    elif choice == "8":
-        logs_and_notifications_settings()
-    elif choice == "9":
-        auto_restart_settings()
-    elif choice == "6":
-        auto_restart_settings()
-    # Тестване на автоматични рестарти и обновления
-    auto_restart_settings()
+def ana_menu():
+    print("PES 2021 Başlatıcı")
+    print("1. Oyunu Başlat")
+    print("2. Ayarları Başlat")
+    print("3. Sunucuyu Otomatik Yeniden Başlat")
+    print("4. Ağ Trafiği ve Sunucu Aktivitesini Görselleştir")
+    print("5. Log ve Bildirim Sistemleri Ayarları")
+    print("6. Otomatik Yeniden Başlatma ve Güncellemeler")
+    print("7. Sunucu Yapılandırması için Detaylı Ayarlar")
+    print("8. Loglar ve Bildirim Ayarları")
+    print("9. Otomatik Yeniden Başlatma ve Güncelleme Ayarları")
+    secim = input("Bir seçenek seçin: ")
+    if secim == "1":
+        oyunu_baslat()
+    elif secim == "2":
+        ayarlari_baslat()
+    elif secim == "3":
+        sunucu_oto_yeniden_baslat()
+    elif secim == "4":
+        ag_trafigi_gorsellestirme()
+    elif secim == "5":
+        loglar_ve_bildirim_ayarlari()
+    elif secim == "7":
+        sunucu_konfigurasyon_ayarlari()
+    elif secim == "8":
+        loglar_ve_bildirim_ayarlari()
+    elif secim == "9":
+        oto_yeniden_baslatma_ayarlari()
+    elif secim == "6":
+        oto_yeniden_baslatma_ayarlari()
+    # Otomatik yeniden başlatma ve güncellemelerin test edilmesi
+    oto_yeniden_baslatma_ayarlari()
+
+# Ana menüyü başlat
+ana_menu()
